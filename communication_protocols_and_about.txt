@@ -1,0 +1,12 @@
+Communication Protocols
+
+- Checklist via Shared Google Docs that contains information from the rubrics (link everyone can edit is sent to each team member).
+- Each team member has its own folder on shared Google Drive where she or he writes findings that each team member can access.
+- Meeting 2x week via Zoom, 1h before Monday class and 30min before Wednesday class + as needed.
+Daily chats via Slack
+- Responsibilities are written on Google Sheet for each week. The first week we will be doing tasks in pairs (Amelin & David - Database and Andreja & Subba - Machine Learning Models).
+
+About
+
+With our analyses, we want to uncover what affecting avocado prices and avocado production in certain areas*. Besides that, we want to uncover trends of avocado prices and production over the years* in certain areas*. We will be building ML models in order to predict avocado prices based on numerous data we find and put together in a cohesive dataset. 
+* exact years and areas TBD.
