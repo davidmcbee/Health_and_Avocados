@@ -13,7 +13,7 @@ Furthermore if time permits, we will be correlating the health/dietary benefits 
  
 
 ## Resources
-  - Data Source: climate.csv, market_*.csv, prices_*.csv, production_*.csv
+  - Data Source: climate.csv, market.csv, prices.csv, production.csv
   - Software: anaconda3, python 3.7.7, jupyter notebook, JavaScript
   - Database: PostgreSQL
   - Librarys: pandas, sklearn, tensorflow, os, leaflet, matplotlib
