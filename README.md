@@ -63,15 +63,15 @@ Again, referring to our analysis process, once each table is in the database, we
 ### Machine Learning Model
   - Unsupervised ML for classification of our data in order to uncover the patterns/groups.
   - Multiple Linear Regression for avocado prices in selected US cities
-   -- Production in California(US), Mexico, Peru, Colombia, Chile (=feature or X-variable) and avocado prices (=target or y-variable).
+    - Production in California(US), Mexico, Peru, Colombia, Chile (=feature or X-variable) and avocado prices (=target or y-variable).
   - Multiple Linear Regression for production
-   -- Climate data in Southern California (=features or X-variables) and production in Southern California (=target or y-variable).
+    - Climate data in Southern California (=features or X-variables) and production in Southern California (=target or y-variable).
   - Random Forest Ensemble Classification
-   -- (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
-   -- (Target) y-variable: avocado price 
+    - (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
+    - (Target) y-variable: avocado price 
   - Neural Network ML model for avocado prices prediction 
-   -- (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
-   -- (Target) y-variable: avocado price 
+    - (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
+    - (Target) y-variable: avocado price 
 
 
 #### Preprocessing Data for a Neural Network Model
