@@ -75,7 +75,7 @@ Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) sh
    ["ERD file"](./ERD/h_a_ERD.xlsx)
 
 #### Cleaning
-The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were al lconverted year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
+The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were all converted to year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
 
 #### Physical Tables
 Schema description for tables Prices, Production, and Climate are shown in the ERD file link above.
