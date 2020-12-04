@@ -45,19 +45,46 @@ Feature|Description
 Feature1 | Description 1
 
 #### ERD - Database schema
-Based on our analysis approach, described above, The first step is to move our data sets into a PostgreSQL database. To do that an Entity Relationship Diagram (ERD) was produced. (https://github.com/davidmcbee/Health_and_Avocados/blob/main/ERD/h_a_ERD.xlsx). This file has both a Physical database table model and an ERD.
+ - DataSets
+   - Climate
+     - Columns “StateCode” and “Division” were dropped as they were not relevant
+     - The “YearMonth” column was converted from int to datetime period[M]
+     
+   - Market
+     - Columns were renamed to all lowercase with no spaces/replaced with underscores
+     - str columns were changed to lowercase, only proper case was kept on the geography column as it contained names of cities/states/regions
+     - “year_month” column was added to the dataset as datetime period[M], and columns were reordered
+     - “date” column was changed to datetime format
+     
+   - Prices
+     - Columns were renamed to all lowercase with a more descriptive title with no spaces/replaced with underscores
+     - str columns were changed to lowercase, only proper case was kept on the geography column as it contained names of cities/states/regions
+     - “year_month” column was added to the dataset as datetime period[M], and columns were reordered
+     - “date” column was changed to datetime format
+     
+   - Production
+     - Columns were renamed to all lowercase with a more descriptive title with no spaces/replaced with underscores
+     - str columns were changed to lowercase
+     - “year_month” column was added to the dataset as datetime period[M], and columns were reordered
+     - “date” column was changed to datetime format
+
+Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) shown below
+  ![](./Images/Final_ERD.png "") 
+ 
+ Further schema descriptions are shown in this file:  
+   ["ERD file"](./ERD/h_a_ERD.xlsx)
 
 #### Cleaning
-The data was cleaned to the point that it could be joined together as needed while saving all the source data. To do this a common primary key was decided on. This is year_month. Each of the files date columns, some in different formats and datatypes will be converted to year_month. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Also, column titles were cleaned so names are consistent as well as capitalization.
+The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were al lconverted year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
 
-#### Physical table models
-The Prices, Production and Climate worksheets represent the tables that will be created. Each model contains the column name, its datatype, if its a primary key, an example of the data, its source and a data dictionary of its meaning.
+#### Physical Tables
+Schema description for tables Prices, Production, and Climate are shown in the ERD file link above.
 
 #### Source Data ERD
-The ERD Diagram-Source Data worksheet is the ERD for initial storage within the database. Given the common and consistent primary key in each of the tables, for this stage all relationships will be one-to-one. The lines depicting the connections represent the ability to join each table to each other. Drawing a line from every single table to every other table was not done as this would confuse the picture.
+ERD Diagram-Source Data worksheet in the 'ERD file' link above is the ERD for initial storage within the database. Given the common and consistent primary key in each of the tables, for this stage all relationships will be one-to-one. The lines depicting the connections represent the ability to join each table to each other tables.
 
 #### Consolidation prior to Extraction
-Again, referring to our analysis process, once each table is in the database, we anticipate joining all the price tables into one table and all the production tables into one table. This is shown in the ERD Diagram-Consolidation. It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebooks. This ERD will be updated once we reach that stage in the process.
+Again, referring to our analysis process, once each table is in the database, we anticipate joining all the price tables into one table and all the production tables into one table. This is shown in the ERD Diagram-Consolidation ('ERD file' link above). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
 
 
 ### Machine Learning Model
