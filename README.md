@@ -24,10 +24,13 @@ Furthermore if time permits, we will be correlating the health/dietary benefits 
 We will be using unsupervised machine learning to uncover patterns in our datasets. With our analyses, we would like to find the factors that are effecting avocado prices and avocado production, and uncover trends of avocado prices and avocado production. Then we will start with multiple linear regression to discover the relationship of production with respect to climate, and prices with respect to production, and how we could combine them all. Next step would be to use the random forest ensemble classification to determine the increase or decrease in the avocado prices, and then generate price prediction model using a neural network model.
 
 ### Contributors
- - Amelin
- - Andreja
- - David
- - Subba
+Contributor | Seg 1 | Seg 2 | Seg 3 | Seg 4
+------------|-------|-------|-------|------
+Amelin | Circle | | |
+Andreja | Triangle | | |
+David | Square | | |
+Subba | X | | |
+
 
 ### Communications Protocols
  - Google Docs for tracking checklist based on the rubrics.
