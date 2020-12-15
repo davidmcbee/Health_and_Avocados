@@ -1,0 +1,58 @@
+CREATE TABLE all_prod
+AS
+  SELECT * FROM prod_2018
+  UNION
+  SELECT * FROM prod_2019
+  UNION
+  SELECT * FROM prod_2020;
+
+CREATE TABLE all_prices
+AS
+  SELECT * FROM prices_2017
+  UNION
+  SELECT * FROM prices_2018
+  UNION
+  SELECT * FROM prices_2019
+  UNION
+  SELECT * FROM prices_2020;
+
+CREATE TABLE all_market
+AS
+  SELECT * FROM market_2017
+  UNION
+  SELECT * FROM market_2018
+  UNION
+  SELECT * FROM market_2019
+  UNION
+  SELECT * FROM market_2020;
+  
+  
+SELECT * FROM all_prod
+
+-- Join the tables all_prices and all_prod
+SELECT ap.geography,
+      	 ap.date,
+     	 ap.type,
+     	 ap.avg_price,
+	 ap.total_volume,
+     	 ap.units_4046,
+     	 ap.units_4225,
+	 ap.units_4770_,
+	 ap.total_bags,
+     	 ap.s_bags,
+     	 ap.l_bags,
+	 ap.xl_bags,
+	 aprod.year_month,
+	 aprod.status,
+	 aprod.total_volume_produces,
+	 aprod.california,
+	 aprod.chile,
+	 aprod.mexico,
+	 aprod.peru,
+	 aprod.columbia
+INTO all_prices_prod
+FROM all_prices as ap
+LEFT JOIN all_prod as aprod
+ON (ap.date = aprod.date);
+
+SELECT * FROM all_prices_prod
