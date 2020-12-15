@@ -241,3 +241,5 @@ SELECT
 	clim.tmax
 FROM all_prod AS prod
 INNER JOIN climate AS clim USING (year_month);
+=======
+SELECT * FROM climate;
