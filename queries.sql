@@ -87,6 +87,13 @@ AS
   UNION
   SELECT * FROM market_2020;
 
+
+--*************************************
+SELECT * FROM all_prod;
+SELECT * FROM all_prices;
+SELECT * FROM all_market;
+SELECT * FROM climate;
+
 CREATE TABLE prices_prod AS
 SELECT
 	price.year_month,
