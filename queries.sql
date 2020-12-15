@@ -58,7 +58,7 @@ ALTER TABLE prod_2020
 ALTER year_month TYPE date USING(year_month::date);
 
 
-
+-- union production datasets
 CREATE TABLE all_prod
 AS
   SELECT * FROM prod_2018
@@ -67,6 +67,7 @@ AS
   UNION
   SELECT * FROM prod_2020;
 
+-- union prices dataset
 CREATE TABLE all_prices
 AS
   SELECT * FROM prices_2017
@@ -77,6 +78,7 @@ AS
   UNION
   SELECT * FROM prices_2020;
 
+-- union market datasets
 CREATE TABLE all_market
 AS
   SELECT * FROM market_2017
@@ -88,14 +90,15 @@ AS
   SELECT * FROM market_2020;
 
 
---*************************************
+-- check out combined datasets
 SELECT * FROM all_prod;
 SELECT * FROM all_prices;
 SELECT * FROM all_market;
 SELECT * FROM climate;
 
-updated from here down
 
+
+--updated from here down
 CREATE TABLE prices_prod AS
 SELECT
 	price.year_month,
