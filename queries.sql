@@ -86,3 +86,10 @@ AS
   SELECT * FROM market_2019
   UNION
   SELECT * FROM market_2020;
+
+
+--*************************************
+SELECT * FROM all_prod;
+SELECT * FROM all_prices;
+SELECT * FROM all_market;
+SELECT * FROM climate;
