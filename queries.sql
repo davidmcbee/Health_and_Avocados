@@ -94,6 +94,8 @@ SELECT * FROM all_prices;
 SELECT * FROM all_market;
 SELECT * FROM climate;
 
+updated from here down
+
 CREATE TABLE prices_prod AS
 SELECT
 	price.year_month,
