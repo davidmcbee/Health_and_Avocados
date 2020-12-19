@@ -32,8 +32,11 @@ David | Square | Circle, Triangle, Square | |
 Subba | X | Circle, Triangle, Square | |
 
 Circle - database
+
 Triangle - machine learning
+
 Square - repository
+
 X - technology/dashboard
 
 ### Communications Protocols
@@ -172,7 +175,40 @@ d = the number of differencing required to make the time series stationary
 Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Further, compensating for seasonality does not improve the model results. I believe these results will be a good gauge against the results of other models like LSTM and Random Forest Classifier for time series.
    
    
+#### Random Forest Ensemble (Regressor and Classifier)
+
+##### Overview
+Before the Random Forest Ensemble (RFE) ML model, Linear Regression with scikit-learn (LR) and Decision Tree Classifier (DTC) were used for a couple of reasons. LR as a good starting point, helps us understand the relationship between input and output and DTC because it is fast to build & test and can be present visually to uncover hidden trends and to tell the story. 
+
+RFE combines individual models; therefore, ensemble models are stronger learners, are less bias (more flexible) and have less variance (less data-sensitive). However, when it comes to data that has a time dimension, applying machine learning methods becomes a little tricky. Random forests, like most ML methods, have no awareness of time. On the contrary, they take observations to be independent and identically distributed. This assumption is obviously violated in time series data which is characterized by serial dependence.
+
+##### Dataset
+For this model two different datasets were combined - prices and production. y-variable (target value) is the average price of the avocados in the US cities. X-variables are month and week, units sold (3 different types), bags sold (3 different types), production data for avocados in the following countries California, Chile, Peru, Mexico, Colombia. 
+
+##### Preliminary data preprocessing
+
+•	Converting date datetime datatype and extracting month and week from the datetime (for the analysis purposes/seasonality).
+•	Drop NaN values.
+•	Dropping non-beneficial columns and handling outliers.
+
+##### Preliminary feature engineering and preliminary feature selection and splitting data into training and testing sets
+
+•	Encoding strings.
+•	Running the model with various combinations of X_values (features) and analyzing how the model performs.
+•	Normalizing data set, using Standard Scaler.
+•	Splitting data into training and testing at 75% and 25% respectively. 
+•	For the classification model continuous y-value was categorized with qcut() function.
+
+##### Summary (Results)
+
+"R squared", is the proportion of the variance in the dependent variable that is predictable from the independent variable(s). Mean square error (MSE) is the average of the square of the errors. The larger the number the larger the error. Based on a rule of thumb, it can be said that RMSE values between 0.2 and 0.5 shows that the model can relatively predict the data accurately.
+ 
+<p align="center">
+<img src="images/RFRscores.PNG" width="45%" height="45%"> <img src="images/RFCscores.PNG" width="40%" height="40%">
+</p>
+ 
+<p align="center">
+<i>Random Forest Regressor and Classifier Scores</i>
+</p>
    
-  
-  
 ## Summary
