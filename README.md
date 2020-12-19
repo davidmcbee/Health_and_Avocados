@@ -118,6 +118,57 @@ Again, once each table is in the database, we anticipate joining all the price t
   - Test stats
     
   - Results
+#### ARIMA Machine Learning Model
+##### Overview
+ An ARIMA model was tried as the model is intended for time series forecasting using past values. It additionally can be extended for data that has seasonal considerations. The below analysis is used to forecast average avocado prices for the years 2018 through September 6th of 2020. It is run for conventional avocados and run for Hass avocados. They are done Separately as the prices are different.
+
+#### Data and Environment
+##### Data
+The information provides average prices for avocados by date and geography areas and various units of production for California and four other countries. The information is data in a pgAdmin Postgres SQL table. This table was created by joining the union of each year's price tables to the union of each year's production tables. the table contains 21 columns and 14,472 rows before cleaning. The table was exported from pgAdmin to a csv file and is available here ["prices_prod"](./Resources/prices_prod.csv)
+##### Environment
+Environments - pgAdmin 4.24, Jupyter Notebook 6.1.4
+Tools/Languages - Python 3.8.5, Pandas, Numpy, collections, pathlib, matplotlib, seaborn, sklearn, statsmodels, dateutil, pmdarima, sqlalchemy, psycopg2
+#### Preprocessing
+##### Model Description and Definitions
+
+The Auto Regressive Integrated Moving Average (ARIMA) model is a linear recession model based on the lags of a time series univariate series of values to produce predictors. A couple requirements for the model to be effective are:
+
+1. the data series should not be seasonal. Our data appears to have seasonal aspects. To compensate for this seasonal terms are added. This is called a Seasonal ARIMA, or SARIMA.
+2. The data needs to be stationary; having non correlated predictors. To increase its stationary condition, differencing is applied.
+##### Definitions
+ AR = a Auto Regression model
+p = the order of the AR term
+MA = a moving Average only model
+q = the order of the MA term
+d = the number of differencing required to make the time series stationary
+##### Preprocessing
+1. Read in table from PGAdmin
+2. Clean the conventional field
+3. Create plots to see what the data looks like
+4. Split the data into two dataframes; one for conventional avocados and one for Hass avocados
+5. Attempt to determine if the data is stationary. Conduct the Dicky Fuller test. H0 = avg\_price is non-stationary. P value was 0.0 so H0 is rejected. Ha, avg\_price is stationary. Note - I still tried differencing to 1. learn and 2. I notice fluctuations in the data; possibly due to seasonality.
+6. Looked at the lags visually. Based on this believe p and q should equal 1.
+7. Split the data. 75% for training and 25% for test. since the order of the data must be maintained, did not randomly split.
+8. Created a model with p = 1, q = 1, d = 1 and tried it on total data set. P value was 0.0
+9. Used auto arima which sequences through the different p, and q options to minimize Akaike Information Criteria (AIC). A statistical method that quantifies goodness of fit. This produces a model with p =3, d = 0, q = 3.
+10. Created a forecast from the test data. See Figure x
+![](images/ARIMA_AutoARIMA.png)
+11. Accuracy metrics are generated. Mean Absolut Percentage Error (MAPE) = 0.18 and Mean Absolute Error (MAE) = 0.18
+12. Fit model to deal with for seasonal effects and run auto Arima fin find bets model. Best model is p = 2, d = 0, q = 0.
+13. Created a forecast from the test data. See Figure x+1.
+![](images/SARIMA_AutoARIMA.png)
+14. Accuracy metrics are generated. Mean Absolut Percentage Error (MAPE) = 0.18 and Mean Absolute Error (MAE) = 0.18. Not much change from the non-seasonal model.
+15. Repeat the above process for Hass Avocados
+16. Dicky fuller p = 0.0, (1,1,1) model MAPE = 0.15, MAE = 0.25. See figure x+2
+![](images/ARIMA_AutoARIMA_hass.png)
+17. Seasonal auto ARIMA best model is (2,0,0). MAPE = 0.15, MAE = 0.24. ee figure x+3
+![](images/SARIMA_AutoARIMA_hass.png)
+
+ #### ARIMA Summary
+Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Further, compensating for seasonality does not improve the model results. I believe these results will be a good gauge against the results of other models like LSTM and Random Forest Classifier for time series.
+   
+   
+   
   
   
 ## Summary
