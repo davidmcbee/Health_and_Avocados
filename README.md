@@ -26,11 +26,15 @@ We will be using unsupervised machine learning to uncover patterns in our datase
 ### Contributors
 Contributor | Seg 1 | Seg 2 | Seg 3 | Seg 4
 ------------|-------|-------|-------|------
-Amelin | Circle | | |
-Andreja | Triangle | | |
-David | Square | | |
-Subba | X | | |
+Amelin | Circle | Circle, Triangle, Square | |
+Andreja | Triangle | Circle, Triangle, X | |
+David | Square | Circle, Triangle, Square | |
+Subba | X | Circle, Triangle, Square | |
 
+Circle - database
+Triangle - machine learning
+Square - repository
+X - technology/dashboard
 
 ### Communications Protocols
  - Google Docs for tracking checklist based on the rubrics.
