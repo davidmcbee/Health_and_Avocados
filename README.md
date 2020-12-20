@@ -96,6 +96,19 @@ ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/h_a_ERD.xlsx) is the
 #### Consolidation prior to Extraction
 Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/h_a_ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
 
+### Dashboard
+
+The storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](dashboard\Storyboard.pptx)
+
+Our attempt is to build interactive visualizations with **Tableau** and deploy it via **github pages**. If time permits we would like to add interactive visualizations with JavaScript as well. Our data comes in CSV format. In order to use it in JavaScript and libraries such as Plotly and Leaflet, we will need to convert it to JSON and GeoJson format.
+
+**Description of interactive elements**
+
+- A bar chart with production data that can be filtered by country.
+- Word map with production data that shows what countries have the largest production.
+- US map of selected regions that shows what regions have the highest or lowest average price and can be filtered by month.
+- Word map that shows lines where US avocados are exported and from what countries are imported.
+  
 
 ### Machine Learning Model
   - Unsupervised ML for classification of our data in order to uncover the patterns/groups.
@@ -103,7 +116,7 @@ Again, once each table is in the database, we anticipate joining all the price t
     - Production in California(US), Mexico, Peru, Colombia, Chile (=feature or X-variable) and avocado prices (=target or y-variable).
   - Multiple Linear Regression for production
     - Climate data in Southern California (=features or X-variables) and production in Southern California (=target or y-variable).
-  - Random Forest Ensemble Classification
+  - Random Forest Ensemble Regressor and Classifier
     - (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
     - (Target) y-variable: avocado price 
   - Neural Network ML model for avocado prices prediction 
@@ -128,6 +141,8 @@ Again, once each table is in the database, we anticipate joining all the price t
   - Test stats
     
   - Results
+
+
 #### ARIMA Machine Learning Model
 ##### Overview
  An ARIMA model was tried as the model is intended for time series forecasting using past values. It additionally can be extended for data that has seasonal considerations. The below analysis is used to forecast average avocado prices for the years 2018 through September 6th of 2020. It is run for conventional avocados and run for Hass avocados. They are done Separately as the prices are different.
@@ -181,6 +196,7 @@ Next steps are to create a multivariate LSTM model with lags and use recurrency.
    
    
 #### Random Forest Ensemble (Regressor and Classifier)
+Code for Random Forest Ensemble on the following link: [Random_Forest_Ensamble.ipynb](Random_Forest_Ensamble.ipynb)
 
 ##### Overview
 Before the Random Forest Ensemble (RFE) ML model, Linear Regression with scikit-learn (LR) and Decision Tree Classifier (DTC) were used for a couple of reasons. LR as a good starting point, helps us understand the relationship between input and output and DTC because it is fast to build & test and can be present visually to uncover hidden trends and to tell the story. 
