@@ -109,6 +109,9 @@ Again, once each table is in the database, we anticipate joining all the price t
   - Neural Network ML model for avocado prices prediction 
     - (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
     - (Target) y-variable: avocado price 
+    - ARIMA time series linear regression on average prices (price_prod table)
+    - LSTM time series linear regression on average prices (price_prod table)
+    - LSTM Multivariate and recurrent on average prices given unit prices, geography and production (price_prod table)
 
 
 #### Preprocessing Data for a Neural Network Model
@@ -173,6 +176,8 @@ d = the number of differencing required to make the time series stationary
 
  #### ARIMA Summary
 Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Further, compensating for seasonality does not improve the model results. I believe these results will be a good gauge against the results of other models like LSTM and Random Forest Classifier for time series.
+#### Next Steps
+Next steps are to create a multivariate LSTM model with lags and use recurrency. Status is that a basic univariate LSTM regression has been created. This is being fine tuned to provide a comparison to the ARIMA model and to learn about LSTM. Coding is in progress on the multivariate LSTM model. 
    
    
 #### Random Forest Ensemble (Regressor and Classifier)
