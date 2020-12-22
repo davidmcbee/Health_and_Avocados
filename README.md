@@ -98,7 +98,7 @@ Again, once each table is in the database, we anticipate joining all the price t
 
 ### Dashboard
 
-The storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](dashboard\Storyboard.pptx)
+The storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](dashboard/Storyboard.pptx)
 
 Our attempt is to build interactive visualizations with **Tableau** and deploy it via **github pages**. If time permits we would like to add interactive visualizations with JavaScript as well. Our data comes in CSV format. In order to use it in JavaScript and libraries such as Plotly and Leaflet, we will need to convert it to JSON and GeoJson format.
 
