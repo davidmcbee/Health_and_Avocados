@@ -128,7 +128,7 @@ Our attempt is to build interactive visualizations with **Tableau** and deploy i
 
 #### Final ML Models and stats
 
-  !["ML Model stats"](./Images/ML_Model_Stats.png "ML Model Stats")
+  !["ML Model stats"](./images/ML_Model_Stats.png "ML Model Stats")
 
 #### Preprocessing Data for a Neural Network Model
 
