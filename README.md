@@ -126,6 +126,9 @@ Our attempt is to build interactive visualizations with **Tableau** and deploy i
     - LSTM time series linear regression on average prices (price_prod table)
     - LSTM Multivariate and recurrent on average prices given unit prices, geography and production (price_prod table)
 
+#### Final ML Models and stats
+
+  !["ML Model stats"](./images/ML_Model_Stats.png "ML Model Stats")
 
 #### Preprocessing Data for a Neural Network Model
 
