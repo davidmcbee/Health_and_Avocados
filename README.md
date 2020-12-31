@@ -146,10 +146,9 @@ Our attempt is to build interactive visualizations with **Tableau** and deploy i
   - Results
 
 
-#### ARIMA Machine Learning Model
+#### ARIMA and LSTM Machine Learning Model
 ##### Overview
- An ARIMA model was tried as the model is intended for time series forecasting using past values. It additionally can be extended for data that has seasonal considerations. The below analysis is used to forecast average avocado prices for the years 2018 through September 6th of 2020. It is run for conventional avocados and run for Hass avocados. They are done Separately as the prices are different.
-
+ Both an ARIMA and a LSTM model are run as univariate models to predict average avocado prices. Learning aobut ARIMA for time series led to discovering the LSTM model, which is also supposed to be good at time series. running both models on the same data, we can compare the results from both models and I can learn aobut LSTM in preparation for applying it to a multivariate model with more then one time lag.
 #### Data and Environment
 ##### Data
 The information provides average prices for avocados by date and geography areas and various units of production for California and four other countries. The information is data in a pgAdmin Postgres SQL table. This table was created by joining the union of each year's price tables to the union of each year's production tables. the table contains 21 columns and 14,472 rows before cleaning. The table was exported from pgAdmin to a csv file and is available here ["prices_prod"](./Resources/prices_prod.csv)
@@ -160,11 +159,15 @@ Tools/Languages - Python 3.8.5, Pandas, Numpy, collections, pathlib, matplotlib,
 ##### Model Description and Definitions
 
 The Auto Regressive Integrated Moving Average (ARIMA) model is a linear recession model based on the lags of a time series univariate series of values to produce predictors. A couple requirements for the model to be effective are:
-
 1. the data series should not be seasonal. Our data appears to have seasonal aspects. To compensate for this seasonal terms are added. This is called a Seasonal ARIMA, or SARIMA.
 2. The data needs to be stationary; having non correlated predictors. To increase its stationary condition, differencing is applied.
-##### Definitions
- AR = a Auto Regression model
+
+The LSTM model Has the ability to remove or add information to the cell state. These are called gates. at a very high level this is shown in figure 1. Its source is _Understanding LSTM Networks, Colah's blog, 08/27/2015_. !(https://colah.github.io/posts/2015-08-Understanding-LSTMs)
+![](images/lstm_.png)
+Figure 1
+
+##### ARIMA Definitions
+AR = a Auto Regression model
 p = the order of the AR term
 MA = a moving Average only model
 q = the order of the MA term
@@ -173,29 +176,31 @@ d = the number of differencing required to make the time series stationary
 1. Read in table from PGAdmin
 2. Clean the conventional field
 3. Create plots to see what the data looks like
-4. Split the data into two dataframes; one for conventional avocados and one for Hass avocados
-5. Attempt to determine if the data is stationary. Conduct the Dicky Fuller test. H0 = avg\_price is non-stationary. P value was 0.0 so H0 is rejected. Ha, avg\_price is stationary. Note - I still tried differencing to 1. learn and 2. I notice fluctuations in the data; possibly due to seasonality.
-6. Looked at the lags visually. Based on this believe p and q should equal 1.
+4. Split the data into two dataframes; one for conventional avocados and one for Hass avocados. These along with the complete dataset (both types) will be modeled
+5. ARIMA only - Attempt to determine if the data is stationary. Conduct the Dicky Fuller test. H0 = avg\_price is non-stationary. P value was 0.0 so H0 is rejected. Ha, avg\_price is stationary. Note - I still tried differencing to 1. learn and 2. I notice fluctuations in the data; possibly due to seasonality.
+6. ARIMA only - Looked at the lags visually. Based on this believe p and q should equal 1.
 7. Split the data. 75% for training and 25% for test. since the order of the data must be maintained, did not randomly split.
-8. Created a model with p = 1, q = 1, d = 1 and tried it on total data set. P value was 0.0
-9. Used auto arima which sequences through the different p, and q options to minimize Akaike Information Criteria (AIC). A statistical method that quantifies goodness of fit. This produces a model with p =3, d = 0, q = 3.
-10. Created a forecast from the test data. See Figure x
-![](images/ARIMA_AutoARIMA.png)
-11. Accuracy metrics are generated. Mean Absolut Percentage Error (MAPE) = 0.18 and Mean Absolute Error (MAE) = 0.18
-12. Fit model to deal with for seasonal effects and run auto Arima fin find bets model. Best model is p = 2, d = 0, q = 0.
-13. Created a forecast from the test data. See Figure x+1.
-![](images/SARIMA_AutoARIMA.png)
-14. Accuracy metrics are generated. Mean Absolut Percentage Error (MAPE) = 0.18 and Mean Absolute Error (MAE) = 0.18. Not much change from the non-seasonal model.
-15. Repeat the above process for Hass Avocados
-16. Dicky fuller p = 0.0, (1,1,1) model MAPE = 0.15, MAE = 0.25. See figure x+2
-![](images/ARIMA_AutoARIMA_hass.png)
-17. Seasonal auto ARIMA best model is (2,0,0). MAPE = 0.15, MAE = 0.24. ee figure x+3
-![](images/SARIMA_AutoARIMA_hass.png)
+8. ARIMA only - Created a model with p = 1, q = 1, d = 1 and tried it on total data set. P value was 0.0
+9. ARIMA only - Used auto arima which sequences through the different p, and q options to minimize Akaike Information Criteria (AIC). A statistical method that quantifies goodness of fit. This produces a model with p =3, d = 0, q = 3. Since "d" is 0, this also confirms the Dicky Fuller test that avg price is non-stationary.
+10. Created a forecast from the test data for both ARIMA and LSTM. See Figure 2.
+![](images/arima_lstm_conv.png)
+Figure 2
 
- #### ARIMA Summary
-Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Further, compensating for seasonality does not improve the model results. I believe these results will be a good gauge against the results of other models like LSTM and Random Forest Classifier for time series.
+11. The ARIMA model's have a number of scoring metrics but the LSTM models are scored onRoot Mean Square Error (RMSE). The ARIMA RMSE score is 0.21. This model is also based on using auto arima wich selted the best model having p = 3, d = 0, q = 3.
+12. LSTM models are scored on Root Mean Square Error (RMSE).  By iterating through LSTM neurons and epochs, which did nto change the results significantly, I found the results to be Train Score = 0.34 and Test Score = 0.34. 
+13. This process was then repeated for organic average prices. See figure 3.
+![](images/arima_lstm_org.png)
+Figure 3
+
+16. The ARIMA model was run with p=2, d=0, q=0. The RMSE score was 0.27
+17. The LSTM model's RSE score was Train = 0.34, Test = 0.33
+18. Adjusting for seasonality in ARIMA. BOth conventional and organic models were run with seasonality turned on. For conventional the RMSE score was 0.39. For organic the RTMSE score was 0.27
+19. Finally, a combined, both types was run with p=3, d=0, q=2 based off of the autoarima recommendation. The RMSE score was 0.29.   
+ #### Summary
+Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Further, compensating for seasonality makes the covnentional model worse but doe snot change the score for organic. This is interesting given the different growing seasons. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect. 
+The LSTM model was also good but not great. Based on the closeness of scores between the two models I beleive the results are fairly accurate.
 #### Next Steps
-Next steps are to create a multivariate LSTM model with lags and use recurrency. Status is that a basic univariate LSTM regression has been created. This is being fine tuned to provide a comparison to the ARIMA model and to learn about LSTM. Coding is in progress on the multivariate LSTM model. 
+Next steps are to create a multivariate LSTM model with lags and use recurrency in order to take addvantage of features.
    
    
 #### Random Forest Ensemble (Regressor and Classifier)
