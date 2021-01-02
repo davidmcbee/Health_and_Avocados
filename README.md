@@ -108,7 +108,7 @@ We are creating a dashboard with interactive visualizations using **Tableau**, h
 - Hovering over a specific section of the production map will show a bar chart of the average production by region.
 - The price map shows the average selling prices of avocados by city or state and can be filtered by year and the type of avocado.
 - A map of US cities that will allow you to hover over and see how the predicted average selling prices compare to the actual selling prices.
-- The dashboard itself will have buttons to navigate you to the `Home`, `Previous`, `Next` pages, including being able to click on certain headings that will bring you to straight to the visualizations.
+- The dashboard itself will have buttons to navigate you to the `Home`, `Previous`, and `Next` pages, including being able to click on certain headings that will bring you to straight to the visualizations.
   
 
 ### Machine Learning Model
