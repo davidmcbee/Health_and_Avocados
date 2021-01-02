@@ -102,6 +102,7 @@ The storyboard and blueprint for the dashboard can be found on the following lin
 We are creating a dashboard with interactive visualizations using **Tableau**, hosted on Tableau Public. The dashboard can be found [here](https://public.tableau.com/profile/amelin.norzamini#!/vizhome/TheAvocadoStory/TheAvocadoStory).
 
 **Description of interactive elements**
+- The Introduction page allows you to pick which section of the dashboard to view just by clicking on it.
 - A map with production data that can be filtered by year.
 - Hovering over production regions will show the production volume of the selected year(s) and the production trend for the past 3 years.
 - Hovering over a specific section of the production map will show a bar chart of the average production by region.
