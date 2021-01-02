@@ -26,27 +26,18 @@ We will be using unsupervised machine learning to uncover patterns in our datase
 ### Contributors
 Contributor | Seg 1 | Seg 2 | Seg 3 | Seg 4
 ------------|-------|-------|-------|------
-Amelin | Circle | Circle, Triangle, Square | |
-Andreja | Triangle | Circle, Triangle, X | |
-David | Square | Circle, Triangle, Square | |
-Subba | X | Circle, Triangle, Square | |
+Amelin | Circle | Circle, Triangle, Square | Dashboard |
+Andreja | Triangle | Circle, Triangle, X | Draft Presentation |
+David | Square | Circle, Triangle, Square | Quality Assurance |
+Subba | X | Circle, Triangle, Square | Peer Review |
 
 Circle - database
-
 Triangle - machine learning
-
 Square - repository
-
 X - technology/dashboard
 
-### Communications Protocols
- - Google Docs for tracking checklist based on the rubrics.
- - Google Drive with shared folder and sub folders to add findings to be shared by the group.
- - Zoom Meetings twice a week Monday, and Wednesday + as needed.
- - Slack for daily chats.
- - Weekly responsibilities are shared in Google Sheet. 
 
-### Database Integration
+### Database
 
 #### Features
 
@@ -84,6 +75,8 @@ Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) sh
  Further schema descriptions are shown in this file:  
    ["ERD file"](./ERD/h_a_ERD.xlsx)
 
+### Preprocessing
+
 #### Cleaning
 The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were all converted to year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
 
@@ -95,6 +88,10 @@ ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/h_a_ERD.xlsx) is the
 
 #### Consolidation prior to Extraction
 Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/h_a_ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
+
+### Model
+
+### Presentation
 
 ### Dashboard
 The storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](dashboard/Storyboard.pptx)
@@ -110,6 +107,10 @@ We are creating a dashboard with interactive visualizations using **Tableau**, h
 - A map of US cities that will allow you to hover over and see how the predicted average selling prices compare to the actual selling prices.
 - The dashboard itself will have buttons to navigate you to the `Home`, `Previous`, and `Next` pages, including being able to click on certain headings that will bring you to straight to the visualizations.
   
+
+### Summary
+
+
 
 ### Machine Learning Model
   - Unsupervised ML for classification of our data in order to uncover the patterns/groups.
