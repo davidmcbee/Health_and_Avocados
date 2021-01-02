@@ -97,17 +97,17 @@ ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/h_a_ERD.xlsx) is the
 Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/h_a_ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
 
 ### Dashboard
-
 The storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](dashboard/Storyboard.pptx)
 
-Our attempt is to build interactive visualizations with **Tableau** and deploy it via **github pages**. If time permits we would like to add interactive visualizations with JavaScript as well. Our data comes in CSV format. In order to use it in JavaScript and libraries such as Plotly and Leaflet, we will need to convert it to JSON and GeoJson format.
+We are creating a dashboard with interactive visualizations using **Tableau**, hosted on Tableau Public. The dashboard can be found [here](https://public.tableau.com/profile/amelin.norzamini#!/vizhome/TheAvocadoStory/TheAvocadoStory).
 
 **Description of interactive elements**
-
-- A bar chart with production data that can be filtered by country.
-- Word map with production data that shows what countries have the largest production.
-- US map of selected regions that shows what regions have the highest or lowest average price and can be filtered by month.
-- Word map that shows lines where US avocados are exported and from what countries are imported.
+- A map with production data that can be filtered by year.
+- Hovering over production regions will show the production volume of the selected year(s) and the production trend for the past 3 years.
+- Hovering over a specific section of the production map will show a bar chart of the average production by region.
+- The price map shows the average selling prices of avocados by city or state and can be filtered by year and the type of avocado.
+- A map of US cities that will allow you to hover over and see how the predicted average selling prices compare to the actual selling prices.
+- The dashboard itself will have buttons to navigate you to the `Home`, `Previous`, `Next` pages, including being able to click on certain headings that will bring you to straight to the visualizations.
   
 
 ### Machine Learning Model
