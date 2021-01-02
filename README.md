@@ -149,7 +149,7 @@ We are creating a dashboard with interactive visualizations using **Tableau**, h
 
 #### ARIMA and LSTM Machine Learning Model
 ##### Overview
- Both an ARIMA and a LSTM model are run as univariate models to predict average avocado prices. Learning aobut ARIMA for time series led to discovering the LSTM model, which is also supposed to be good at time series. running both models on the same data, we can compare the results from both models and I can learn aobut LSTM in preparation for applying it to a multivariate model with more then one time lag.
+Both an ARIMA and a LSTM model are run as univariate models to predict average avocado prices. Learning about ARIMA for time series led to discovering the LSTM model, which is also supposed to be good at time series. running both models on the same data, we can compare the results from both models and I can learn about LSTM in preparation for applying it to a multivariate model with more then one time lag.
 #### Data and Environment
 ##### Data
 The information provides average prices for avocados by date and geography areas and various units of production for California and four other countries. The information is data in a pgAdmin Postgres SQL table. This table was created by joining the union of each year's price tables to the union of each year's production tables. the table contains 21 columns and 14,472 rows before cleaning. The table was exported from pgAdmin to a csv file and is available here ["prices_prod"](./Resources/prices_prod.csv)
@@ -158,13 +158,12 @@ Environments - pgAdmin 4.24, Jupyter Notebook 6.1.4
 Tools/Languages - Python 3.8.5, Pandas, Numpy, collections, pathlib, matplotlib, seaborn, sklearn, statsmodels, dateutil, pmdarima, sqlalchemy, psycopg2
 #### Preprocessing
 ##### Model Description and Definitions
-
 The Auto Regressive Integrated Moving Average (ARIMA) model is a linear recession model based on the lags of a time series univariate series of values to produce predictors. A couple requirements for the model to be effective are:
 1. the data series should not be seasonal. Our data appears to have seasonal aspects. To compensate for this seasonal terms are added. This is called a Seasonal ARIMA, or SARIMA.
 2. The data needs to be stationary; having non correlated predictors. To increase its stationary condition, differencing is applied.
-
-The LSTM model Has the ability to remove or add information to the cell state. These are called gates. at a very high level this is shown in figure 1. Its source is _Understanding LSTM Networks, Colah's blog, 08/27/2015_. !(https://colah.github.io/posts/2015-08-Understanding-LSTMs)
+The LSTM model Has the ability to remove or add information to the cell state. These are called gates. at a very high level this is shown in figure 1. Its source is \_Understanding LSTM Networks, Colah's blog, 08/27/2015. !(https://colah.github.io/posts/2015-08-Understanding-LSTMs)
 ![](images/lstm_.png)
+
 Figure 1
 
 ##### ARIMA Definitions
@@ -178,30 +177,97 @@ d = the number of differencing required to make the time series stationary
 2. Clean the conventional field
 3. Create plots to see what the data looks like
 4. Split the data into two dataframes; one for conventional avocados and one for Hass avocados. These along with the complete dataset (both types) will be modeled
-5. ARIMA only - Attempt to determine if the data is stationary. Conduct the Dicky Fuller test. H0 = avg\_price is non-stationary. P value was 0.0 so H0 is rejected. Ha, avg\_price is stationary. Note - I still tried differencing to 1. learn and 2. I notice fluctuations in the data; possibly due to seasonality.
+5. ARIMA only - Attempt to determine if the data is stationary. Conduct the Dicky Fuller test. H0 = avg_price is non-stationary. P value was 0.0 so H0 is rejected. Ha, avg_price is stationary. Note - I still tried differencing to 1. learn and 2. I notice fluctuations in the data; possibly due to seasonality.
 6. ARIMA only - Looked at the lags visually. Based on this believe p and q should equal 1.
 7. Split the data. 75% for training and 25% for test. since the order of the data must be maintained, did not randomly split.
 8. ARIMA only - Created a model with p = 1, q = 1, d = 1 and tried it on total data set. P value was 0.0
 9. ARIMA only - Used auto arima which sequences through the different p, and q options to minimize Akaike Information Criteria (AIC). A statistical method that quantifies goodness of fit. This produces a model with p =3, d = 0, q = 3. Since "d" is 0, this also confirms the Dicky Fuller test that avg price is non-stationary.
 10. Created a forecast from the test data for both ARIMA and LSTM. See Figure 2.
 ![](images/arima_lstm_conv.png)
+
 Figure 2
 
-11. The ARIMA model's have a number of scoring metrics but the LSTM models are scored onRoot Mean Square Error (RMSE). The ARIMA RMSE score is 0.21. This model is also based on using auto arima wich selted the best model having p = 3, d = 0, q = 3.
-12. LSTM models are scored on Root Mean Square Error (RMSE).  By iterating through LSTM neurons and epochs, which did nto change the results significantly, I found the results to be Train Score = 0.34 and Test Score = 0.34. 
+11. The ARIMA model's have a number of scoring metrics but the LSTM models are scored on Root Mean Square Error (RMSE). The ARIMA RMSE score is 0.21. This model is also based on using auto arima which uses the best model having p = 3, d = 0, q = 3.
+
+12. LSTM models are scored on Root Mean Square Error (RMSE). By iterating through LSTM neurons and epochs, which did not change the results significantly, I found the results to be Train Score = 0.34 and Test Score = 0.34.
 13. This process was then repeated for organic average prices. See figure 3.
+
 ![](images/arima_lstm_org.png)
+
 Figure 3
 
 16. The ARIMA model was run with p=2, d=0, q=0. The RMSE score was 0.27
 17. The LSTM model's RSE score was Train = 0.34, Test = 0.33
-18. Adjusting for seasonality in ARIMA. BOth conventional and organic models were run with seasonality turned on. For conventional the RMSE score was 0.39. For organic the RTMSE score was 0.27
-19. Finally, a combined, both types was run with p=3, d=0, q=2 based off of the autoarima recommendation. The RMSE score was 0.29.   
- #### Summary
-Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Further, compensating for seasonality makes the covnentional model worse but doe snot change the score for organic. This is interesting given the different growing seasons. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect. 
-The LSTM model was also good but not great. Based on the closeness of scores between the two models I beleive the results are fairly accurate.
+18. Adjusting for seasonality in ARIMA. Both conventional and organic models were run with seasonality turned on. For conventional the RMSE score was 0.39. For organic the RTMSE score was 0.27
+19. Finally, a combined, both types was run with p=3, d=0, q=2 based off of the autoarima recommendation. The RMSE score was 0.29.
+
+#### Summary
+Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Further, compensating for seasonality makes the conventional model worse but doe snot change the score for organic. This is interesting given the different growing seasons. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect.
+
+The LSTM model was also good but not great. Based on the closeness of scores between the two models I believe the results are fairly accurate.
+![](images/arima_score_info.png)
+Table 1.
+
 #### Next Steps
-Next steps are to create a multivariate LSTM model with lags and use recurrency in order to take addvantage of features.
+
+Next steps are to create a multivariate LSTM model with lags and use recurrency in order to take advantage of features.
+
+#### LSTM Multivariate Machine Learning Model with Lags
+##### Overview
+With a desire to understand if/how climate affects the average price of avocados, a multivariate LSTM model was used to analyze those affects. Further, the features were time lagged to allow the model to potentially use past states to better predict average avocado prices.
+
+#### Data and Environment
+
+##### Data
+
+The information provides average prices for avocados by date and geography areas. This table was joined to climate data. The climate data covers California. For a full definition of the terms used in this table please refer to ['climate readme'](./Resources/drought-readme.txt). The joined table is available here ['prices and climate'](./Resources/prices_clim_mod.csv)
+
+As an overview, the climate data provides, precipitation, average along with maximum and minimum temperatures. It also provides a number of drought and hydrological indexes.
+##### Environment
+Environments - pgAdmin 4.24, Jupyter Notebook 6.1.4
+Tools/Languages - Python 3.8.5, Pandas, Numpy, collections, pathlib, matplotlib, seaborn, sklearn, statsmodels, dateutil, pmdarima, sqlalchemy, psycopg2, SHAP, LSTM
+#### Preprocessing
+##### Model Description and Definitions
+This LSTM model contains two models. The first model is statically set for 1 lag. The lags on the 2nd model are adjustable.. That is, you can set how many steps back are used in the model to make its predictions. Between 1 to 4 lags were used with the best results generally at 4 lags. The model is a sequential model with 1 input layer containing a number of neurons. I found 100 neurons to be optimal. It also contains a dense output layer. It was complied with mean absolute error loss and uses adam as its optimizer. From what I could find, and consistent with the univariate LSTM model and the ARIMA model, the method to judge the goodness of fit is the Root Mean Square Error (RMSE).
+
+I ran and optimized the model for three data sets; the full prices/climate data, the prices/climate data restricted to type = conventional and the prices/climate data restricted to type = organic.
+
+##### Preprocessing
+Please refer to the ['prices climate LSTM code'](LSTM_Multivariate_Prices_climate) for the following steps:
+
+1. Read in the prices_clim data from PDAdmin
+2. Dropped non-beneficial columns; year_month, price_total_volume and total_bags. year\_month is not needed as date is available. price_total_volume is the sum of units_4046, units_4225 and units_4770 and total_bags. Total_bags is the sum of s_bags, l_bags and xl_bags. It would be redundant information to double count those parameters and unfairly skew the model.
+3. For the same reasoning, I dropped those rows that are totals of underlying sub areas (cities/regions).
+4. Corrected the type column. It had two formats for Conventional. Should be one.
+5. Split the data out into prices/climate data restricted to type = conventional and the prices/climate data restricted to type = organic. There are now three dataframes.
+6. Viewed the data to look for trends. Noticed an increase in average prices in the summer months. Noticed an increase in average temperatures in the summer months, which seems obvious. I'm not saying there is a correlation between the two but definitely similarities. Will come back to this in the results section.
+7. I saved the three cleaned files for continued use.
+##### Model Steps
+1. Defined a function for creating lags, series\_to\_supervised. This transposes and shifts the parameter to the same row but next column. t, t-1, t-2, etc. Doing this introduces Nan's in the bottom rows equal to the number of lags so the function drops those rows.
+2. Read in the cleaned data.
+3. generate the categorical variables and encodes them.
+4. Scale the data using MinMaxScaler.
+5. for the 2nd model, create an extra variable to allow changing the number of lags used.
+6. use series\_to\_supervised to create the lags.
+7. Drop the columns we do not want to predict. We want to predict avg_price, with is t1. For multiple lags we do not drop the extra T1's.
+8. Split the data for training and testing. Because we're looking at the previous value to determine the impact of the current value we split the data by time, meaning we will use the 2017 through 2019 data to predict 2020. 2020 data goes from Jan 6th through sept. 9th.
+9. reshape the data into a 3 dimensional dataset. samples, timesteps, features. LSTM requires this.
+10. instantiate the model.
+11. fit the training data. Note I iterated through various combinations of neurons, epochs, batch sizes and activation functions.
+12. plot the train vs test loss,
+13. predict the average prices.
+14. Invert the scaling for both the forecast and the actual data.
+15. Calculate the RMSE.
+16. Merge the predictions with original features to graph actual vs predictions.
+#### Summary
+By iterating through the number lags. I found 3 to 4 lags, depending on which dataset was run, produced the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'.
+
+Best Model Results
+![](images/all_score_info.png)
+Table 2.
+
+#### Recommended Future Steps
+LSTM is very interesting. If time permitted, I would try sliding window of time and also try this as a classifier model. 
    
    
 #### Random Forest Ensemble (Regressor and Classifier)
