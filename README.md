@@ -147,11 +147,7 @@ By iterating through the number lags. I found 3 to 4 lags, depending on which da
 #### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
 Our goal is to build and train the model that has high accuracy in predicting prices in various US cities and determine what features are important at predicting prices. Random Forest Ensemble ML model showed promising results in predicting avocado prices in various US cities with R2 score of 0.88 and mean squared error (mse) of 0.01 (Regressor) and accuracy score of 85% (Classifier).
 
-***Please see detailed explanation of results here:*** [RFE Results description](resources/RFEResults)
-
-On the following link is jupyter notebook with complete code for this model.
-[Random Forest Ensemble Regressor and Classifier](Random_Forest_Ensemble_ML/Random_Forest_Ensemble.ipynb)
-
+***Please see detailed explanation of results here:*** [RFE Results description](resources/RandomForestEnsemble_Results.docx)
 
 ### Next Steps
 #### ARIMA and LSTM Univariate Model
