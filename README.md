@@ -77,7 +77,10 @@ Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) sh
 
 ### Preprocessing
 #### ARIMA, LSTM Univariate and LSTM Multivariate Preprocessing Steps
-The steps for preprocessing the ARIMA, LSTM Univariate and LSTM Multivariate models is available here ['model Cleaning Steps'](resources/dm_preprocess_steps.docx)
+The steps for preprocessing the ARIMA, LSTM Univariate and LSTM Multivariate models is available here ['model Cleaning Steps'](resources/dm_preprocess_steps.docx). The models are available here:
+['ARIMA Model'](ARIMA_Price_Prod.ipynb)
+['LSTM Univariate'](LSTM_basic_regression_prices.ipynb)
+['LSTM Multivariate with Lags'](LSTM_Multivariate_Prices_climate.ipynb)
 
 #### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
 The steps for preprocessing the Random Forest Ensemble (Regressor and Classifier) are available here [RFE Model Cleaning Steps](resources/RandomForestEnsemble_PreprocessingSteps.pdf)
