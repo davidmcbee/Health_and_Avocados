@@ -107,9 +107,10 @@ With a desire to understand if/how climate affects the average price of avocados
 Figure x.
 
 ### Presentation
+Presentation slides can be found on the following link: [Group Project Presentation Slides](https://docs.google.com/presentation/d/1wviT0-FSyJN_IjDa6qDLE4fgrHu8PXYG84fps1eJmXE/edit?usp=sharing)
 
 ### Dashboard
-The storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](dashboard/Storyboard.pptx)
+The initial storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](https://docs.google.com/presentation/d/1oUDenIsmbZWGQ2lDN9eox3NoULL2VTAGTj8iRTcmfAI/edit?usp=sharing)
 
 We are creating a dashboard with interactive visualizations using **Tableau**, hosted on Tableau Public. The dashboard can be found [here](https://public.tableau.com/profile/amelin.norzamini#!/vizhome/TheAvocadoStory/TheAvocadoStory).
 
