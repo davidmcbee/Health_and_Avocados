@@ -78,6 +78,10 @@ Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) sh
 ### Preprocessing
 #### ARIMA, LSTM Univariate and LSTM Multivariate Preprocessing Steps
 The steps for preprocessing the ARIMA, LSTM Univariate and LSTM Multivariate models is available here ['model Cleaning Steps'](resources/dm_preprocess_steps.docx)
+
+#### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
+The steps for preprocessing the Random Forest Ensemble (Regressor and Classifier) are available here [RFE Model Cleaning Steps](resources/RandomForestEnsemble_PreprocessingSteps.pdf)
+
 #### Cleaning
 The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were all converted to year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
 
@@ -106,6 +110,11 @@ With a desire to understand if/how climate affects the average price of avocados
 ![](images/lstm_y_yhat.png)
 Figure x.
 
+#### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
+##### Overview
+One of the ML models used for this project was Random Forest Ensemble (RFE). Before building RFE model, we used Linear Regression with scikit-learn (LR) and Decision Tree Classifier (DTC) for a couple of reasons. LR as a good starting point, helps us understand the relationship between input and output and DTC because it is fast to build & test and can be present visually to uncover hidden trends and to tell the story. After seeing good results in those two models, we moved to RFE. 
+RFE combines individual models; therefore, ensemble models are stronger learners, are less bias (more flexible) and have less variance (less data-sensitive). However, when it comes to data that has a time dimension, applying machine learning methods becomes a little tricky. Random forests, like most ML methods, have no awareness of time and they take observations to be independent and identically distributed. We approached to this problem, by splitting the date into weeks, months and years and use those features in ML model as separate X-variables, since we recognized seasonality in the dataset.
+
 ### Presentation
 Presentation slides can be found on the following link: [Group Project Presentation Slides](https://docs.google.com/presentation/d/1wviT0-FSyJN_IjDa6qDLE4fgrHu8PXYG84fps1eJmXE/edit?usp=sharing)
 
@@ -129,6 +138,18 @@ We are creating a dashboard with interactive visualizations using **Tableau**, h
 Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect.
 #### LSTM Multivariate Model
 By iterating through the number lags. I found 3 to 4 lags, depending on which dataset was run, produced the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'.
+
+#### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
+Our goal is to build and train the model that has high accuracy in predicting prices and determine what features are important at predicting prices. 
+Random Forest Ensemble ML model showed promising results in predicting avocado prices in various US cities with R2 score of 0.88 and mean squared error (mse) of 0.01 (Regressor) and accuracy score of 78% (Classifier).
+
+***Please see detailed explanation of results [here](resources/RFEResults).***
+
+On the following link are jupyter notebook files with complete code for this model.
+
+[Balanced Random Forest Classifier](BalancedRandomForestClassifier_AN.ipynb) using 3 categories for y-variable.
+
+[Random Forest Ensemble Regressor and Classifier](Random_Forest_Ensemble_ML/Random_Forest_Ensemble.ipynb) using 4 categories for y-variable.
 
 
 ### Next Steps
