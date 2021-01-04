@@ -1,4 +1,4 @@
-year_month,city,state,region,date,type,avg_price,total units sold (bags+plu units),total dollars,PLU_4046,PLU_4225,PLU_4770,total_bags,s_bags,l_bags,xl_bags
+year_month,city,state,region,date,type,avg_price,total_units_sold,total_dollars,PLU_4046,PLU_4225,PLU_4770,total_bags,s_bags,l_bags,xl_bags
 1/1/2017,Grand Rapids,Michigan,,1/2/2017,organic,1.79,1095.77,1961.4283,84.21,738.23,0,273.33,263.33,10,0
 1/1/2017,St Louis,Missouri,Plains,1/2/2017,organic,1.46,5850.8,8542.168,1662.86,413.93,0,3774.01,716.11,3057.9,0
 1/1/2017,Houston,Texas,California,1/2/2017,organic,1.4,10109.46,14153.244,7550.89,58.71,0,2499.86,2499.86,0,0
