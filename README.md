@@ -32,9 +32,13 @@ David | Square | Circle, Triangle, Square | Quality Assurance |
 Subba | X | Circle, Triangle, Square | Peer Review |
 
   Circle - database
+  
   Triangle - machine learning
+  
   Square - repository
+  
   X - technology/dashboard
+  
 
 ## Database
 
@@ -82,14 +86,14 @@ ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/h_a_ERD.xlsx) is the
 Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/h_a_ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
 
 ## Preprocessing
+### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
+The steps for preprocessing the Random Forest Ensemble (Regressor and Classifier) are available here [RFE Model Cleaning Steps](resources/RandomForestEnsemble_PreprocessingSteps.docx)
+
 ### ARIMA, LSTM Univariate and LSTM Multivariate Preprocessing Steps
 The steps for preprocessing the ARIMA, LSTM Univariate and LSTM Multivariate models is available here ['model Cleaning Steps'](resources/dm_preprocess_steps.docx). The models are available here:
 ['ARIMA Model'](./ML_models/ARIMA_Price_Prod.ipynb)
 ['LSTM Univariate'](./ML_models/LSTM_basic_regression_prices.ipynb)
 ['LSTM Multivariate with Lags'](./ML_models/LSTM_Multivariate_Prices_climate.ipynb)
-
-### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
-The steps for preprocessing the Random Forest Ensemble (Regressor and Classifier) are available here [RFE Model Cleaning Steps](resources/RandomForestEnsemble_PreprocessingSteps.docx)
 
 ## Model
 ### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
@@ -97,6 +101,8 @@ The steps for preprocessing the Random Forest Ensemble (Regressor and Classifier
 One of the ML models used for this project was Random Forest Ensemble (RFE). Before building RFE model, we used Linear Regression with scikit-learn (LR) and Decision Tree Classifier (DTC) for a couple of reasons. LR as a good starting point, helps us understand the relationship between input and output and DTC because it is fast to build & test and can be present visually to uncover hidden trends and to tell the story. After seeing good results in those two models, we moved to RFE. 
 
 RFE combines individual models; therefore, ensemble models are stronger learners, are less bias (more flexible) and have less variance (less data-sensitive). However, when it comes to data that has a time dimension, applying machine learning methods becomes a little tricky. Random forests, like most ML methods, have no awareness of time and they take observations to be independent and identically distributed. We approached to this problem, by splitting the date into weeks, months and years and use those features in ML model as separate X-variables, since we recognized seasonality in the dataset.
+
+***The steps for preliminary feature engineering and decision making for the Random Forest Ensemble (Regressor and Classifier) are available here:*** [RFE Model Feature Engineering](resources/RandomForestEnsemble_FeatureEngeenering.docx)
 
 ### ARIMA and LSTM Machine Learning Model
 #### Overview
@@ -113,8 +119,6 @@ The LSTM model Has the ability to remove or add information to the cell state. T
 With a desire to understand if/how climate affects the average price of avocados, a multivariate LSTM model was used to analyze those affects. Further, the features were time lagged to allow the model to potentially use past states to better predict average avocado prices. The multivariate model was optimized at 3 Lags, 100 Neurons and 100 Epochs with the Sgimoid activation. For the combined data set the RMSE was 0.22. Further, 2017 through 2019 data was used to make predicitons for 2020. The RMSE for conventional avocados was 0.16. THe organic dataset resulted in a RMSE of 0.17. Figure x shows a graph of the actual values and compared to the predictions. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
 ![](images/lstm_y_yhat.png)
 Figure x.
-
-***The steps for preliminary feature engineering and decision making for the Random Forest Ensemble (Regressor and Classifier) are available here:*** [RFE Model Feature Engineering](resources/RandomForestEnsemble_FeatureEngeenering.docx)
 
 ## Presentation
 Presentation slides can be found on the following link: [Group Project Presentation Slides](https://docs.google.com/presentation/d/1wviT0-FSyJN_IjDa6qDLE4fgrHu8PXYG84fps1eJmXE/edit?usp=sharing)
