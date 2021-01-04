@@ -15,6 +15,10 @@ SELECT * FROM prod_2018;
 SELECT * FROM prod_2019;
 SELECT * FROM prod_2020;
 
+SELECT * FROM prices_tableau;
+SELECT * FROM prod_tableau;
+SELECT * FROM predictions_tableau;
+SELECT * FROM plu_tableau;
 
 -- alter year_month columns to date type
 -- climate
@@ -155,7 +159,7 @@ SELECT
 	prod.chile,
 	prod.mexico,
 	prod.peru,
-	prod.columbia
+	prod.colombia
 FROM all_prices AS price
 INNER JOIN all_prod AS prod USING (date);
 
@@ -181,7 +185,7 @@ SELECT
 	prod.chile,
 	prod.mexico,
 	prod.peru,
-	prod.columbia
+	prod.colombia
 FROM all_market AS mar
 INNER JOIN all_prod AS prod USING (date);
 
@@ -268,7 +272,7 @@ SELECT
 	prod.chile,
 	prod.mexico,
 	prod.peru,
-	prod.columbia,
+	prod.colombia,
 	clim.pcp,
 	clim.tavg,
 	clim.pdsi,
