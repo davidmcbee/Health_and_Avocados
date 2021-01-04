@@ -78,9 +78,9 @@ Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) sh
 ### Preprocessing
 #### ARIMA, LSTM Univariate and LSTM Multivariate Preprocessing Steps
 The steps for preprocessing the ARIMA, LSTM Univariate and LSTM Multivariate models is available here ['model Cleaning Steps'](resources/dm_preprocess_steps.docx). The models are available here:
-['ARIMA Model'](ARIMA_Price_Prod.ipynb)
-['LSTM Univariate'](LSTM_basic_regression_prices.ipynb)
-['LSTM Multivariate with Lags'](LSTM_Multivariate_Prices_climate.ipynb)
+['ARIMA Model'](./ML_models/ARIMA_Price_Prod.ipynb)
+['LSTM Univariate'](./ML_models/LSTM_basic_regression_prices.ipynb)
+['LSTM Multivariate with Lags'](./ML_models/LSTM_Multivariate_Prices_climate.ipynb)
 
 #### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
 The steps for preprocessing the Random Forest Ensemble (Regressor and Classifier) are available here [RFE Model Cleaning Steps](resources/RandomForestEnsemble_PreprocessingSteps.docx)
@@ -104,7 +104,7 @@ Both an ARIMA and a LSTM model are run as univariate models to predict average a
 The ARIMA RMSE score is 0.29 for the combined data set, RMSE = 0.21 for the conventional data set and RMSE = 0.21 for the organic data set.  The LSTM model results are: RMSE = 0.34 for combined and conventional and RMSE = 0.33 for organic. See figure x. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
 ![](images/arima_lstm_org.png)
 
-The LSTM model Has the ability to remove or add information to the cell state. These are called gates. at a very high level this is shown in figure 1. Its source is _Understanding LSTM Networks, Colah's blog, 08/27/2015._ !(https://colah.github.io/posts/2015-08-Understanding-LSTMs)
+The LSTM model Has the ability to remove or add information to the cell state. These are called gates. at a very high level this is shown in figure 1. Its source is _Understanding LSTM Networks, Colah's blog, 08/27/2015._ (https://colah.github.io/posts/2015-08-Understanding-LSTMs)
 ![](images/lstm_.png)
 
 #### LSTM Multivariate Machine Learning Model with Lags
