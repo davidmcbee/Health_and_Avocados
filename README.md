@@ -149,6 +149,8 @@ Our goal is to build and train the model that has high accuracy in predicting pr
 
 ***Please see detailed explanation of results here:*** [RFE Results description](resources/RandomForestEnsemble_Results.docx)
 
+Final code for this model can be found here: [Random Forest Classifier](ML_models/Random_Forest_Classifier_price_and_production_data.ipynb) and [Random Forest Regressor](ML_models/Random_Forest_Regressor_price_and_production_data.ipynb)
+
 ### Next Steps
 #### ARIMA and LSTM Univariate Model
 More work to understand seaonality could be done. I ran one ARIM model with it's seasonality feature. Compensating for seasonality makes the conventional model worse but does not change the score for organic. This is interesting given the different growing seasons. 
@@ -158,15 +160,15 @@ LSTM is very interesting. If time permitted, I would try sliding window of time 
 ### Machine Learning Model
   - Unsupervised ML for classification of our data in order to uncover the patterns/groups.
   - Multiple Linear Regression for avocado prices in selected US cities
-  - Production in California(US), Mexico, Peru, Colombia, Chile (=feature or X-variable) and avocado prices (=target or y-variable).
+    Production in California(US), Mexico, Peru, Colombia, Chile (=feature or X-variable) and avocado prices (=target or y-variable).
   - Multiple Linear Regression for production
-  - Climate data in Southern California (=features or X-variables) and production in Southern California (=target or y-variable).
+    Climate data in Southern California (=features or X-variables) and production in Southern California (=target or y-variable).
   - Random Forest Ensemble Regressor and Classifier
-  - (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
-  - (Target) y-variable: avocado price 
+    (Features) X-variables: region, date, units sold, production data, climate data.
+    (Target) y-variable: avocado price 
   - Neural Network ML model for avocado prices prediction 
-  - (Features) X-variables: region, date, units sold, harvested area, production data, climate data, import data, export data, median income.
-  - (Target) y-variable: avocado price 
+    (Features) X-variables: region, date, units sold, production data, climate data.
+    (Target) y-variable: avocado price 
   - ARIMA time series linear regression on average prices (price_prod table)
   - LSTM time series linear regression on average prices (price_prod table)
   - LSTM Multivariate and recurrent on average prices given unit prices, geography and production (price_prod table)
