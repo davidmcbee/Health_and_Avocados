@@ -1,0 +1,1766 @@
+date,conv_avg_price,conv_predictions,org_avg_price,org_predictions,city,state
+1/6/2020,0.92,0.99,1.47,1.33,Albany,New York
+1/6/2020,0.89,1.06,1.33,1.12,Atlanta,Georgia
+1/6/2020,1.13,1.12,1.36,1.37,Baltimore,Maryland
+1/6/2020,1.09,1.15,1.95,1.57,Boise,Idaho
+1/6/2020,1.18,1.11,1.7,1.27,Boston,Massachusetts
+1/6/2020,1.15,1.08,1.13,1.19,Buffalo,New York
+1/6/2020,1.04,1.14,1.5,1.59,Charlotte,North Carolina
+1/6/2020,1.13,1.12,1.36,1.37,Washington DC,Washington DC
+1/6/2020,1.15,1.08,1.13,1.19,Rochester,New York
+1/12/2020,0.97,1.03,1.48,1.56,Albany,New York
+1/12/2020,0.88,0.99,1.23,1.42,Atlanta,Georgia
+1/12/2020,1.26,1.12,1.24,1.35,Baltimore,Maryland
+1/12/2020,1.02,1.1,1.62,1.63,Boise,Idaho
+1/12/2020,1.27,1.24,1.61,1.83,Boston,Massachusetts
+1/12/2020,1,1.14,1.13,1.36,Buffalo,New York
+1/12/2020,1.11,1.06,1.66,1.62,Charlotte,North Carolina
+1/12/2020,1.36,1.24,1.54,1.67,Chicago,Illinois
+1/12/2020,1.26,1.12,1.24,1.35,Washington DC,Washington DC
+1/12/2020,1,1.14,1.13,1.36,Rochester,New York
+1/19/2020,1.03,1.13,1.51,1.47,Albany,New York
+1/19/2020,0.88,0.88,1.17,1.4,Atlanta,Georgia
+1/19/2020,1.23,1.18,1.12,1.33,Baltimore,Maryland
+1/19/2020,0.92,1.04,1.48,1.65,Boise,Idaho
+1/19/2020,1.23,1.23,1.75,1.71,Boston,Massachusetts
+1/19/2020,1.01,1.1,1.24,1.23,Buffalo,New York
+1/19/2020,0.95,1.09,1.6,1.66,Charlotte,North Carolina
+1/19/2020,1.23,1.18,1.12,1.33,Washington DC,Washington DC
+1/19/2020,1.01,1.1,1.24,1.23,Rochester,New York
+1/26/2020,1.11,1.21,1.55,1.53,Albany,New York
+1/26/2020,0.93,0.89,1.3,1.5,Atlanta,Georgia
+1/26/2020,1.2,1.26,1.18,1.33,Baltimore,Maryland
+1/26/2020,1.05,1.15,1.62,1.97,Boise,Idaho
+1/26/2020,1.2,1.25,1.7,1.85,Boston,Massachusetts
+1/26/2020,0.97,1.14,1.31,1.02,Buffalo,New York
+1/26/2020,1.11,1.14,1.68,1.78,Charlotte,North Carolina
+1/26/2020,1.2,1.26,1.18,1.33,Washington DC,Washington DC
+1/26/2020,0.97,1.14,1.31,1.02,Rochester,New York
+2/2/2020,0.95,1.24,1.58,1.52,Albany,New York
+2/2/2020,0.88,0.93,1.5,1.56,Atlanta,Georgia
+2/2/2020,1.13,1.27,1.1,1.43,Baltimore,Maryland
+2/2/2020,0.92,1.11,1.43,1.86,Boise,Idaho
+2/2/2020,1.19,1.3,1.73,1.81,Boston,Massachusetts
+2/2/2020,0.97,1.18,1.19,1.15,Buffalo,New York
+2/2/2020,0.82,1.15,1.53,1.71,Charlotte,North Carolina
+2/2/2020,0.73,1.38,1.02,1.69,Chicago,Illinois
+2/2/2020,0.75,0.99,1.2,1.54,Cincinnati,Ohio
+2/2/2020,0.66,0.97,0.91,1.38,Columbus,Ohio
+2/2/2020,0.62,0.71,1.23,1.39,Dallas,Texas
+2/2/2020,0.93,0.99,1.3,1.66,Denver,Colorado
+2/2/2020,0.68,0.88,0.79,1.31,Detroit,Michigan
+2/2/2020,0.78,1.35,1.05,1.38,Grand Rapids,Michigan
+2/2/2020,1.01,1.04,1.01,1.15,Harrisburg,Pennsylvania
+2/2/2020,1.22,1.36,1.9,1.98,Hartford,Connecticut
+2/2/2020,0.63,0.72,1.46,1.56,Houston,Texas
+2/2/2020,0.69,0.88,0.95,1.19,Indianapolis,Indiana
+2/2/2020,0.88,1.08,1.21,1.34,Jacksonville,Florida
+2/2/2020,0.94,0.94,1.5,1.66,Las Vegas,Nevada
+2/2/2020,0.79,0.99,1.63,1.66,Los Angeles,California
+2/2/2020,0.83,0.97,1.2,1.49,Louisville,Kentucky
+2/2/2020,0.9,1.11,1.15,1.35,Miami,Florida
+2/2/2020,0.78,0.89,1.52,1.52,Nashville,Tennessee
+2/2/2020,0.6,0.94,1.18,1.31,New Orleans,Louisiana
+2/2/2020,1.27,1.24,1.56,1.77,New York,New York
+2/2/2020,0.88,1.09,1.12,1.37,Orlando,Florida
+2/2/2020,1.14,1.26,1.34,1.49,Philadelphia,Pennsylvania
+2/2/2020,0.74,0.66,1.47,1.61,Phoenix,Arizona
+2/2/2020,0.96,1.11,1.1,1.35,Pittsburgh,Pennsylvania
+2/2/2020,0.87,1.03,1.43,1.85,Portland,Oregon
+2/2/2020,0.77,1.12,1.88,2.1,Raleigh,North Carolina
+2/2/2020,0.74,1.01,1.61,1.45,Richmond,Virginia
+2/2/2020,0.75,0.92,1.28,1.3,Roanoke,Virginia
+2/2/2020,0.98,1.25,1.7,1.74,Sacramento,California
+2/2/2020,0.77,1.04,1.81,1.74,San Diego,California
+2/2/2020,0.99,1.35,1.85,2.1,San Francisco,California
+2/2/2020,1.12,1.34,1.37,2,Seattle,Washington
+2/2/2020,0.98,1.09,1.56,1.91,Spokane,Washington
+2/2/2020,0.86,1.17,2.11,1.57,St Louis,Missouri
+2/2/2020,0.95,1.2,1.3,1.38,Syracuse,New York
+2/2/2020,0.88,1.11,1.15,1.22,Tampa,Florida
+2/2/2020,1.13,1.27,1.1,1.43,Washington DC,Washington DC
+2/2/2020,0.97,1.18,1.19,1.15,Rochester,New York
+2/2/2020,0.75,0.99,1.2,1.54,Dayton,Ohio
+2/2/2020,0.62,0.71,1.23,1.39,Ft Worth,Texas
+2/2/2020,1.01,1.04,1.01,1.15,Scranton,Pennsylvania
+2/2/2020,1.22,1.36,1.9,1.98,Springfield,Massachusetts
+2/2/2020,0.9,1.11,1.15,1.35,Ft Lauderdale,Florida
+2/2/2020,0.6,0.94,1.18,1.31,Mobile,Alabama
+2/2/2020,0.74,0.66,1.47,1.61,Tucson,Arizona
+2/2/2020,0.77,1.12,1.88,2.1,Greensboro,North Carolina
+2/2/2020,0.74,1.01,1.61,1.45,Norfolk,Virginia
+2/2/2020,0.74,0.66,1.47,1.61,Tucson,Arizona
+2/9/2020,1.14,1.1,1.48,1.4,Albany,New York
+2/9/2020,0.95,1.09,1.34,1.36,Atlanta,Georgia
+2/9/2020,1.08,1.23,1.26,1.61,Baltimore,Maryland
+2/9/2020,0.97,1.26,1.47,1.83,Boise,Idaho
+2/9/2020,1.24,1.23,1.71,1.61,Boston,Massachusetts
+2/9/2020,1.01,1.13,1.27,1.36,Buffalo,New York
+2/9/2020,1.03,1.21,1.62,1.78,Charlotte,North Carolina
+2/9/2020,0.98,1.13,1.15,1.5,Chicago,Illinois
+2/9/2020,0.8,0.97,1.15,1.39,Cincinnati,Ohio
+2/9/2020,0.75,0.82,0.92,1.4,Columbus,Ohio
+2/9/2020,0.68,0.87,1.23,1.54,Dallas,Texas
+2/9/2020,0.94,1.04,1.42,1.45,Denver,Colorado
+2/9/2020,0.88,1.19,1.1,1.37,Detroit,Michigan
+2/9/2020,1.35,1.19,1.21,1.34,Grand Rapids,Michigan
+2/9/2020,0.96,1.22,1.06,1.65,Harrisburg,Pennsylvania
+2/9/2020,1.42,1.06,2.08,1.77,Hartford,Connecticut
+2/9/2020,0.62,0.81,1.43,1.36,Houston,Texas
+2/9/2020,0.76,1.01,1.23,1.28,Indianapolis,Indiana
+2/9/2020,1.01,1.02,1.21,1.53,Jacksonville,Florida
+2/9/2020,0.88,1.09,1.51,1.63,Las Vegas,Nevada
+2/9/2020,1.04,1.02,1.57,1.38,Los Angeles,California
+2/9/2020,0.93,1.04,1.11,1.34,Louisville,Kentucky
+2/9/2020,1.04,1.03,1.15,1.34,Miami,Florida
+2/9/2020,0.86,0.92,1.45,1.38,Nashville,Tennessee
+2/9/2020,0.86,1.12,1.09,1.54,New Orleans,Louisiana
+2/9/2020,1.3,1.3,1.67,1.74,New York,New York
+2/9/2020,0.98,1.16,1.1,1.46,Orlando,Florida
+2/9/2020,1.03,0.98,1.42,1.56,Philadelphia,Pennsylvania
+2/9/2020,0.76,0.93,1.41,1.44,Phoenix,Arizona
+2/9/2020,1.25,1.16,1.14,1.67,Pittsburgh,Pennsylvania
+2/9/2020,1.06,1.12,1.61,1.92,Portland,Oregon
+2/9/2020,1.01,1.04,1.88,1.75,Raleigh,North Carolina
+2/9/2020,0.89,0.97,1.5,1.25,Richmond,Virginia
+2/9/2020,0.87,1.04,1.22,1.6,Roanoke,Virginia
+2/9/2020,1.32,1.23,1.73,1.79,Sacramento,California
+2/9/2020,1.03,1.07,1.65,1.92,San Diego,California
+2/9/2020,1.33,1.36,1.96,1.8,San Francisco,California
+2/9/2020,1.31,1.24,1.37,1.61,Seattle,Washington
+2/9/2020,1.12,1.23,1.5,1.86,Spokane,Washington
+2/9/2020,1.04,1.15,1.82,1.56,St Louis,Missouri
+2/9/2020,1.07,1.1,1.47,1.26,Syracuse,New York
+2/9/2020,0.97,0.98,1.13,1.41,Tampa,Florida
+2/9/2020,1.08,1.23,1.26,1.61,Washington DC,Washington DC
+2/9/2020,1.01,1.13,1.27,1.36,Rochester,New York
+2/9/2020,0.8,0.97,1.15,1.39,Dayton,Ohio
+2/9/2020,0.68,0.87,1.23,1.54,Ft Worth,Texas
+2/9/2020,0.96,1.22,1.06,1.65,Scranton,Pennsylvania
+2/9/2020,1.42,1.06,2.08,1.77,Springfield,Massachusetts
+2/9/2020,1.04,1.03,1.15,1.34,Ft Lauderdale,Florida
+2/9/2020,0.86,1.12,1.09,1.54,Mobile,Alabama
+2/9/2020,0.76,0.93,1.41,1.44,Tucson,Arizona
+2/9/2020,1.01,1.04,1.88,1.75,Greensboro,North Carolina
+2/9/2020,0.89,0.97,1.5,1.25,Norfolk,Virginia
+2/9/2020,0.76,0.93,1.41,1.44,Tucson,Arizona
+2/16/2020,1.17,1.01,1.5,1.61,Albany,New York
+2/16/2020,0.92,0.98,1.1,1.66,Atlanta,Georgia
+2/16/2020,1.32,1.1,1.2,1.4,Baltimore,Maryland
+2/16/2020,1.09,1.11,1.64,1.64,Boise,Idaho
+2/16/2020,1.35,1.22,1.77,1.85,Boston,Massachusetts
+2/16/2020,1.17,1.13,1.44,1.38,Buffalo,New York
+2/16/2020,1.09,1.05,1.59,1.56,Charlotte,North Carolina
+2/16/2020,1.2,1.06,1.48,1.56,Chicago,Illinois
+2/16/2020,1.01,0.95,1.21,1.55,Cincinnati,Ohio
+2/16/2020,0.98,0.84,1.02,1.39,Columbus,Ohio
+2/16/2020,0.73,0.73,1.25,1.4,Dallas,Texas
+2/16/2020,1.13,0.85,1.66,1.47,Denver,Colorado
+2/16/2020,1.06,0.84,1.09,1.32,Detroit,Michigan
+2/16/2020,1.42,1.11,1.22,1.3,Grand Rapids,Michigan
+2/16/2020,1.03,1,1.04,1.25,Harrisburg,Pennsylvania
+2/16/2020,1.43,1.29,2.07,1.81,Hartford,Connecticut
+2/16/2020,0.7,0.9,1.46,1.72,Houston,Texas
+2/16/2020,0.98,0.75,1.12,1.32,Indianapolis,Indiana
+2/16/2020,1,0.99,1.21,1.36,Jacksonville,Florida
+2/16/2020,0.96,1.01,1.52,1.61,Las Vegas,Nevada
+2/16/2020,1.14,0.96,1.58,1.74,Los Angeles,California
+2/16/2020,0.97,0.93,0.95,1.51,Louisville,Kentucky
+2/16/2020,1.01,1,1.16,1.39,Miami,Florida
+2/16/2020,0.85,0.94,1.16,1.58,Nashville,Tennessee
+2/16/2020,0.85,0.81,1.17,1.35,New Orleans,Louisiana
+2/16/2020,1.42,1.18,1.69,1.66,New York,New York
+2/16/2020,0.99,1.04,1.13,1.37,Orlando,Florida
+2/16/2020,1.22,1.19,1.46,1.44,Philadelphia,Pennsylvania
+2/16/2020,0.7,0.87,1.45,1.63,Phoenix,Arizona
+2/16/2020,1.25,0.92,1.14,1.37,Pittsburgh,Pennsylvania
+2/16/2020,1.21,1.01,1.81,1.64,Portland,Oregon
+2/16/2020,1.07,1.02,1.83,2.1,Raleigh,North Carolina
+2/16/2020,0.91,0.97,1.44,1.75,Richmond,Virginia
+2/16/2020,0.92,0.87,1.07,1.41,Roanoke,Virginia
+2/16/2020,1.13,1.07,1.79,1.68,Sacramento,California
+2/16/2020,1.17,1.01,1.61,1.86,San Diego,California
+2/16/2020,1.01,1.1,2.07,1.97,San Francisco,California
+2/16/2020,1.44,1.23,1.49,1.85,Seattle,Washington
+2/16/2020,1.23,0.92,1.82,1.69,Spokane,Washington
+2/16/2020,1.22,1.06,1.79,2.07,St Louis,Missouri
+2/16/2020,1.17,1.11,1.45,1.52,Syracuse,New York
+2/16/2020,0.91,1.09,1.15,1.26,Tampa,Florida
+2/16/2020,1.32,1.1,1.2,1.4,Washington DC,Washington DC
+2/16/2020,1.17,1.13,1.44,1.38,Rochester,New York
+2/16/2020,1.01,0.95,1.21,1.55,Dayton,Ohio
+2/16/2020,0.73,0.73,1.25,1.4,Ft Worth,Texas
+2/16/2020,1.03,1,1.04,1.25,Scranton,Pennsylvania
+2/16/2020,1.43,1.29,2.07,1.81,Springfield,Massachusetts
+2/16/2020,1.01,1,1.16,1.39,Ft Lauderdale,Florida
+2/16/2020,0.85,0.81,1.17,1.35,Mobile,Alabama
+2/16/2020,0.7,0.87,1.45,1.63,Tucson,Arizona
+2/16/2020,1.07,1.02,1.83,2.1,Greensboro,North Carolina
+2/16/2020,0.91,0.97,1.44,1.75,Norfolk,Virginia
+2/16/2020,0.7,0.87,1.45,1.63,Tucson,Arizona
+2/23/2020,1.27,1.32,1.5,1.41,Albany,New York
+2/23/2020,0.92,0.82,1.3,1.38,Atlanta,Georgia
+2/23/2020,1.31,1.23,1.28,1.21,Baltimore,Maryland
+2/23/2020,1,1.06,1.66,1.55,Boise,Idaho
+2/23/2020,1.31,1.31,1.65,1.65,Boston,Massachusetts
+2/23/2020,1.14,1.09,1.1,1,Buffalo,New York
+2/23/2020,1.1,1.1,1.51,1.66,Charlotte,North Carolina
+2/23/2020,1.33,1.3,1.48,1.4,Chicago,Illinois
+2/23/2020,1.03,0.78,1.06,1.36,Cincinnati,Ohio
+2/23/2020,0.95,0.9,1.02,1.06,Columbus,Ohio
+2/23/2020,0.74,0.61,1.26,1.19,Dallas,Texas
+2/23/2020,1.1,0.96,1.57,1.45,Denver,Colorado
+2/23/2020,0.86,0.78,0.85,1.17,Detroit,Michigan
+2/23/2020,1.41,1.49,1.2,1.07,Grand Rapids,Michigan
+2/23/2020,1.11,0.98,1,1.03,Harrisburg,Pennsylvania
+2/23/2020,1.42,1.59,2.11,2.09,Hartford,Connecticut
+2/23/2020,0.7,0.55,1.37,1.37,Houston,Texas
+2/23/2020,0.86,0.82,0.84,1.2,Indianapolis,Indiana
+2/23/2020,1.02,1.08,1.2,1.21,Jacksonville,Florida
+2/23/2020,0.85,0.95,1.56,1.51,Las Vegas,Nevada
+2/23/2020,0.98,1.07,1.55,1.61,Los Angeles,California
+2/23/2020,0.91,0.96,1.13,1.3,Louisville,Kentucky
+2/23/2020,1.05,1.15,1.16,1.11,Miami,Florida
+2/23/2020,0.84,0.84,1.43,1.36,Nashville,Tennessee
+2/23/2020,0.94,0.86,1.2,1.09,New Orleans,Louisiana
+2/23/2020,1.29,1.28,1.73,1.76,New York,New York
+2/23/2020,1.01,1,1.13,1.1,Orlando,Florida
+2/23/2020,1.18,1.32,1.46,1.38,Philadelphia,Pennsylvania
+2/23/2020,0.67,0.58,1.47,1.47,Phoenix,Arizona
+2/23/2020,1.26,1.09,1.22,1.16,Pittsburgh,Pennsylvania
+2/23/2020,1.02,1.03,1.66,1.66,Portland,Oregon
+2/23/2020,1.08,1.11,1.85,2.11,Raleigh,North Carolina
+2/23/2020,0.89,0.97,1.31,1.28,Richmond,Virginia
+2/23/2020,0.91,0.87,1.13,1.2,Roanoke,Virginia
+2/23/2020,1.31,1.37,1.74,1.62,Sacramento,California
+2/23/2020,0.94,0.99,1.62,1.67,San Diego,California
+2/23/2020,1.49,1.36,2.03,1.87,San Francisco,California
+2/23/2020,1.31,1.34,1.55,1.59,Seattle,Washington
+2/23/2020,1.14,1.08,1.81,1.7,Spokane,Washington
+2/23/2020,1.25,1.06,1.24,1.75,St Louis,Missouri
+2/23/2020,1.21,1.2,1.21,1.21,Syracuse,New York
+2/23/2020,0.97,1.16,1.14,1.05,Tampa,Florida
+2/23/2020,1.31,1.23,1.28,1.21,Washington DC,Washington DC
+2/23/2020,1.14,1.09,1.1,1,Rochester,New York
+2/23/2020,1.03,0.78,1.06,1.36,Dayton,Ohio
+2/23/2020,0.74,0.61,1.26,1.19,Ft Worth,Texas
+2/23/2020,1.11,0.98,1,1.03,Scranton,Pennsylvania
+2/23/2020,1.42,1.59,2.11,2.09,Springfield,Massachusetts
+2/23/2020,1.05,1.15,1.16,1.11,Ft Lauderdale,Florida
+2/23/2020,0.94,0.86,1.2,1.09,Mobile,Alabama
+2/23/2020,0.67,0.58,1.47,1.47,Tucson,Arizona
+2/23/2020,1.08,1.11,1.85,2.11,Greensboro,North Carolina
+2/23/2020,0.89,0.97,1.31,1.28,Norfolk,Virginia
+2/23/2020,0.67,0.58,1.47,1.47,Tucson,Arizona
+3/1/2020,1.24,1.01,1.38,1.6,Albany,New York
+3/1/2020,1.04,1.15,1.44,1.54,Atlanta,Georgia
+3/1/2020,1.26,1.16,1.42,1.48,Baltimore,Maryland
+3/1/2020,1.12,1.32,1.77,1.71,Boise,Idaho
+3/1/2020,1.4,1.29,1.71,1.83,Boston,Massachusetts
+3/1/2020,1.22,1.25,1.33,1.53,Buffalo,New York
+3/1/2020,0.97,1.17,1.45,1.33,Charlotte,North Carolina
+3/1/2020,1.38,1.29,1.55,1.92,Chicago,Illinois
+3/1/2020,0.92,1.23,1.02,1.6,Cincinnati,Ohio
+3/1/2020,0.87,0.99,0.96,1.51,Columbus,Ohio
+3/1/2020,0.8,0.86,1.29,1.45,Dallas,Texas
+3/1/2020,0.97,0.9,1.53,1.47,Denver,Colorado
+3/1/2020,1,1.11,1.5,1.49,Detroit,Michigan
+3/1/2020,1.72,1.2,1.03,1.22,Grand Rapids,Michigan
+3/1/2020,1.18,1.08,1.2,1.43,Harrisburg,Pennsylvania
+3/1/2020,1.48,1.26,1.9,1.69,Hartford,Connecticut
+3/1/2020,0.7,1.09,1.54,1.8,Houston,Texas
+3/1/2020,0.95,0.9,0.9,1.48,Indianapolis,Indiana
+3/1/2020,1.21,1.02,1.15,1.27,Jacksonville,Florida
+3/1/2020,1.12,1.04,1.65,1.56,Las Vegas,Nevada
+3/1/2020,1.19,1.06,1.69,1.8,Los Angeles,California
+3/1/2020,1.06,1.04,1.07,1.45,Louisville,Kentucky
+3/1/2020,1.21,1.04,1.11,1.36,Miami,Florida
+3/1/2020,0.92,1.06,1.21,1.48,Nashville,Tennessee
+3/1/2020,0.93,0.97,1.21,1.45,New Orleans,Louisiana
+3/1/2020,1.53,1.17,1.69,1.63,New York,New York
+3/1/2020,1.17,1.16,1.11,1.37,Orlando,Florida
+3/1/2020,1.36,1.16,1.63,1.57,Philadelphia,Pennsylvania
+3/1/2020,0.86,1.03,1.55,1.61,Phoenix,Arizona
+3/1/2020,1.29,0.98,1.18,1.46,Pittsburgh,Pennsylvania
+3/1/2020,1.11,1.16,1.89,1.74,Portland,Oregon
+3/1/2020,0.97,1.1,1.87,1.99,Raleigh,North Carolina
+3/1/2020,0.93,1.03,1.49,1.7,Richmond,Virginia
+3/1/2020,0.97,0.97,1.15,1.29,Roanoke,Virginia
+3/1/2020,1.43,1.18,1.79,1.6,Sacramento,California
+3/1/2020,1.17,1.2,1.82,2.04,San Diego,California
+3/1/2020,1.49,1.29,2.03,1.87,San Francisco,California
+3/1/2020,1.43,1.44,1.98,1.92,Seattle,Washington
+3/1/2020,1.19,1.06,1.82,1.74,Spokane,Washington
+3/1/2020,1.17,1.22,1.98,1.91,St Louis,Missouri
+3/1/2020,1.23,1.19,1.46,1.54,Syracuse,New York
+3/1/2020,1.08,1.16,1.09,1.25,Tampa,Florida
+3/1/2020,1.26,1.16,1.42,1.48,Washington DC,Washington DC
+3/1/2020,1.22,1.25,1.33,1.53,Rochester,New York
+3/1/2020,0.92,1.23,1.02,1.6,Dayton,Ohio
+3/1/2020,0.8,0.86,1.29,1.45,Ft Worth,Texas
+3/1/2020,1.18,1.08,1.2,1.43,Scranton,Pennsylvania
+3/1/2020,1.48,1.26,1.9,1.69,Springfield,Massachusetts
+3/1/2020,1.21,1.04,1.11,1.36,Ft Lauderdale,Florida
+3/1/2020,0.93,0.97,1.21,1.45,Mobile,Alabama
+3/1/2020,0.86,1.03,1.55,1.61,Tucson,Arizona
+3/1/2020,0.97,1.1,1.87,1.99,Greensboro,North Carolina
+3/1/2020,0.93,1.03,1.49,1.7,Norfolk,Virginia
+3/1/2020,0.86,1.03,1.55,1.61,Tucson,Arizona
+3/8/2020,1.03,1.12,1.59,1.56,Albany,New York
+3/8/2020,1.06,1.09,1.4,1.5,Atlanta,Georgia
+3/8/2020,1.42,1.19,1.39,1.73,Baltimore,Maryland
+3/8/2020,1.12,1.24,1.71,1.82,Boise,Idaho
+3/8/2020,1.35,1.21,1.84,1.55,Boston,Massachusetts
+3/8/2020,1.2,1.1,1.33,1.43,Buffalo,New York
+3/8/2020,1.18,1.23,1.55,1.75,Charlotte,North Carolina
+3/8/2020,1.33,1.04,1.7,1.44,Chicago,Illinois
+3/8/2020,0.99,0.87,1.43,1.39,Cincinnati,Ohio
+3/8/2020,0.92,0.81,1.19,1.44,Columbus,Ohio
+3/8/2020,0.88,0.85,1.3,1.53,Dallas,Texas
+3/8/2020,1,1,1.45,1.64,Denver,Colorado
+3/8/2020,1.05,1.26,1.57,1.34,Detroit,Michigan
+3/8/2020,1.24,1.14,0.9,1.36,Grand Rapids,Michigan
+3/8/2020,1.1,1.24,1.32,1.69,Harrisburg,Pennsylvania
+3/8/2020,1.46,1.03,2.06,1.79,Hartford,Connecticut
+3/8/2020,0.8,0.81,1.61,1.29,Houston,Texas
+3/8/2020,1.08,1.06,1.33,1.34,Indianapolis,Indiana
+3/8/2020,1.26,1.06,1.11,1.66,Jacksonville,Florida
+3/8/2020,1.1,1.04,1.65,1.68,Las Vegas,Nevada
+3/8/2020,1.27,1.03,1.94,1.44,Los Angeles,California
+3/8/2020,0.98,1.08,1.06,1.37,Louisville,Kentucky
+3/8/2020,1.26,1.03,1.18,1.4,Miami,Florida
+3/8/2020,0.96,0.92,1.19,1.42,Nashville,Tennessee
+3/8/2020,1,1.17,1.19,1.7,New Orleans,Louisiana
+3/8/2020,1.54,1.3,1.87,1.71,New York,New York
+3/8/2020,1.05,1.19,1.14,1.6,Orlando,Florida
+3/8/2020,1.32,1.01,1.69,1.66,Philadelphia,Pennsylvania
+3/8/2020,0.89,0.95,1.6,1.45,Phoenix,Arizona
+3/8/2020,1.03,1.07,1.1,1.72,Pittsburgh,Pennsylvania
+3/8/2020,1.35,1.06,2.08,2,Portland,Oregon
+3/8/2020,1.14,1.04,2.05,1.76,Raleigh,North Carolina
+3/8/2020,0.98,0.98,1.36,1.33,Richmond,Virginia
+3/8/2020,0.96,1.14,1.05,1.65,Roanoke,Virginia
+3/8/2020,1.35,1.16,1.77,1.87,Sacramento,California
+3/8/2020,1.35,1.22,2.12,1.91,San Diego,California
+3/8/2020,1.27,1.3,2.08,2.01,San Francisco,California
+3/8/2020,1.74,1.18,1.95,1.7,Seattle,Washington
+3/8/2020,1.45,1.16,1.61,1.96,Spokane,Washington
+3/8/2020,1.18,1.16,1.89,1.57,St Louis,Missouri
+3/8/2020,1.15,1.13,1.46,1.27,Syracuse,New York
+3/8/2020,1.13,0.99,1.12,1.54,Tampa,Florida
+3/8/2020,1.42,1.19,1.39,1.73,Washington DC,Washington DC
+3/8/2020,1.2,1.1,1.33,1.43,Rochester,New York
+3/8/2020,0.99,0.87,1.43,1.39,Dayton,Ohio
+3/8/2020,0.88,0.85,1.3,1.53,Ft Worth,Texas
+3/8/2020,1.1,1.24,1.32,1.69,Scranton,Pennsylvania
+3/8/2020,1.46,1.03,2.06,1.79,Springfield,Massachusetts
+3/8/2020,1.26,1.03,1.18,1.4,Ft Lauderdale,Florida
+3/8/2020,1,1.17,1.19,1.7,Mobile,Alabama
+3/8/2020,0.89,0.95,1.6,1.45,Tucson,Arizona
+3/8/2020,1.14,1.04,2.05,1.76,Greensboro,North Carolina
+3/8/2020,0.98,0.98,1.36,1.33,Norfolk,Virginia
+3/8/2020,0.89,0.95,1.6,1.45,Tucson,Arizona
+3/15/2020,1.22,1.11,1.54,1.55,Albany,New York
+3/15/2020,1.04,1.04,1.49,1.52,Atlanta,Georgia
+3/15/2020,1.46,1.19,1.46,1.51,Baltimore,Maryland
+3/15/2020,1.38,1.19,1.94,1.76,Boise,Idaho
+3/15/2020,1.49,1.32,1.86,1.88,Boston,Massachusetts
+3/15/2020,1.2,1.22,1.34,1.47,Buffalo,New York
+3/15/2020,1.17,1.18,1.46,1.53,Charlotte,North Carolina
+3/15/2020,1.51,1.33,1.99,1.79,Chicago,Illinois
+3/15/2020,1.33,1.1,1.48,1.43,Cincinnati,Ohio
+3/15/2020,1.21,0.99,1.31,1.34,Columbus,Ohio
+3/15/2020,0.9,0.82,1.37,1.4,Dallas,Texas
+3/15/2020,1.13,0.93,1.52,1.5,Denver,Colorado
+3/15/2020,1.29,1,1.33,1.41,Detroit,Michigan
+3/15/2020,1.58,1.34,0.9,1.26,Grand Rapids,Michigan
+3/15/2020,1.11,1.05,1.38,1.43,Harrisburg,Pennsylvania
+3/15/2020,1.49,1.38,2.13,1.85,Hartford,Connecticut
+3/15/2020,0.82,0.97,1.63,1.7,Houston,Texas
+3/15/2020,1.19,0.87,1.4,1.31,Indianapolis,Indiana
+3/15/2020,1.08,1.06,1.17,1.21,Jacksonville,Florida
+3/15/2020,0.98,1.02,1.59,1.55,Las Vegas,Nevada
+3/15/2020,1.24,1.06,2.1,1.77,Los Angeles,California
+3/15/2020,1.04,1.04,1.13,1.33,Louisville,Kentucky
+3/15/2020,1.09,1.07,1.21,1.34,Miami,Florida
+3/15/2020,0.96,0.99,1.51,1.47,Nashville,Tennessee
+3/15/2020,1,0.93,1.33,1.37,New Orleans,Louisiana
+3/15/2020,1.52,1.24,1.92,1.73,New York,New York
+3/15/2020,1.06,1.11,1.16,1.35,Orlando,Florida
+3/15/2020,1.22,1.26,1.76,1.57,Philadelphia,Pennsylvania
+3/15/2020,0.87,0.88,1.6,1.6,Phoenix,Arizona
+3/15/2020,1.35,1.04,1.23,1.36,Pittsburgh,Pennsylvania
+3/15/2020,1.36,1.13,2.05,1.82,Portland,Oregon
+3/15/2020,1.11,1.14,2.07,2.03,Raleigh,North Carolina
+3/15/2020,0.89,1.05,1.4,1.7,Richmond,Virginia
+3/15/2020,0.92,0.97,1.14,1.3,Roanoke,Virginia
+3/15/2020,1.5,1.21,1.75,1.64,Sacramento,California
+3/15/2020,1.19,1.18,2.34,1.84,San Diego,California
+3/15/2020,1.63,1.31,1.98,1.93,San Francisco,California
+3/15/2020,1.76,1.4,1.93,1.96,Seattle,Washington
+3/15/2020,1.49,1.05,2.08,1.75,Spokane,Washington
+3/15/2020,1.26,1.16,2.06,1.91,St Louis,Missouri
+3/15/2020,1.23,1.2,1.47,1.59,Syracuse,New York
+3/15/2020,1.04,1.16,1.16,1.22,Tampa,Florida
+3/15/2020,1.46,1.19,1.46,1.51,Washington DC,Washington DC
+3/15/2020,1.2,1.22,1.34,1.47,Rochester,New York
+3/15/2020,1.33,1.1,1.48,1.43,Dayton,Ohio
+3/15/2020,0.9,0.82,1.37,1.4,Ft Worth,Texas
+3/15/2020,1.11,1.05,1.38,1.43,Scranton,Pennsylvania
+3/15/2020,1.49,1.38,2.13,1.85,Springfield,Massachusetts
+3/15/2020,1.09,1.07,1.21,1.34,Ft Lauderdale,Florida
+3/15/2020,1,0.93,1.33,1.37,Mobile,Alabama
+3/15/2020,0.87,0.88,1.6,1.6,Tucson,Arizona
+3/15/2020,1.11,1.14,2.07,2.03,Greensboro,North Carolina
+3/15/2020,0.89,1.05,1.4,1.7,Norfolk,Virginia
+3/15/2020,0.87,0.88,1.6,1.6,Tucson,Arizona
+3/22/2020,1.29,1.13,1.51,1.47,Albany,New York
+3/22/2020,1.02,0.91,1.44,1.56,Atlanta,Georgia
+3/22/2020,1.41,1.22,1.46,1.44,Baltimore,Maryland
+3/22/2020,1.17,1.16,1.88,1.81,Boise,Idaho
+3/22/2020,1.52,1.29,1.93,1.79,Boston,Massachusetts
+3/22/2020,1.23,1.15,1.37,1.32,Buffalo,New York
+3/22/2020,1.24,1.15,1.5,1.67,Charlotte,North Carolina
+3/22/2020,1.49,1.32,1.79,1.78,Chicago,Illinois
+3/22/2020,1.12,0.79,1.2,1.55,Cincinnati,Ohio
+3/22/2020,1.07,0.88,1.14,1.36,Columbus,Ohio
+3/22/2020,0.89,0.71,1.39,1.31,Dallas,Texas
+3/22/2020,1.18,0.96,1.5,1.37,Denver,Colorado
+3/22/2020,1.13,0.82,1.21,1.44,Detroit,Michigan
+3/22/2020,1.55,1.21,0.97,1.33,Grand Rapids,Michigan
+3/22/2020,1.13,1.01,1.43,1.23,Harrisburg,Pennsylvania
+3/22/2020,1.5,1.33,2.04,1.86,Hartford,Connecticut
+3/22/2020,0.86,0.7,1.63,1.41,Houston,Texas
+3/22/2020,1.06,0.83,1.13,1.39,Indianapolis,Indiana
+3/22/2020,1.11,1.09,1.04,1.32,Jacksonville,Florida
+3/22/2020,1.03,0.92,1.54,1.5,Las Vegas,Nevada
+3/22/2020,1.3,1.05,1.98,1.65,Los Angeles,California
+3/22/2020,1.09,0.86,1.02,1.39,Louisville,Kentucky
+3/22/2020,1.11,1.12,1.14,1.32,Miami,Florida
+3/22/2020,0.97,0.85,1.47,1.54,Nashville,Tennessee
+3/22/2020,0.97,0.9,1.29,1.37,New Orleans,Louisiana
+3/22/2020,1.57,1.28,1.91,1.72,New York,New York
+3/22/2020,1.08,1.09,1.11,1.32,Orlando,Florida
+3/22/2020,1.36,1.25,1.71,1.56,Philadelphia,Pennsylvania
+3/22/2020,0.83,0.67,1.53,1.53,Phoenix,Arizona
+3/22/2020,1.35,1,1.2,1.33,Pittsburgh,Pennsylvania
+3/22/2020,1.24,1.06,2.06,1.83,Portland,Oregon
+3/22/2020,1.17,1.08,1.92,1.85,Raleigh,North Carolina
+3/22/2020,0.99,0.97,1.72,1.42,Richmond,Virginia
+3/22/2020,1.02,0.88,1.27,1.33,Roanoke,Virginia
+3/22/2020,1.51,1.23,1.69,1.72,Sacramento,California
+3/22/2020,1.32,1.11,1.99,1.85,San Diego,California
+3/22/2020,1.67,1.29,1.91,1.96,San Francisco,California
+3/22/2020,1.67,1.37,1.96,1.99,Seattle,Washington
+3/22/2020,1.39,1.12,1.97,1.83,Spokane,Washington
+3/22/2020,1.17,1.1,2.15,1.89,St Louis,Missouri
+3/22/2020,1.3,1.15,1.55,1.48,Syracuse,New York
+3/22/2020,1.07,1.12,1.07,1.23,Tampa,Florida
+3/22/2020,1.41,1.22,1.46,1.44,Washington DC,Washington DC
+3/22/2020,1.23,1.15,1.37,1.32,Rochester,New York
+3/22/2020,1.12,0.79,1.2,1.55,Dayton,Ohio
+3/22/2020,0.89,0.71,1.39,1.31,Ft Worth,Texas
+3/22/2020,1.13,1.01,1.43,1.23,Scranton,Pennsylvania
+3/22/2020,1.5,1.33,2.04,1.86,Springfield,Massachusetts
+3/22/2020,1.11,1.12,1.14,1.32,Ft Lauderdale,Florida
+3/22/2020,0.97,0.9,1.29,1.37,Mobile,Alabama
+3/22/2020,0.83,0.67,1.53,1.53,Tucson,Arizona
+3/22/2020,1.17,1.08,1.92,1.85,Greensboro,North Carolina
+3/22/2020,0.99,0.97,1.72,1.42,Norfolk,Virginia
+3/22/2020,0.83,0.67,1.53,1.53,Tucson,Arizona
+3/29/2020,1.08,1.31,1.49,1.59,Albany,New York
+3/29/2020,1.08,0.89,1.6,1.48,Atlanta,Georgia
+3/29/2020,1.4,1.36,1.39,1.39,Baltimore,Maryland
+3/29/2020,1.39,1.11,1.86,1.72,Boise,Idaho
+3/29/2020,1.49,1.38,1.86,1.88,Boston,Massachusetts
+3/29/2020,1.25,1.18,1.39,1.18,Buffalo,New York
+3/29/2020,1.28,1.17,1.62,1.75,Charlotte,North Carolina
+3/29/2020,1.46,1.41,1.94,1.7,Chicago,Illinois
+3/29/2020,0.84,0.9,1.42,1.59,Cincinnati,Ohio
+3/29/2020,0.95,0.99,1.25,1.31,Columbus,Ohio
+3/29/2020,0.93,0.68,1.22,1.31,Dallas,Texas
+3/29/2020,1.26,1.01,1.22,1.54,Denver,Colorado
+3/29/2020,0.97,0.89,1.43,1.56,Detroit,Michigan
+3/29/2020,1.17,1.5,1.24,1.1,Grand Rapids,Michigan
+3/29/2020,1.15,1.05,1.15,1.25,Harrisburg,Pennsylvania
+3/29/2020,1.5,1.6,1.98,2.17,Hartford,Connecticut
+3/29/2020,0.9,0.65,1.41,1.6,Houston,Texas
+3/29/2020,0.95,0.94,1.47,1.35,Indianapolis,Indiana
+3/29/2020,1.29,1.18,1.22,1.29,Jacksonville,Florida
+3/29/2020,1.03,1.03,1.4,1.64,Las Vegas,Nevada
+3/29/2020,1.34,1.06,1.7,1.87,Los Angeles,California
+3/29/2020,0.84,1.03,1.18,1.38,Louisville,Kentucky
+3/29/2020,1.29,1.24,1.21,1.28,Miami,Florida
+3/29/2020,0.99,0.93,1.61,1.32,Nashville,Tennessee
+3/29/2020,1.01,0.91,1.33,1.23,New Orleans,Louisiana
+3/29/2020,1.58,1.38,1.78,1.94,New York,New York
+3/29/2020,1.19,1.06,1.16,1.24,Orlando,Florida
+3/29/2020,1.38,1.41,1.62,1.62,Philadelphia,Pennsylvania
+3/29/2020,0.91,0.65,1.48,1.67,Phoenix,Arizona
+3/29/2020,1.04,1.07,1.25,1.24,Pittsburgh,Pennsylvania
+3/29/2020,1.4,1.18,1.85,1.88,Portland,Oregon
+3/29/2020,1.19,1.18,1.57,2.24,Raleigh,North Carolina
+3/29/2020,1.03,1.03,1.38,1.34,Richmond,Virginia
+3/29/2020,1,0.93,1.35,1.19,Roanoke,Virginia
+3/29/2020,1.51,1.35,1.82,1.76,Sacramento,California
+3/29/2020,1.36,1.08,2.1,1.89,San Diego,California
+3/29/2020,1.55,1.3,1.95,2.01,San Francisco,California
+3/29/2020,1.72,1.53,1.95,1.87,Seattle,Washington
+3/29/2020,1.5,1.22,1.87,1.77,Spokane,Washington
+3/29/2020,1.21,1.13,2.25,1.86,St Louis,Missouri
+3/29/2020,1.21,1.25,1.5,1.39,Syracuse,New York
+3/29/2020,1.21,1.24,1.15,1.16,Tampa,Florida
+3/29/2020,1.4,1.36,1.39,1.39,Washington DC,Washington DC
+3/29/2020,1.25,1.18,1.39,1.18,Rochester,New York
+3/29/2020,0.84,0.9,1.42,1.59,Dayton,Ohio
+3/29/2020,0.93,0.68,1.22,1.31,Ft Worth,Texas
+3/29/2020,1.15,1.05,1.15,1.25,Scranton,Pennsylvania
+3/29/2020,1.5,1.6,1.98,2.17,Springfield,Massachusetts
+3/29/2020,1.29,1.24,1.21,1.28,Ft Lauderdale,Florida
+3/29/2020,1.01,0.91,1.33,1.23,Mobile,Alabama
+3/29/2020,0.91,0.65,1.48,1.67,Tucson,Arizona
+3/29/2020,1.19,1.18,1.57,2.24,Greensboro,North Carolina
+3/29/2020,1.03,1.03,1.38,1.34,Norfolk,Virginia
+3/29/2020,0.91,0.65,1.48,1.67,Tucson,Arizona
+4/5/2020,1.2,1.16,1.58,1.63,Albany,New York
+4/5/2020,1.07,1.11,1.54,1.56,Atlanta,Georgia
+4/5/2020,1.2,1.29,1.61,1.68,Baltimore,Maryland
+4/5/2020,1.26,1.29,1.73,1.88,Boise,Idaho
+4/5/2020,1.52,1.23,1.87,1.61,Boston,Massachusetts
+4/5/2020,1.19,1.19,1.49,1.41,Buffalo,New York
+4/5/2020,1.27,1.37,1.61,1.85,Charlotte,North Carolina
+4/5/2020,1.5,1.15,1.89,1.67,Chicago,Illinois
+4/5/2020,0.83,0.97,1.39,1.55,Cincinnati,Ohio
+4/5/2020,0.95,0.88,1.23,1.44,Columbus,Ohio
+4/5/2020,0.9,0.92,1.26,1.43,Dallas,Texas
+4/5/2020,1.09,1.11,1.34,1.58,Denver,Colorado
+4/5/2020,1.03,1.27,1.45,1.53,Detroit,Michigan
+4/5/2020,1.27,1.22,1.49,1.54,Grand Rapids,Michigan
+4/5/2020,1.14,1.25,1.43,1.66,Harrisburg,Pennsylvania
+4/5/2020,1.51,1.1,2.05,1.73,Hartford,Connecticut
+4/5/2020,0.86,0.87,1.23,1.51,Houston,Texas
+4/5/2020,0.94,1.1,1.47,1.42,Indianapolis,Indiana
+4/5/2020,1.26,1.1,1.34,1.54,Jacksonville,Florida
+4/5/2020,1.04,1.17,1.49,1.64,Las Vegas,Nevada
+4/5/2020,1.29,1.07,1.63,1.52,Los Angeles,California
+4/5/2020,0.9,1.13,1.19,1.49,Louisville,Kentucky
+4/5/2020,1.29,1.07,1.26,1.45,Miami,Florida
+4/5/2020,0.97,0.99,1.57,1.46,Nashville,Tennessee
+4/5/2020,0.99,1.18,1.29,1.63,New Orleans,Louisiana
+4/5/2020,1.57,1.32,1.88,1.78,New York,New York
+4/5/2020,1.19,1.2,1.17,1.59,Orlando,Florida
+4/5/2020,1.33,1.06,1.76,1.57,Philadelphia,Pennsylvania
+4/5/2020,0.93,1,1.51,1.45,Phoenix,Arizona
+4/5/2020,1.33,1.19,1.21,1.81,Pittsburgh,Pennsylvania
+4/5/2020,1.28,1.14,1.83,1.83,Portland,Oregon
+4/5/2020,1.14,1.07,1.57,1.77,Raleigh,North Carolina
+4/5/2020,1.01,1.01,1.54,1.41,Richmond,Virginia
+4/5/2020,0.98,1.18,1.32,1.73,Roanoke,Virginia
+4/5/2020,1.4,1.31,1.85,1.91,Sacramento,California
+4/5/2020,1.33,1.35,1.92,1.95,San Diego,California
+4/5/2020,1.34,1.45,2.05,2.06,San Francisco,California
+4/5/2020,1.6,1.26,2.04,1.65,Seattle,Washington
+4/5/2020,1.31,1.23,1.89,1.96,Spokane,Washington
+4/5/2020,1.27,1.17,2.21,1.63,St Louis,Missouri
+4/5/2020,1.2,1.2,1.62,1.28,Syracuse,New York
+4/5/2020,1.19,1.03,1.18,1.56,Tampa,Florida
+4/5/2020,1.2,1.29,1.61,1.68,Washington DC,Washington DC
+4/5/2020,1.19,1.19,1.49,1.41,Rochester,New York
+4/5/2020,0.83,0.97,1.39,1.55,Dayton,Ohio
+4/5/2020,0.9,0.92,1.26,1.43,Ft Worth,Texas
+4/5/2020,1.14,1.25,1.43,1.66,Scranton,Pennsylvania
+4/5/2020,1.51,1.1,2.05,1.73,Springfield,Massachusetts
+4/5/2020,1.29,1.07,1.26,1.45,Ft Lauderdale,Florida
+4/5/2020,0.99,1.18,1.29,1.63,Mobile,Alabama
+4/5/2020,0.93,1,1.51,1.45,Tucson,Arizona
+4/5/2020,1.14,1.07,1.57,1.77,Greensboro,North Carolina
+4/5/2020,1.01,1.01,1.54,1.41,Norfolk,Virginia
+4/5/2020,0.93,1,1.51,1.45,Tucson,Arizona
+4/12/2020,1.22,1.17,1.64,1.64,Albany,New York
+4/12/2020,1.08,1.08,1.57,1.65,Atlanta,Georgia
+4/12/2020,1.34,1.21,1.59,1.59,Baltimore,Maryland
+4/12/2020,1.31,1.32,1.72,1.81,Boise,Idaho
+4/12/2020,1.46,1.35,1.91,1.91,Boston,Massachusetts
+4/12/2020,1.14,1.2,1.54,1.56,Buffalo,New York
+4/12/2020,1.26,1.2,1.59,1.65,Charlotte,North Carolina
+4/12/2020,1.67,1.43,1.83,1.86,Chicago,Illinois
+4/12/2020,1.08,1.12,1.58,1.74,Cincinnati,Ohio
+4/12/2020,1.08,1,1.32,1.56,Columbus,Ohio
+4/12/2020,0.9,0.81,1.27,1.39,Dallas,Texas
+4/12/2020,1.15,0.97,1.34,1.51,Denver,Colorado
+4/12/2020,1.22,1.03,1.46,1.6,Detroit,Michigan
+4/12/2020,1.67,1.36,1.58,1.61,Grand Rapids,Michigan
+4/12/2020,1.13,1.1,1.42,1.43,Harrisburg,Pennsylvania
+4/12/2020,1.49,1.41,1.98,1.92,Hartford,Connecticut
+4/12/2020,0.86,0.94,1.31,1.61,Houston,Texas
+4/12/2020,1.01,0.93,1.47,1.52,Indianapolis,Indiana
+4/12/2020,1.3,1.15,1.41,1.55,Jacksonville,Florida
+4/12/2020,1.14,1.03,1.49,1.59,Las Vegas,Nevada
+4/12/2020,1.33,1.12,1.58,1.71,Los Angeles,California
+4/12/2020,1.04,1.06,1.21,1.53,Louisville,Kentucky
+4/12/2020,1.31,1.19,1.38,1.45,Miami,Florida
+4/12/2020,0.99,1.01,1.34,1.55,Nashville,Tennessee
+4/12/2020,1.02,0.97,1.31,1.45,New Orleans,Louisiana
+4/12/2020,1.56,1.28,1.85,1.76,New York,New York
+4/12/2020,1.2,1.19,1.18,1.44,Orlando,Florida
+4/12/2020,1.34,1.28,1.77,1.62,Philadelphia,Pennsylvania
+4/12/2020,0.98,0.91,1.47,1.66,Phoenix,Arizona
+4/12/2020,1.32,0.97,1.22,1.36,Pittsburgh,Pennsylvania
+4/12/2020,1.38,1.16,1.84,1.84,Portland,Oregon
+4/12/2020,1.18,1.16,1.51,1.99,Raleigh,North Carolina
+4/12/2020,1.02,1.08,1.44,1.61,Richmond,Virginia
+4/12/2020,1.02,0.99,1.36,1.41,Roanoke,Virginia
+4/12/2020,1.43,1.21,1.99,1.78,Sacramento,California
+4/12/2020,1.37,1.18,1.95,1.87,San Diego,California
+4/12/2020,1.65,1.23,2.12,2.02,San Francisco,California
+4/12/2020,1.66,1.44,2.17,2.14,Seattle,Washington
+4/12/2020,1.43,1.14,1.84,1.85,Spokane,Washington
+4/12/2020,1.25,1.2,2.1,2.01,St Louis,Missouri
+4/12/2020,1.18,1.21,1.66,1.68,Syracuse,New York
+4/12/2020,1.2,1.22,1.19,1.3,Tampa,Florida
+4/12/2020,1.34,1.21,1.59,1.59,Washington DC,Washington DC
+4/12/2020,1.14,1.2,1.54,1.56,Rochester,New York
+4/12/2020,1.08,1.12,1.58,1.74,Dayton,Ohio
+4/12/2020,0.9,0.81,1.27,1.39,Ft Worth,Texas
+4/12/2020,1.13,1.1,1.42,1.43,Scranton,Pennsylvania
+4/12/2020,1.49,1.41,1.98,1.92,Springfield,Massachusetts
+4/12/2020,1.31,1.19,1.38,1.45,Ft Lauderdale,Florida
+4/12/2020,1.02,0.97,1.31,1.45,Mobile,Alabama
+4/12/2020,0.98,0.91,1.47,1.66,Tucson,Arizona
+4/12/2020,1.18,1.16,1.51,1.99,Greensboro,North Carolina
+4/12/2020,1.02,1.08,1.44,1.61,Norfolk,Virginia
+4/12/2020,0.98,0.91,1.47,1.66,Tucson,Arizona
+4/19/2020,1.38,1.16,1.63,1.5,Albany,New York
+4/19/2020,1.07,0.99,1.51,1.61,Atlanta,Georgia
+4/19/2020,1.4,1.27,1.56,1.44,Baltimore,Maryland
+4/19/2020,1.46,1.22,1.7,1.71,Boise,Idaho
+4/19/2020,1.48,1.32,1.9,1.86,Boston,Massachusetts
+4/19/2020,1.15,1.18,1.53,1.26,Buffalo,New York
+4/19/2020,1.22,1.16,1.64,1.66,Charlotte,North Carolina
+4/19/2020,1.66,1.43,1.76,1.67,Chicago,Illinois
+4/19/2020,1.24,1.07,1.65,1.7,Cincinnati,Ohio
+4/19/2020,1.15,1.04,1.3,1.45,Columbus,Ohio
+4/19/2020,0.82,0.78,1.18,1.32,Dallas,Texas
+4/19/2020,1.15,1.03,1.38,1.49,Denver,Colorado
+4/19/2020,1.18,0.98,1.5,1.54,Detroit,Michigan
+4/19/2020,1.6,1.41,1.62,1.45,Grand Rapids,Michigan
+4/19/2020,1.2,1.06,1.38,1.28,Harrisburg,Pennsylvania
+4/19/2020,1.53,1.33,2.05,1.93,Hartford,Connecticut
+4/19/2020,0.8,0.79,1.23,1.38,Houston,Texas
+4/19/2020,1.12,0.98,1.51,1.42,Indianapolis,Indiana
+4/19/2020,1.26,1.17,1.53,1.42,Jacksonville,Florida
+4/19/2020,1.01,0.95,1.42,1.55,Las Vegas,Nevada
+4/19/2020,1.24,1.09,1.59,1.63,Los Angeles,California
+4/19/2020,1.08,1.01,1.22,1.51,Louisville,Kentucky
+4/19/2020,1.26,1.17,1.28,1.35,Miami,Florida
+4/19/2020,0.99,0.95,1.47,1.53,Nashville,Tennessee
+4/19/2020,0.93,0.97,1.4,1.35,New Orleans,Louisiana
+4/19/2020,1.55,1.23,1.84,1.75,New York,New York
+4/19/2020,1.17,1.15,1.2,1.32,Orlando,Florida
+4/19/2020,1.36,1.24,1.73,1.52,Philadelphia,Pennsylvania
+4/19/2020,0.89,0.7,1.49,1.55,Phoenix,Arizona
+4/19/2020,0.91,1.12,1.13,1.26,Pittsburgh,Pennsylvania
+4/19/2020,1.26,1.12,1.84,1.89,Portland,Oregon
+4/19/2020,1.14,1.13,1.53,1.95,Raleigh,North Carolina
+4/19/2020,1.04,1.04,1.33,1.41,Richmond,Virginia
+4/19/2020,1.01,0.95,1.28,1.37,Roanoke,Virginia
+4/19/2020,1.36,1.29,1.89,1.77,Sacramento,California
+4/19/2020,1.16,1.14,1.75,1.75,San Diego,California
+4/19/2020,1.24,1.37,1.96,1.96,San Francisco,California
+4/19/2020,1.6,1.34,2.02,2.08,Seattle,Washington
+4/19/2020,1.44,1.13,1.89,1.87,Spokane,Washington
+4/19/2020,1.2,1.11,2.12,1.9,St Louis,Missouri
+4/19/2020,1.25,1.18,1.67,1.54,Syracuse,New York
+4/19/2020,1.18,1.17,1.19,1.2,Tampa,Florida
+4/19/2020,1.4,1.27,1.56,1.44,Washington DC,Washington DC
+4/19/2020,1.15,1.18,1.53,1.26,Rochester,New York
+4/19/2020,1.24,1.07,1.65,1.7,Dayton,Ohio
+4/19/2020,0.82,0.78,1.18,1.32,Ft Worth,Texas
+4/19/2020,1.2,1.06,1.38,1.28,Scranton,Pennsylvania
+4/19/2020,1.53,1.33,2.05,1.93,Springfield,Massachusetts
+4/19/2020,1.26,1.17,1.28,1.35,Ft Lauderdale,Florida
+4/19/2020,0.93,0.97,1.4,1.35,Mobile,Alabama
+4/19/2020,0.89,0.7,1.49,1.55,Tucson,Arizona
+4/19/2020,1.14,1.13,1.53,1.95,Greensboro,North Carolina
+4/19/2020,1.04,1.04,1.33,1.41,Norfolk,Virginia
+4/19/2020,0.89,0.7,1.49,1.55,Tucson,Arizona
+4/26/2020,1.05,1.34,1.59,1.51,Albany,New York
+4/26/2020,1.09,0.9,1.65,1.54,Atlanta,Georgia
+4/26/2020,1.41,1.26,1.48,1.45,Baltimore,Maryland
+4/26/2020,1.41,1.22,1.55,1.77,Boise,Idaho
+4/26/2020,1.42,1.42,2.01,1.81,Boston,Massachusetts
+4/26/2020,1.18,1.15,1.38,1.19,Buffalo,New York
+4/26/2020,1.19,1.18,1.6,1.69,Charlotte,North Carolina
+4/26/2020,1.61,1.51,1.66,1.81,Chicago,Illinois
+4/26/2020,1.27,0.88,1.7,1.57,Cincinnati,Ohio
+4/26/2020,1.18,0.97,1.34,1.35,Columbus,Ohio
+4/26/2020,0.9,0.71,1.2,1.26,Dallas,Texas
+4/26/2020,1.16,1.04,1.43,1.51,Denver,Colorado
+4/26/2020,1.13,0.9,1.61,1.4,Detroit,Michigan
+4/26/2020,1.64,1.47,1.53,1.29,Grand Rapids,Michigan
+4/26/2020,1.14,1.05,1.3,1.25,Harrisburg,Pennsylvania
+4/26/2020,1.37,1.56,2.1,2.17,Hartford,Connecticut
+4/26/2020,0.92,0.7,1.24,1.37,Houston,Texas
+4/26/2020,1.18,0.91,1.52,1.38,Indianapolis,Indiana
+4/26/2020,1.23,1.15,1.42,1.38,Jacksonville,Florida
+4/26/2020,0.92,1.01,1.49,1.57,Las Vegas,Nevada
+4/26/2020,1.28,1.11,1.53,1.71,Los Angeles,California
+4/26/2020,1.09,0.99,1.35,1.42,Louisville,Kentucky
+4/26/2020,1.23,1.23,1.3,1.26,Miami,Florida
+4/26/2020,1.02,0.92,1.58,1.51,Nashville,Tennessee
+4/26/2020,0.98,0.93,1.37,1.27,New Orleans,Louisiana
+4/26/2020,1.25,1.37,1.85,1.91,New York,New York
+4/26/2020,1.16,1.11,1.22,1.28,Orlando,Florida
+4/26/2020,1.17,1.36,1.65,1.62,Philadelphia,Pennsylvania
+4/26/2020,0.77,0.7,1.54,1.6,Phoenix,Arizona
+4/26/2020,1.31,1.12,1.09,1.22,Pittsburgh,Pennsylvania
+4/26/2020,1.36,1.19,1.85,1.89,Portland,Oregon
+4/26/2020,1.14,1.16,1.55,2.01,Raleigh,North Carolina
+4/26/2020,1.04,1.04,1.42,1.39,Richmond,Virginia
+4/26/2020,1,0.95,1.35,1.33,Roanoke,Virginia
+4/26/2020,1.46,1.36,1.9,1.75,Sacramento,California
+4/26/2020,1.24,1.12,1.79,1.85,San Diego,California
+4/26/2020,1.59,1.34,1.91,1.98,San Francisco,California
+4/26/2020,1.44,1.53,2.09,2.01,Seattle,Washington
+4/26/2020,1.31,1.23,1.88,1.96,Spokane,Washington
+4/26/2020,1.05,1.15,2.21,1.95,St Louis,Missouri
+4/26/2020,1.14,1.25,1.68,1.39,Syracuse,New York
+4/26/2020,1.17,1.24,1.2,1.18,Tampa,Florida
+4/26/2020,1.41,1.26,1.48,1.45,Washington DC,Washington DC
+4/26/2020,1.18,1.15,1.38,1.19,Rochester,New York
+4/26/2020,1.27,0.88,1.7,1.57,Dayton,Ohio
+4/26/2020,0.9,0.71,1.2,1.26,Ft Worth,Texas
+4/26/2020,1.14,1.05,1.3,1.25,Scranton,Pennsylvania
+4/26/2020,1.37,1.56,2.1,2.17,Springfield,Massachusetts
+4/26/2020,1.23,1.23,1.3,1.26,Ft Lauderdale,Florida
+4/26/2020,0.98,0.93,1.37,1.27,Mobile,Alabama
+4/26/2020,0.77,0.7,1.54,1.6,Tucson,Arizona
+4/26/2020,1.14,1.16,1.55,2.01,Greensboro,North Carolina
+4/26/2020,1.04,1.04,1.42,1.39,Norfolk,Virginia
+4/26/2020,0.77,0.7,1.54,1.6,Tucson,Arizona
+5/3/2020,1.24,1.44,1.59,1.55,Albany,New York
+5/3/2020,0.99,0.93,1.5,1.63,Atlanta,Georgia
+5/3/2020,1.2,1.31,1.46,1.51,Baltimore,Maryland
+5/3/2020,1.27,1.25,1.52,1.84,Boise,Idaho
+5/3/2020,1.46,1.41,2.1,1.94,Boston,Massachusetts
+5/3/2020,1.16,1.15,1.22,1.09,Buffalo,New York
+5/3/2020,0.95,1.21,1.37,1.72,Charlotte,North Carolina
+5/3/2020,0.87,1.33,1.72,1.79,Chicago,Illinois
+5/3/2020,1.03,0.99,1.49,1.67,Cincinnati,Ohio
+5/3/2020,0.95,0.99,1.33,1.43,Columbus,Ohio
+5/3/2020,0.87,0.7,1.17,1.31,Dallas,Texas
+5/3/2020,1.15,1.06,1.36,1.62,Denver,Colorado
+5/3/2020,1.03,0.95,1.45,1.44,Detroit,Michigan
+5/3/2020,1.55,1.61,1.54,1.35,Grand Rapids,Michigan
+5/3/2020,1.17,1.07,1.24,1.25,Harrisburg,Pennsylvania
+5/3/2020,1.45,1.51,2.17,2.31,Hartford,Connecticut
+5/3/2020,0.85,0.71,1.21,1.41,Houston,Texas
+5/3/2020,1.01,0.98,1.35,1.42,Indianapolis,Indiana
+5/3/2020,1.06,1.18,1.3,1.42,Jacksonville,Florida
+5/3/2020,1.02,1.04,1.5,1.59,Las Vegas,Nevada
+5/3/2020,1.11,1.14,1.73,1.79,Los Angeles,California
+5/3/2020,0.95,1.01,1.29,1.51,Louisville,Kentucky
+5/3/2020,1.08,1.23,1.3,1.33,Miami,Florida
+5/3/2020,0.93,0.94,1.5,1.49,Nashville,Tennessee
+5/3/2020,0.92,0.96,1.35,1.36,New Orleans,Louisiana
+5/3/2020,1.51,1.32,2,1.96,New York,New York
+5/3/2020,1.03,1.14,1.2,1.31,Orlando,Florida
+5/3/2020,1.29,1.29,1.71,1.68,Philadelphia,Pennsylvania
+5/3/2020,0.77,0.7,1.5,1.62,Phoenix,Arizona
+5/3/2020,0.94,1.09,1.11,1.26,Pittsburgh,Pennsylvania
+5/3/2020,1.08,1.13,1.69,1.97,Portland,Oregon
+5/3/2020,0.9,1.18,1.25,2.06,Raleigh,North Carolina
+5/3/2020,0.87,1.06,1.29,1.37,Richmond,Virginia
+5/3/2020,0.9,0.98,1.27,1.34,Roanoke,Virginia
+5/3/2020,0.97,1.45,1.96,1.83,Sacramento,California
+5/3/2020,1.03,1.06,1.93,1.88,San Diego,California
+5/3/2020,1.03,1.45,2.26,1.99,San Francisco,California
+5/3/2020,1.36,1.41,1.72,2.06,Seattle,Washington
+5/3/2020,1.19,1.21,1.8,2.03,Spokane,Washington
+5/3/2020,1.06,1.1,2.02,1.95,St Louis,Missouri
+5/3/2020,1.21,1.29,1.62,1.45,Syracuse,New York
+5/3/2020,1.02,1.26,1.22,1.21,Tampa,Florida
+5/3/2020,1.2,1.31,1.46,1.51,Washington DC,Washington DC
+5/3/2020,1.16,1.15,1.22,1.09,Rochester,New York
+5/3/2020,1.03,0.99,1.49,1.67,Dayton,Ohio
+5/3/2020,0.87,0.7,1.17,1.31,Ft Worth,Texas
+5/3/2020,1.17,1.07,1.24,1.25,Scranton,Pennsylvania
+5/3/2020,1.45,1.51,2.17,2.31,Springfield,Massachusetts
+5/3/2020,1.08,1.23,1.3,1.33,Ft Lauderdale,Florida
+5/3/2020,0.92,0.96,1.35,1.36,Mobile,Alabama
+5/3/2020,0.77,0.7,1.5,1.62,Tucson,Arizona
+5/3/2020,0.9,1.18,1.25,2.06,Greensboro,North Carolina
+5/3/2020,0.87,1.06,1.29,1.37,Norfolk,Virginia
+5/3/2020,0.77,0.7,1.5,1.62,Tucson,Arizona
+5/10/2020,1.12,1.11,1.52,1.63,Albany,New York
+5/10/2020,1.04,1.15,1.52,1.6,Atlanta,Georgia
+5/10/2020,1.14,1.15,1.56,1.59,Baltimore,Maryland
+5/10/2020,1.22,1.29,1.66,1.73,Boise,Idaho
+5/10/2020,1.43,1.3,2.11,1.95,Boston,Massachusetts
+5/10/2020,1.11,1.24,1.11,1.48,Buffalo,New York
+5/10/2020,1.19,1.19,1.57,1.48,Charlotte,North Carolina
+5/10/2020,1.39,1.37,1.64,1.8,Chicago,Illinois
+5/10/2020,1.02,1.24,1.5,1.71,Cincinnati,Ohio
+5/10/2020,0.97,1.04,1.26,1.55,Columbus,Ohio
+5/10/2020,0.81,0.87,1.18,1.43,Dallas,Texas
+5/10/2020,1.04,0.96,1.38,1.47,Denver,Colorado
+5/10/2020,1.03,1.13,1.52,1.65,Detroit,Michigan
+5/10/2020,1.25,1.22,1.56,1.59,Grand Rapids,Michigan
+5/10/2020,1.16,1.12,1.28,1.44,Harrisburg,Pennsylvania
+5/10/2020,1.46,1.29,2.12,1.74,Hartford,Connecticut
+5/10/2020,0.8,1.11,1.26,1.75,Houston,Texas
+5/10/2020,1,0.94,1.41,1.5,Indianapolis,Indiana
+5/10/2020,1.2,1.11,1.28,1.4,Jacksonville,Florida
+5/10/2020,1,1.08,1.49,1.57,Las Vegas,Nevada
+5/10/2020,1.17,1.13,1.47,1.66,Los Angeles,California
+5/10/2020,0.96,1.1,1.25,1.55,Louisville,Kentucky
+5/10/2020,1.24,1.14,1.23,1.42,Miami,Florida
+5/10/2020,0.95,1.11,1.55,1.54,Nashville,Tennessee
+5/10/2020,0.95,0.98,1.32,1.49,New Orleans,Louisiana
+5/10/2020,1.5,1.23,1.98,1.66,New York,New York
+5/10/2020,1.12,1.22,1.21,1.43,Orlando,Florida
+5/10/2020,1.24,1.22,1.79,1.62,Philadelphia,Pennsylvania
+5/10/2020,0.74,1.07,1.42,1.59,Phoenix,Arizona
+5/10/2020,1.05,0.93,1.07,1.42,Pittsburgh,Pennsylvania
+5/10/2020,1.21,1.13,1.68,1.75,Portland,Oregon
+5/10/2020,1.09,1.14,1.48,1.87,Raleigh,North Carolina
+5/10/2020,0.98,1.07,1.43,1.79,Richmond,Virginia
+5/10/2020,0.98,1,1.32,1.41,Roanoke,Virginia
+5/10/2020,1.37,1.17,1.97,1.71,Sacramento,California
+5/10/2020,1.16,1.26,1.67,1.9,San Diego,California
+5/10/2020,1.57,1.34,2.15,1.94,San Francisco,California
+5/10/2020,1.48,1.41,1.73,2.09,Seattle,Washington
+5/10/2020,1.26,1.05,1.85,1.71,Spokane,Washington
+5/10/2020,1.04,1.19,2.06,1.97,St Louis,Missouri
+5/10/2020,1.13,1.23,1.51,1.65,Syracuse,New York
+5/10/2020,1.1,1.19,1.2,1.32,Tampa,Florida
+5/10/2020,1.14,1.15,1.56,1.59,Washington DC,Washington DC
+5/10/2020,1.11,1.24,1.11,1.48,Rochester,New York
+5/10/2020,1.02,1.24,1.5,1.71,Dayton,Ohio
+5/10/2020,0.81,0.87,1.18,1.43,Ft Worth,Texas
+5/10/2020,1.16,1.12,1.28,1.44,Scranton,Pennsylvania
+5/10/2020,1.46,1.29,2.12,1.74,Springfield,Massachusetts
+5/10/2020,1.24,1.14,1.23,1.42,Ft Lauderdale,Florida
+5/10/2020,0.95,0.98,1.32,1.49,Mobile,Alabama
+5/10/2020,0.74,1.07,1.42,1.59,Tucson,Arizona
+5/10/2020,1.09,1.14,1.48,1.87,Greensboro,North Carolina
+5/10/2020,0.98,1.07,1.43,1.79,Norfolk,Virginia
+5/10/2020,0.74,1.07,1.42,1.59,Tucson,Arizona
+5/17/2020,1.46,1.21,1.57,1.68,Albany,New York
+5/17/2020,1.02,1.04,1.49,1.63,Atlanta,Georgia
+5/17/2020,1.31,1.19,1.61,1.52,Baltimore,Maryland
+5/17/2020,1.25,1.25,1.79,1.83,Boise,Idaho
+5/17/2020,1.5,1.36,2.04,1.97,Boston,Massachusetts
+5/17/2020,1.17,1.19,1.14,1.4,Buffalo,New York
+5/17/2020,1.19,1.18,1.57,1.64,Charlotte,North Carolina
+5/17/2020,1.52,1.37,1.58,1.79,Chicago,Illinois
+5/17/2020,1.23,1.14,1.63,1.74,Cincinnati,Ohio
+5/17/2020,1.15,1.02,1.28,1.57,Columbus,Ohio
+5/17/2020,0.88,0.83,1.22,1.42,Dallas,Texas
+5/17/2020,1.14,0.97,1.4,1.52,Denver,Colorado
+5/17/2020,1.29,1.04,1.57,1.6,Detroit,Michigan
+5/17/2020,1.41,1.32,1.61,1.55,Grand Rapids,Michigan
+5/17/2020,1.18,1.07,1.28,1.39,Harrisburg,Pennsylvania
+5/17/2020,1.52,1.39,2.03,2.01,Hartford,Connecticut
+5/17/2020,0.94,0.97,1.29,1.62,Houston,Texas
+5/17/2020,1.15,0.95,1.5,1.54,Indianapolis,Indiana
+5/17/2020,1.22,1.11,1.29,1.44,Jacksonville,Florida
+5/17/2020,1.01,1.02,1.47,1.61,Las Vegas,Nevada
+5/17/2020,1.22,1.14,1.59,1.77,Los Angeles,California
+5/17/2020,1.06,0.98,1.24,1.54,Louisville,Kentucky
+5/17/2020,1.24,1.14,1.24,1.47,Miami,Florida
+5/17/2020,0.99,0.99,1.54,1.54,Nashville,Tennessee
+5/17/2020,1.03,0.96,1.37,1.44,New Orleans,Louisiana
+5/17/2020,1.52,1.25,1.79,1.78,New York,New York
+5/17/2020,1.14,1.16,1.19,1.4,Orlando,Florida
+5/17/2020,1.29,1.23,1.74,1.65,Philadelphia,Pennsylvania
+5/17/2020,0.92,0.87,1.42,1.62,Phoenix,Arizona
+5/17/2020,0.93,1.1,1.1,1.39,Pittsburgh,Pennsylvania
+5/17/2020,1.15,1.13,1.89,1.86,Portland,Oregon
+5/17/2020,1.09,1.17,1.46,1.99,Raleigh,North Carolina
+5/17/2020,0.99,1.07,1.41,1.64,Richmond,Virginia
+5/17/2020,0.94,0.97,1.27,1.4,Roanoke,Virginia
+5/17/2020,1.36,1.26,1.87,1.82,Sacramento,California
+5/17/2020,1.19,1.22,1.81,1.94,San Diego,California
+5/17/2020,1.59,1.35,1.95,2.07,San Francisco,California
+5/17/2020,1.51,1.39,2.07,2.09,Seattle,Washington
+5/17/2020,1.3,1.11,1.85,1.9,Spokane,Washington
+5/17/2020,1.04,1.15,2.02,2,St Louis,Missouri
+5/17/2020,1.31,1.22,1.63,1.69,Syracuse,New York
+5/17/2020,1.12,1.19,1.19,1.32,Tampa,Florida
+5/17/2020,1.31,1.19,1.61,1.52,Washington DC,Washington DC
+5/17/2020,1.17,1.19,1.14,1.4,Rochester,New York
+5/17/2020,1.23,1.14,1.63,1.74,Dayton,Ohio
+5/17/2020,0.88,0.83,1.22,1.42,Ft Worth,Texas
+5/17/2020,1.18,1.07,1.28,1.39,Scranton,Pennsylvania
+5/17/2020,1.52,1.39,2.03,2.01,Springfield,Massachusetts
+5/17/2020,1.24,1.14,1.24,1.47,Ft Lauderdale,Florida
+5/17/2020,1.03,0.96,1.37,1.44,Mobile,Alabama
+5/17/2020,0.92,0.87,1.42,1.62,Tucson,Arizona
+5/17/2020,1.09,1.17,1.46,1.99,Greensboro,North Carolina
+5/17/2020,0.99,1.07,1.41,1.64,Norfolk,Virginia
+5/17/2020,0.92,0.87,1.42,1.62,Tucson,Arizona
+5/24/2020,1.4,1.25,1.64,1.62,Albany,New York
+5/24/2020,0.96,1,1.49,1.68,Atlanta,Georgia
+5/24/2020,1.28,1.26,1.38,1.58,Baltimore,Maryland
+5/24/2020,1.28,1.23,1.78,1.82,Boise,Idaho
+5/24/2020,1.48,1.36,2.03,1.98,Boston,Massachusetts
+5/24/2020,1.16,1.2,1.2,1.34,Buffalo,New York
+5/24/2020,1.17,1.14,1.54,1.72,Charlotte,North Carolina
+5/24/2020,1.39,1.25,1.55,1.82,Chicago,Illinois
+5/24/2020,1.21,1.02,1.62,1.78,Cincinnati,Ohio
+5/24/2020,1.07,1,1.3,1.59,Columbus,Ohio
+5/24/2020,0.85,0.8,1.2,1.39,Dallas,Texas
+5/24/2020,1.12,1.04,1.35,1.58,Denver,Colorado
+5/24/2020,1.12,0.97,1.5,1.59,Detroit,Michigan
+5/24/2020,1.31,1.39,1.53,1.59,Grand Rapids,Michigan
+5/24/2020,1.11,1.1,1.28,1.37,Harrisburg,Pennsylvania
+5/24/2020,1.51,1.37,2.11,2.08,Hartford,Connecticut
+5/24/2020,0.92,0.8,1.28,1.47,Houston,Texas
+5/24/2020,1.12,0.98,1.53,1.45,Indianapolis,Indiana
+5/24/2020,1.06,1.12,1.31,1.53,Jacksonville,Florida
+5/24/2020,0.92,1.04,1.5,1.67,Las Vegas,Nevada
+5/24/2020,1.2,1.06,1.69,1.78,Los Angeles,California
+5/24/2020,0.82,1.02,1.2,1.63,Louisville,Kentucky
+5/24/2020,1.07,1.15,1.34,1.48,Miami,Florida
+5/24/2020,0.9,0.96,1.43,1.64,Nashville,Tennessee
+5/24/2020,0.93,0.98,1.37,1.45,New Orleans,Louisiana
+5/24/2020,1.5,1.34,1.83,1.93,New York,New York
+5/24/2020,1.03,1.14,1.18,1.46,Orlando,Florida
+5/24/2020,1.23,1.29,1.75,1.67,Philadelphia,Pennsylvania
+5/24/2020,0.76,0.75,1.47,1.67,Phoenix,Arizona
+5/24/2020,1.29,1.09,1.15,1.36,Pittsburgh,Pennsylvania
+5/24/2020,1.17,1.09,1.85,1.96,Portland,Oregon
+5/24/2020,1.1,1.09,1.5,1.92,Raleigh,North Carolina
+5/24/2020,1.01,1.02,1.42,1.47,Richmond,Virginia
+5/24/2020,0.95,0.95,1.26,1.45,Roanoke,Virginia
+5/24/2020,1.4,1.2,1.91,1.93,Sacramento,California
+5/24/2020,1.18,1.14,1.98,1.94,San Diego,California
+5/24/2020,1.48,1.26,2.01,2.29,San Francisco,California
+5/24/2020,1.46,1.39,1.97,2.09,Seattle,Washington
+5/24/2020,1.33,1.17,1.99,1.97,Spokane,Washington
+5/24/2020,1.03,1.17,2.03,1.95,St Louis,Missouri
+5/24/2020,1.27,1.22,1.67,1.65,Syracuse,New York
+5/24/2020,1.03,1.16,1.23,1.37,Tampa,Florida
+5/24/2020,1.28,1.26,1.38,1.58,Washington DC,Washington DC
+5/24/2020,1.16,1.2,1.2,1.34,Rochester,New York
+5/24/2020,1.21,1.02,1.62,1.78,Dayton,Ohio
+5/24/2020,0.85,0.8,1.2,1.39,Ft Worth,Texas
+5/24/2020,1.11,1.1,1.28,1.37,Scranton,Pennsylvania
+5/24/2020,1.51,1.37,2.11,2.08,Springfield,Massachusetts
+5/24/2020,1.07,1.15,1.34,1.48,Ft Lauderdale,Florida
+5/24/2020,0.93,0.98,1.37,1.45,Mobile,Alabama
+5/24/2020,0.76,0.75,1.47,1.67,Tucson,Arizona
+5/24/2020,1.1,1.09,1.5,1.92,Greensboro,North Carolina
+5/24/2020,1.01,1.02,1.42,1.47,Norfolk,Virginia
+5/24/2020,0.76,0.75,1.47,1.67,Tucson,Arizona
+5/31/2020,1.47,1.19,1.57,1.58,Albany,New York
+5/31/2020,1.04,1.1,1.61,1.5,Atlanta,Georgia
+5/31/2020,1.31,1.3,1.63,1.64,Baltimore,Maryland
+5/31/2020,1.26,1.31,1.76,1.91,Boise,Idaho
+5/31/2020,1.49,1.24,2.02,1.41,Boston,Massachusetts
+5/31/2020,1.15,1.2,1.17,1.41,Buffalo,New York
+5/31/2020,1.2,1.3,1.57,1.78,Charlotte,North Carolina
+5/31/2020,1.06,1.15,1.76,1.59,Chicago,Illinois
+5/31/2020,1.06,0.96,1.55,1.45,Cincinnati,Ohio
+5/31/2020,0.91,0.88,1.29,1.34,Columbus,Ohio
+5/31/2020,0.75,0.92,1.26,1.41,Dallas,Texas
+5/31/2020,1.01,1.05,1.46,1.55,Denver,Colorado
+5/31/2020,1.06,1.16,1.46,1.47,Detroit,Michigan
+5/31/2020,1.53,1.16,1.57,1.52,Grand Rapids,Michigan
+5/31/2020,1.1,1.27,1.25,1.69,Harrisburg,Pennsylvania
+5/31/2020,1.4,1.1,2.16,1.67,Hartford,Connecticut
+5/31/2020,0.81,0.87,1.24,1.44,Houston,Texas
+5/31/2020,1.04,1.13,1.47,1.3,Indianapolis,Indiana
+5/31/2020,1.18,1.07,1.35,1.51,Jacksonville,Florida
+5/31/2020,1.04,1.1,1.48,1.59,Las Vegas,Nevada
+5/31/2020,1.09,1.06,1.64,1.48,Los Angeles,California
+5/31/2020,0.86,1.15,1.2,1.33,Louisville,Kentucky
+5/31/2020,1.19,1.1,1.37,1.49,Miami,Florida
+5/31/2020,0.94,1,1.42,1.39,Nashville,Tennessee
+5/31/2020,0.89,1.2,1.42,1.65,New Orleans,Louisiana
+5/31/2020,1.25,1.29,1.86,1.77,New York,New York
+5/31/2020,1.12,1.19,1.18,1.58,Orlando,Florida
+5/31/2020,1.11,1.03,1.78,1.54,Philadelphia,Pennsylvania
+5/31/2020,0.76,0.94,1.44,1.37,Phoenix,Arizona
+5/31/2020,1.01,1.16,1.18,1.64,Pittsburgh,Pennsylvania
+5/31/2020,1.07,1.15,1.83,1.82,Portland,Oregon
+5/31/2020,1.12,1.09,1.53,1.73,Raleigh,North Carolina
+5/31/2020,1.01,1.03,1.44,1.37,Richmond,Virginia
+5/31/2020,0.98,1.19,1.29,1.7,Roanoke,Virginia
+5/31/2020,1.45,1.25,1.89,1.82,Sacramento,California
+5/31/2020,1,1.33,1.88,1.95,San Diego,California
+5/31/2020,1.4,1.4,1.97,1.92,San Francisco,California
+5/31/2020,1.3,1.28,1.98,1.64,Seattle,Washington
+5/31/2020,1.19,1.2,1.91,1.95,Spokane,Washington
+5/31/2020,0.96,1.19,2.03,1.53,St Louis,Missouri
+5/31/2020,1.32,1.21,1.66,1.26,Syracuse,New York
+5/31/2020,1.13,1.02,1.21,1.48,Tampa,Florida
+5/31/2020,1.31,1.3,1.63,1.64,Washington DC,Washington DC
+5/31/2020,1.15,1.2,1.17,1.41,Rochester,New York
+5/31/2020,1.06,0.96,1.55,1.45,Dayton,Ohio
+5/31/2020,0.75,0.92,1.26,1.41,Ft Worth,Texas
+5/31/2020,1.1,1.27,1.25,1.69,Scranton,Pennsylvania
+5/31/2020,1.4,1.1,2.16,1.67,Springfield,Massachusetts
+5/31/2020,1.19,1.1,1.37,1.49,Ft Lauderdale,Florida
+5/31/2020,0.89,1.2,1.42,1.65,Mobile,Alabama
+5/31/2020,0.76,0.94,1.44,1.37,Tucson,Arizona
+5/31/2020,1.12,1.09,1.53,1.73,Greensboro,North Carolina
+5/31/2020,1.01,1.03,1.44,1.37,Norfolk,Virginia
+5/31/2020,0.76,0.94,1.44,1.37,Tucson,Arizona
+6/7/2020,1.22,1.14,1.65,1.61,Albany,New York
+6/7/2020,1.01,1.17,1.61,1.68,Atlanta,Georgia
+6/7/2020,1.31,1.3,1.65,1.7,Baltimore,Maryland
+6/7/2020,1.24,1.22,1.79,1.97,Boise,Idaho
+6/7/2020,1.43,1.23,2.02,1.71,Boston,Massachusetts
+6/7/2020,0.91,1.22,1.19,1.45,Buffalo,New York
+6/7/2020,1.23,1.35,1.56,1.88,Charlotte,North Carolina
+6/7/2020,1.21,1.23,1.81,1.72,Chicago,Illinois
+6/7/2020,0.97,1.02,1.47,1.59,Cincinnati,Ohio
+6/7/2020,0.9,0.87,1.27,1.48,Columbus,Ohio
+6/7/2020,0.72,0.95,1.28,1.45,Dallas,Texas
+6/7/2020,1.1,1.12,1.33,1.66,Denver,Colorado
+6/7/2020,0.98,1.29,1.44,1.57,Detroit,Michigan
+6/7/2020,1.26,1.25,1.55,1.56,Grand Rapids,Michigan
+6/7/2020,1.07,1.25,1.26,1.71,Harrisburg,Pennsylvania
+6/7/2020,1.44,1.07,2.13,1.79,Hartford,Connecticut
+6/7/2020,0.75,0.94,1.28,1.54,Houston,Texas
+6/7/2020,0.95,1.14,1.45,1.42,Indianapolis,Indiana
+6/7/2020,1.14,1.06,1.26,1.6,Jacksonville,Florida
+6/7/2020,1.03,1.19,1.48,1.76,Las Vegas,Nevada
+6/7/2020,1.13,1.09,1.68,1.58,Los Angeles,California
+6/7/2020,1.02,1.17,1.25,1.46,Louisville,Kentucky
+6/7/2020,1.18,1.08,1.26,1.48,Miami,Florida
+6/7/2020,0.97,1.01,1.45,1.54,Nashville,Tennessee
+6/7/2020,0.9,1.16,1.42,1.68,New Orleans,Louisiana
+6/7/2020,1.48,1.23,1.86,1.82,New York,New York
+6/7/2020,1.11,1.17,1.19,1.62,Orlando,Florida
+6/7/2020,1.2,1,1.78,1.62,Philadelphia,Pennsylvania
+6/7/2020,0.88,1.02,1.45,1.57,Phoenix,Arizona
+6/7/2020,1.28,1.14,1.19,1.69,Pittsburgh,Pennsylvania
+6/7/2020,1.13,1.2,1.83,1.96,Portland,Oregon
+6/7/2020,1.15,1.09,1.49,1.85,Raleigh,North Carolina
+6/7/2020,1,1,1.42,1.37,Richmond,Virginia
+6/7/2020,0.95,1.16,1.26,1.74,Roanoke,Virginia
+6/7/2020,1.51,1.3,1.91,1.93,Sacramento,California
+6/7/2020,1.14,1.33,1.97,1.98,San Diego,California
+6/7/2020,1.56,1.41,1.97,2.08,San Francisco,California
+6/7/2020,1.45,1.31,1.96,1.79,Seattle,Washington
+6/7/2020,1.34,1.23,1.88,2.03,Spokane,Washington
+6/7/2020,0.97,1.18,2.09,1.71,St Louis,Missouri
+6/7/2020,1.07,1.22,1.68,1.32,Syracuse,New York
+6/7/2020,1.06,0.99,1.2,1.56,Tampa,Florida
+6/7/2020,1.31,1.3,1.65,1.7,Washington DC,Washington DC
+6/7/2020,0.91,1.22,1.19,1.45,Rochester,New York
+6/7/2020,0.97,1.02,1.47,1.59,Dayton,Ohio
+6/7/2020,0.72,0.95,1.28,1.45,Ft Worth,Texas
+6/7/2020,1.07,1.25,1.26,1.71,Scranton,Pennsylvania
+6/7/2020,1.44,1.07,2.13,1.79,Springfield,Massachusetts
+6/7/2020,1.18,1.08,1.26,1.48,Ft Lauderdale,Florida
+6/7/2020,0.9,1.16,1.42,1.68,Mobile,Alabama
+6/7/2020,0.88,1.02,1.45,1.57,Tucson,Arizona
+6/7/2020,1.15,1.09,1.49,1.85,Greensboro,North Carolina
+6/7/2020,1,1,1.42,1.37,Norfolk,Virginia
+6/7/2020,0.88,1.02,1.45,1.57,Tucson,Arizona
+6/14/2020,0.97,1.19,1.58,1.6,Albany,New York
+6/14/2020,0.91,1.05,1.5,1.63,Atlanta,Georgia
+6/14/2020,1.31,1.2,1.79,1.67,Baltimore,Maryland
+6/14/2020,1.17,1.27,1.7,1.82,Boise,Idaho
+6/14/2020,1.1,1.35,1.98,1.88,Boston,Massachusetts
+6/14/2020,1.06,1.19,1.59,1.6,Buffalo,New York
+6/14/2020,1.22,1.2,1.55,1.72,Charlotte,North Carolina
+6/14/2020,1.43,1.43,1.76,1.86,Chicago,Illinois
+6/14/2020,1.06,1.13,1.52,1.72,Cincinnati,Ohio
+6/14/2020,0.99,1.02,1.3,1.58,Columbus,Ohio
+6/14/2020,0.78,0.82,1.24,1.41,Dallas,Texas
+6/14/2020,1.02,0.94,1.27,1.5,Denver,Colorado
+6/14/2020,1.11,1.04,1.49,1.57,Detroit,Michigan
+6/14/2020,1.49,1.3,1.54,1.5,Grand Rapids,Michigan
+6/14/2020,1.06,1.08,1.45,1.5,Harrisburg,Pennsylvania
+6/14/2020,1.35,1.37,2.08,2.02,Hartford,Connecticut
+6/14/2020,0.82,0.97,1.31,1.62,Houston,Texas
+6/14/2020,1.02,0.93,1.48,1.46,Indianapolis,Indiana
+6/14/2020,1.18,1.15,1.27,1.39,Jacksonville,Florida
+6/14/2020,0.95,1.05,1.5,1.59,Las Vegas,Nevada
+6/14/2020,1.17,1.14,1.73,1.76,Los Angeles,California
+6/14/2020,0.91,1.04,1.2,1.6,Louisville,Kentucky
+6/14/2020,1.2,1.19,1.23,1.37,Miami,Florida
+6/14/2020,0.87,1,1.36,1.51,Nashville,Tennessee
+6/14/2020,0.98,0.97,1.43,1.39,New Orleans,Louisiana
+6/14/2020,1.22,1.26,1.92,1.83,New York,New York
+6/14/2020,1.1,1.2,1.19,1.38,Orlando,Florida
+6/14/2020,1.09,1.23,1.77,1.64,Philadelphia,Pennsylvania
+6/14/2020,0.79,0.9,1.47,1.6,Phoenix,Arizona
+6/14/2020,1.2,1.08,1.39,1.49,Pittsburgh,Pennsylvania
+6/14/2020,1.04,1.06,1.7,1.81,Portland,Oregon
+6/14/2020,1.16,1.19,1.51,2.03,Raleigh,North Carolina
+6/14/2020,0.95,1.07,1.37,1.59,Richmond,Virginia
+6/14/2020,0.88,0.98,1.2,1.44,Roanoke,Virginia
+6/14/2020,1.16,1.24,1.84,1.6,Sacramento,California
+6/14/2020,1.18,1.24,1.85,1.91,San Diego,California
+6/14/2020,1.39,1.37,1.96,2.05,San Francisco,California
+6/14/2020,1.35,1.4,1.92,2.13,Seattle,Washington
+6/14/2020,1.22,1.11,1.73,1.82,Spokane,Washington
+6/14/2020,1,1.16,1.96,1.96,St Louis,Missouri
+6/14/2020,1.05,1.2,1.63,1.63,Syracuse,New York
+6/14/2020,1.12,1.23,1.2,1.25,Tampa,Florida
+6/14/2020,1.31,1.2,1.79,1.67,Washington DC,Washington DC
+6/14/2020,1.06,1.19,1.59,1.6,Rochester,New York
+6/14/2020,1.06,1.13,1.52,1.72,Dayton,Ohio
+6/14/2020,0.78,0.82,1.24,1.41,Ft Worth,Texas
+6/14/2020,1.06,1.08,1.45,1.5,Scranton,Pennsylvania
+6/14/2020,1.35,1.37,2.08,2.02,Springfield,Massachusetts
+6/14/2020,1.2,1.19,1.23,1.37,Ft Lauderdale,Florida
+6/14/2020,0.98,0.97,1.43,1.39,Mobile,Alabama
+6/14/2020,0.79,0.9,1.47,1.6,Tucson,Arizona
+6/14/2020,1.16,1.19,1.51,2.03,Greensboro,North Carolina
+6/14/2020,0.95,1.07,1.37,1.59,Norfolk,Virginia
+6/14/2020,0.79,0.9,1.47,1.6,Tucson,Arizona
+6/21/2020,1.28,1.24,1.54,1.54,Albany,New York
+6/21/2020,0.91,1.02,1.49,1.63,Atlanta,Georgia
+6/21/2020,1.33,1.34,1.8,1.65,Baltimore,Maryland
+6/21/2020,1.21,1.25,1.72,1.9,Boise,Idaho
+6/21/2020,1.42,1.39,1.94,1.86,Boston,Massachusetts
+6/21/2020,1.09,1.22,1.74,1.43,Buffalo,New York
+6/21/2020,1.24,1.26,1.66,1.75,Charlotte,North Carolina
+6/21/2020,1.49,1.28,1.78,1.81,Chicago,Illinois
+6/21/2020,1.07,1.02,1.56,1.61,Cincinnati,Ohio
+6/21/2020,0.99,1.01,1.38,1.57,Columbus,Ohio
+6/21/2020,0.79,0.79,1.27,1.37,Dallas,Texas
+6/21/2020,0.99,1.07,1.31,1.5,Denver,Colorado
+6/21/2020,1.1,0.99,1.48,1.49,Detroit,Michigan
+6/21/2020,1.35,1.38,1.51,1.48,Grand Rapids,Michigan
+6/21/2020,1.12,1.1,1.6,1.42,Harrisburg,Pennsylvania
+6/21/2020,1.48,1.41,2.1,1.94,Hartford,Connecticut
+6/21/2020,0.84,0.82,1.3,1.41,Houston,Texas
+6/21/2020,1.02,0.97,1.45,1.42,Indianapolis,Indiana
+6/21/2020,1.22,1.19,1.29,1.4,Jacksonville,Florida
+6/21/2020,0.97,1.04,1.43,1.6,Las Vegas,Nevada
+6/21/2020,1.15,1.21,1.66,1.72,Los Angeles,California
+6/21/2020,0.92,1.09,1.36,1.67,Louisville,Kentucky
+6/21/2020,1.17,1.2,1.21,1.33,Miami,Florida
+6/21/2020,0.86,1,1.37,1.56,Nashville,Tennessee
+6/21/2020,0.93,1,1.4,1.34,New Orleans,Louisiana
+6/21/2020,1.48,1.36,1.89,1.84,New York,New York
+6/21/2020,1.11,1.17,1.19,1.34,Orlando,Florida
+6/21/2020,1.22,1.3,1.74,1.61,Philadelphia,Pennsylvania
+6/21/2020,0.76,0.81,1.39,1.53,Phoenix,Arizona
+6/21/2020,1.24,1.13,1.46,1.45,Pittsburgh,Pennsylvania
+6/21/2020,0.94,1.19,1.65,2.01,Portland,Oregon
+6/21/2020,1.17,1.21,1.58,2,Raleigh,North Carolina
+6/21/2020,0.99,1.11,1.39,1.44,Richmond,Virginia
+6/21/2020,0.91,1,1.32,1.49,Roanoke,Virginia
+6/21/2020,1.34,1.29,1.46,1.79,Sacramento,California
+6/21/2020,1.17,1.27,1.78,1.76,San Diego,California
+6/21/2020,1.5,1.31,1.94,2.11,San Francisco,California
+6/21/2020,1.4,1.46,2.04,2.17,Seattle,Washington
+6/21/2020,1.29,1.26,1.74,2.02,Spokane,Washington
+6/21/2020,0.94,1.17,1.95,1.9,St Louis,Missouri
+6/21/2020,1.17,1.22,1.66,1.56,Syracuse,New York
+6/21/2020,1.12,1.19,1.19,1.25,Tampa,Florida
+6/21/2020,1.33,1.34,1.8,1.65,Washington DC,Washington DC
+6/21/2020,1.09,1.22,1.74,1.43,Rochester,New York
+6/21/2020,1.07,1.02,1.56,1.61,Dayton,Ohio
+6/21/2020,0.79,0.79,1.27,1.37,Ft Worth,Texas
+6/21/2020,1.12,1.1,1.6,1.42,Scranton,Pennsylvania
+6/21/2020,1.48,1.41,2.1,1.94,Springfield,Massachusetts
+6/21/2020,1.17,1.2,1.21,1.33,Ft Lauderdale,Florida
+6/21/2020,0.93,1,1.4,1.34,Mobile,Alabama
+6/21/2020,0.76,0.81,1.39,1.53,Tucson,Arizona
+6/21/2020,1.17,1.21,1.58,2,Greensboro,North Carolina
+6/21/2020,0.99,1.11,1.39,1.44,Norfolk,Virginia
+6/21/2020,0.76,0.81,1.39,1.53,Tucson,Arizona
+6/28/2020,1.09,1.36,1.57,1.63,Albany,New York
+6/28/2020,0.95,0.91,1.59,1.64,Atlanta,Georgia
+6/28/2020,1.35,1.31,1.8,1.53,Baltimore,Maryland
+6/28/2020,1.17,1.27,1.77,1.94,Boise,Idaho
+6/28/2020,1.42,1.39,1.96,1.88,Boston,Massachusetts
+6/28/2020,1.08,1.06,1.73,1.1,Buffalo,New York
+6/28/2020,1.2,1.19,1.59,1.82,Charlotte,North Carolina
+6/28/2020,0.84,1.44,1.85,1.91,Chicago,Illinois
+6/28/2020,0.84,0.98,1.34,1.72,Cincinnati,Ohio
+6/28/2020,0.81,1.03,1.44,1.45,Columbus,Ohio
+6/28/2020,0.74,0.69,1.25,1.35,Dallas,Texas
+6/28/2020,1.08,1.08,1.38,1.64,Denver,Colorado
+6/28/2020,0.87,0.89,1.39,1.44,Detroit,Michigan
+6/28/2020,1.29,1.46,1.58,1.35,Grand Rapids,Michigan
+6/28/2020,1.1,1.03,1.58,1.24,Harrisburg,Pennsylvania
+6/28/2020,1.47,1.57,1.96,2.31,Hartford,Connecticut
+6/28/2020,0.8,0.66,1.26,1.47,Houston,Texas
+6/28/2020,0.85,0.95,1.38,1.45,Indianapolis,Indiana
+6/28/2020,1.1,1.16,1.28,1.45,Jacksonville,Florida
+6/28/2020,0.88,1.02,1.47,1.66,Las Vegas,Nevada
+6/28/2020,1.17,1.13,1.58,1.87,Los Angeles,California
+6/28/2020,1,1.05,1.49,1.58,Louisville,Kentucky
+6/28/2020,1.05,1.24,1.22,1.29,Miami,Florida
+6/28/2020,0.91,0.94,1.43,1.55,Nashville,Tennessee
+6/28/2020,0.9,0.92,1.35,1.39,New Orleans,Louisiana
+6/28/2020,1.47,1.37,1.89,1.99,New York,New York
+6/28/2020,1,1.11,1.18,1.35,Orlando,Florida
+6/28/2020,1.22,1.34,1.76,1.68,Philadelphia,Pennsylvania
+6/28/2020,0.85,0.73,1.37,1.65,Phoenix,Arizona
+6/28/2020,0.96,1.16,1.5,1.32,Pittsburgh,Pennsylvania
+6/28/2020,1.16,1.14,1.86,2.07,Portland,Oregon
+6/28/2020,1.15,1.19,1.5,2.12,Raleigh,North Carolina
+6/28/2020,1.03,1.04,1.41,1.4,Richmond,Virginia
+6/28/2020,0.9,0.95,1.46,1.4,Roanoke,Virginia
+6/28/2020,1.18,1.45,1.79,1.88,Sacramento,California
+6/28/2020,1.19,1.12,1.58,1.99,San Diego,California
+6/28/2020,1.05,1.52,2.03,2.09,San Francisco,California
+6/28/2020,1.37,1.49,2.07,2.15,Seattle,Washington
+6/28/2020,1.3,1.29,1.95,2.16,Spokane,Washington
+6/28/2020,0.96,1.1,1.93,1.99,St Louis,Missouri
+6/28/2020,1.08,1.2,1.64,1.44,Syracuse,New York
+6/28/2020,1,1.24,1.19,1.26,Tampa,Florida
+6/28/2020,1.35,1.31,1.8,1.53,Washington DC,Washington DC
+6/28/2020,1.08,1.06,1.73,1.1,Rochester,New York
+6/28/2020,0.84,0.98,1.34,1.72,Dayton,Ohio
+6/28/2020,0.74,0.69,1.25,1.35,Ft Worth,Texas
+6/28/2020,1.1,1.03,1.58,1.24,Scranton,Pennsylvania
+6/28/2020,1.47,1.57,1.96,2.31,Springfield,Massachusetts
+6/28/2020,1.05,1.24,1.22,1.29,Ft Lauderdale,Florida
+6/28/2020,0.9,0.92,1.35,1.39,Mobile,Alabama
+6/28/2020,0.85,0.73,1.37,1.65,Tucson,Arizona
+6/28/2020,1.15,1.19,1.5,2.12,Greensboro,North Carolina
+6/28/2020,1.03,1.04,1.41,1.4,Norfolk,Virginia
+6/28/2020,0.85,0.73,1.37,1.65,Tucson,Arizona
+7/5/2020,1.41,1.13,1.53,1.68,Albany,New York
+7/5/2020,0.94,1.15,1.64,1.65,Atlanta,Georgia
+7/5/2020,1.29,1.24,1.8,1.71,Baltimore,Maryland
+7/5/2020,1.2,1.33,1.82,1.96,Boise,Idaho
+7/5/2020,1.45,1.2,1.95,1.71,Boston,Massachusetts
+7/5/2020,1.05,1.19,1.73,1.53,Buffalo,New York
+7/5/2020,1.22,1.25,1.72,1.9,Charlotte,North Carolina
+7/5/2020,1.26,1.2,1.87,1.74,Chicago,Illinois
+7/5/2020,0.9,1,1.46,1.62,Cincinnati,Ohio
+7/5/2020,0.86,0.87,1.44,1.45,Columbus,Ohio
+7/5/2020,0.75,0.92,1.28,1.48,Dallas,Texas
+7/5/2020,1.07,1.1,1.35,1.62,Denver,Colorado
+7/5/2020,0.93,1.22,1.44,1.58,Detroit,Michigan
+7/5/2020,1.4,1.19,1.58,1.55,Grand Rapids,Michigan
+7/5/2020,1.09,1.25,1.61,1.73,Harrisburg,Pennsylvania
+7/5/2020,1.41,1.08,1.99,1.75,Hartford,Connecticut
+7/5/2020,0.77,0.9,1.31,1.56,Houston,Texas
+7/5/2020,0.91,1.14,1.42,1.5,Indianapolis,Indiana
+7/5/2020,1.08,1.07,1.22,1.56,Jacksonville,Florida
+7/5/2020,1.01,1.14,1.48,1.74,Las Vegas,Nevada
+7/5/2020,1.08,1.08,1.78,1.72,Los Angeles,California
+7/5/2020,1,1.17,1.5,1.56,Louisville,Kentucky
+7/5/2020,1.03,1.07,1.15,1.58,Miami,Florida
+7/5/2020,0.89,0.98,1.48,1.56,Nashville,Tennessee
+7/5/2020,0.9,1.13,1.31,1.7,New Orleans,Louisiana
+7/5/2020,1.2,1.32,1.91,1.8,New York,New York
+7/5/2020,0.98,1.14,1.17,1.62,Orlando,Florida
+7/5/2020,1.05,1.02,1.75,1.57,Philadelphia,Pennsylvania
+7/5/2020,0.93,0.95,1.36,1.6,Phoenix,Arizona
+7/5/2020,1.19,1.15,1.49,1.75,Pittsburgh,Pennsylvania
+7/5/2020,1.14,1.18,1.85,1.98,Portland,Oregon
+7/5/2020,1.15,1.07,1.52,1.84,Raleigh,North Carolina
+7/5/2020,1.03,0.99,1.47,1.54,Richmond,Virginia
+7/5/2020,0.95,1.14,1.49,1.67,Roanoke,Virginia
+7/5/2020,1.54,1.23,1.83,1.98,Sacramento,California
+7/5/2020,1.15,1.38,1.99,2.03,San Diego,California
+7/5/2020,1.66,1.37,2.01,1.98,San Francisco,California
+7/5/2020,1.36,1.31,2.02,1.84,Seattle,Washington
+7/5/2020,1.23,1.19,1.9,2.05,Spokane,Washington
+7/5/2020,0.99,1.22,2.02,1.68,St Louis,Missouri
+7/5/2020,1.21,1.2,1.61,1.35,Syracuse,New York
+7/5/2020,0.98,1.02,1.16,1.51,Tampa,Florida
+7/5/2020,1.29,1.24,1.8,1.71,Washington DC,Washington DC
+7/5/2020,1.05,1.19,1.73,1.53,Rochester,New York
+7/5/2020,0.9,1,1.46,1.62,Dayton,Ohio
+7/5/2020,0.75,0.92,1.28,1.48,Ft Worth,Texas
+7/5/2020,1.09,1.25,1.61,1.73,Scranton,Pennsylvania
+7/5/2020,1.41,1.08,1.99,1.75,Springfield,Massachusetts
+7/5/2020,1.03,1.07,1.15,1.58,Ft Lauderdale,Florida
+7/5/2020,0.9,1.13,1.31,1.7,Mobile,Alabama
+7/5/2020,0.93,0.95,1.36,1.6,Tucson,Arizona
+7/5/2020,1.15,1.07,1.52,1.84,Greensboro,North Carolina
+7/5/2020,1.03,0.99,1.47,1.54,Norfolk,Virginia
+7/5/2020,0.93,0.95,1.36,1.6,Tucson,Arizona
+7/12/2020,1.48,1.18,1.52,1.71,Albany,New York
+7/12/2020,0.87,1.05,1.63,1.73,Atlanta,Georgia
+7/12/2020,1.28,1.21,1.7,1.73,Baltimore,Maryland
+7/12/2020,1.03,1.27,1.67,1.88,Boise,Idaho
+7/12/2020,1.42,1.36,1.96,1.95,Boston,Massachusetts
+7/12/2020,0.99,1.17,1.73,1.68,Buffalo,New York
+7/12/2020,1.19,1.19,1.68,1.71,Charlotte,North Carolina
+7/12/2020,1.2,1.31,1.79,1.89,Chicago,Illinois
+7/12/2020,1.04,1.14,1.59,1.83,Cincinnati,Ohio
+7/12/2020,0.94,1.01,1.38,1.7,Columbus,Ohio
+7/12/2020,0.73,0.82,1.23,1.49,Dallas,Texas
+7/12/2020,0.96,0.98,1.41,1.6,Denver,Colorado
+7/12/2020,1.07,1.04,1.52,1.68,Detroit,Michigan
+7/12/2020,1.4,1.26,1.63,1.7,Grand Rapids,Michigan
+7/12/2020,1.05,1.05,1.62,1.58,Harrisburg,Pennsylvania
+7/12/2020,1.4,1.35,2.05,2.05,Hartford,Connecticut
+7/12/2020,0.81,0.96,1.28,1.68,Houston,Texas
+7/12/2020,0.95,0.95,1.54,1.57,Indianapolis,Indiana
+7/12/2020,1.2,1.17,1.38,1.31,Jacksonville,Florida
+7/12/2020,1,1.06,1.46,1.67,Las Vegas,Nevada
+7/12/2020,1.08,1.16,1.74,1.89,Los Angeles,California
+7/12/2020,0.87,1.05,1.57,1.63,Louisville,Kentucky
+7/12/2020,1.17,1.21,1.46,1.82,Miami,Florida
+7/12/2020,0.85,1.02,1.58,1.52,Nashville,Tennessee
+7/12/2020,0.88,0.96,1.46,1.48,New Orleans,Louisiana
+7/12/2020,1.19,1.2,1.93,1.88,New York,New York
+7/12/2020,1.06,1.19,1.32,1.75,Orlando,Florida
+7/12/2020,1.04,1.18,1.77,1.69,Philadelphia,Pennsylvania
+7/12/2020,0.81,0.9,1.37,1.66,Phoenix,Arizona
+7/12/2020,0.91,1.03,1.51,1.52,Pittsburgh,Pennsylvania
+7/12/2020,1.18,1.13,1.71,1.85,Portland,Oregon
+7/12/2020,1.1,1.17,1.53,2.1,Raleigh,North Carolina
+7/12/2020,0.97,1.07,1.45,1.67,Richmond,Virginia
+7/12/2020,0.88,0.98,1.56,1.51,Roanoke,Virginia
+7/12/2020,1.13,1.23,1.65,1.88,Sacramento,California
+7/12/2020,1.01,1.27,1.98,2.07,San Diego,California
+7/12/2020,1.58,1.27,2.01,2.16,San Francisco,California
+7/12/2020,1.31,1.39,2.09,2.04,Seattle,Washington
+7/12/2020,1.15,1.14,1.79,1.86,Spokane,Washington
+7/12/2020,0.9,1.18,1.99,1.98,St Louis,Missouri
+7/12/2020,1.2,1.19,1.65,1.82,Syracuse,New York
+7/12/2020,1.03,1.22,1.16,1.63,Tampa,Florida
+7/12/2020,1.28,1.21,1.7,1.73,Washington DC,Washington DC
+7/12/2020,0.99,1.17,1.73,1.68,Rochester,New York
+7/12/2020,1.04,1.14,1.59,1.83,Dayton,Ohio
+7/12/2020,0.73,0.82,1.23,1.49,Ft Worth,Texas
+7/12/2020,1.05,1.05,1.62,1.58,Scranton,Pennsylvania
+7/12/2020,1.4,1.35,2.05,2.05,Springfield,Massachusetts
+7/12/2020,1.17,1.21,1.46,1.82,Ft Lauderdale,Florida
+7/12/2020,0.88,0.96,1.46,1.48,Mobile,Alabama
+7/12/2020,0.81,0.9,1.37,1.66,Tucson,Arizona
+7/12/2020,1.1,1.17,1.53,2.1,Greensboro,North Carolina
+7/12/2020,0.97,1.07,1.45,1.67,Norfolk,Virginia
+7/12/2020,0.81,0.9,1.37,1.66,Tucson,Arizona
+7/19/2020,1.17,1.31,1.58,1.45,Albany,New York
+7/19/2020,0.87,0.96,1.54,1.73,Atlanta,Georgia
+7/19/2020,1.25,1.26,1.7,1.6,Baltimore,Maryland
+7/19/2020,1.18,1.17,1.69,1.98,Boise,Idaho
+7/19/2020,1.4,1.35,1.88,1.85,Boston,Massachusetts
+7/19/2020,1.04,1.17,1.76,1.4,Buffalo,New York
+7/19/2020,1.07,1.17,1.52,1.89,Charlotte,North Carolina
+7/19/2020,1.21,1.37,1.67,1.81,Chicago,Illinois
+7/19/2020,1.01,0.96,1.63,1.79,Cincinnati,Ohio
+7/19/2020,0.89,0.94,1.44,1.63,Columbus,Ohio
+7/19/2020,0.73,0.77,1.23,1.4,Dallas,Texas
+7/19/2020,1.01,1.04,1.36,1.38,Denver,Colorado
+7/19/2020,0.93,0.92,1.51,1.6,Detroit,Michigan
+7/19/2020,0.95,1.21,1.71,1.61,Grand Rapids,Michigan
+7/19/2020,1.01,1.07,1.56,1.38,Harrisburg,Pennsylvania
+7/19/2020,1.34,1.34,2.05,1.99,Hartford,Connecticut
+7/19/2020,0.84,0.78,1.32,1.51,Houston,Texas
+7/19/2020,0.91,0.92,1.51,1.51,Indianapolis,Indiana
+7/19/2020,1.18,1.11,0.96,1.59,Jacksonville,Florida
+7/19/2020,0.93,1.02,1.42,1.64,Las Vegas,Nevada
+7/19/2020,1.2,1.1,1.82,1.79,Los Angeles,California
+7/19/2020,0.88,0.99,1.24,1.65,Louisville,Kentucky
+7/19/2020,1.14,1.15,2.13,2.18,Miami,Florida
+7/19/2020,0.85,0.93,1.24,1.61,Nashville,Tennessee
+7/19/2020,0.85,0.98,1.4,1.4,New Orleans,Louisiana
+7/19/2020,1.13,1.24,1.86,1.85,New York,New York
+7/19/2020,1.05,1.13,1.92,1.96,Orlando,Florida
+7/19/2020,1.01,1.21,1.71,1.6,Philadelphia,Pennsylvania
+7/19/2020,0.79,0.75,1.35,1.55,Phoenix,Arizona
+7/19/2020,0.9,1.08,1.43,1.46,Pittsburgh,Pennsylvania
+7/19/2020,1.02,1.08,1.71,1.95,Portland,Oregon
+7/19/2020,1.02,1.13,1.58,2.15,Raleigh,North Carolina
+7/19/2020,0.95,1.04,1.35,1.42,Richmond,Virginia
+7/19/2020,0.89,0.94,1.32,1.49,Roanoke,Virginia
+7/19/2020,1.2,1.32,1.9,1.87,Sacramento,California
+7/19/2020,1.19,1.17,2.03,1.83,San Diego,California
+7/19/2020,1.13,1.39,2.13,2.15,San Francisco,California
+7/19/2020,1.31,1.39,2.03,2.23,Seattle,Washington
+7/19/2020,1.2,1.19,1.74,2.02,Spokane,Washington
+7/19/2020,0.94,1.13,1.77,1.92,St Louis,Missouri
+7/19/2020,1.09,1.23,1.78,1.38,Syracuse,New York
+7/19/2020,1.01,1.13,1.9,1.85,Tampa,Florida
+7/19/2020,1.25,1.26,1.7,1.6,Washington DC,Washington DC
+7/19/2020,1.04,1.17,1.76,1.4,Rochester,New York
+7/19/2020,1.01,0.96,1.63,1.79,Dayton,Ohio
+7/19/2020,0.73,0.77,1.23,1.4,Ft Worth,Texas
+7/19/2020,1.01,1.07,1.56,1.38,Scranton,Pennsylvania
+7/19/2020,1.34,1.34,2.05,1.99,Springfield,Massachusetts
+7/19/2020,1.14,1.15,2.13,2.18,Ft Lauderdale,Florida
+7/19/2020,0.85,0.98,1.4,1.4,Mobile,Alabama
+7/19/2020,0.79,0.75,1.35,1.55,Tucson,Arizona
+7/19/2020,1.02,1.13,1.58,2.15,Greensboro,North Carolina
+7/19/2020,0.95,1.04,1.35,1.42,Norfolk,Virginia
+7/19/2020,0.79,0.75,1.35,1.55,Tucson,Arizona
+7/26/2020,1.45,1.45,1.19,1.52,Albany,New York
+7/26/2020,0.86,0.95,1.59,1.66,Atlanta,Georgia
+7/26/2020,1.2,1.34,1.56,1.56,Baltimore,Maryland
+7/26/2020,1.02,1.3,1.75,1.96,Boise,Idaho
+7/26/2020,1.4,1.46,1.8,1.85,Boston,Massachusetts
+7/26/2020,1.06,1.14,1.46,1.3,Buffalo,New York
+7/26/2020,1.05,1.26,1.7,1.85,Charlotte,North Carolina
+7/26/2020,1.29,1.51,1.6,1.91,Chicago,Illinois
+7/26/2020,0.85,1.03,1.49,1.71,Cincinnati,Ohio
+7/26/2020,0.79,1.07,1.39,1.56,Columbus,Ohio
+7/26/2020,0.75,0.75,1.16,1.38,Dallas,Texas
+7/26/2020,1.08,1.14,0.98,1.61,Denver,Colorado
+7/26/2020,0.8,0.96,1.45,1.45,Detroit,Michigan
+7/26/2020,0.91,1.56,1.66,1.38,Grand Rapids,Michigan
+7/26/2020,1.04,1.08,1.32,1.37,Harrisburg,Pennsylvania
+7/26/2020,1.4,1.57,1.9,2.25,Hartford,Connecticut
+7/26/2020,0.8,0.72,1.22,1.45,Houston,Texas
+7/26/2020,0.83,1.03,1.43,1.43,Indianapolis,Indiana
+7/26/2020,1.01,1.19,1.45,1.4,Jacksonville,Florida
+7/26/2020,0.94,1.09,1.39,1.65,Las Vegas,Nevada
+7/26/2020,1.13,1.23,1.58,1.9,Los Angeles,California
+7/26/2020,0.86,1.11,1.43,1.51,Louisville,Kentucky
+7/26/2020,0.99,1.25,2.62,1.24,Miami,Florida
+7/26/2020,0.81,1,1.35,1.56,Nashville,Tennessee
+7/26/2020,0.85,0.99,1.33,1.33,New Orleans,Louisiana
+7/26/2020,1.13,1.34,1.77,2.01,New York,New York
+7/26/2020,0.91,1.14,2.22,1.33,Orlando,Florida
+7/26/2020,1.01,1.3,1.59,1.67,Philadelphia,Pennsylvania
+7/26/2020,0.72,0.78,1.26,1.58,Phoenix,Arizona
+7/26/2020,0.9,1.19,1.41,1.37,Pittsburgh,Pennsylvania
+7/26/2020,1.03,1.23,1.77,2.19,Portland,Oregon
+7/26/2020,1.02,1.24,1.66,2.12,Raleigh,North Carolina
+7/26/2020,0.93,1.12,1.17,1.4,Richmond,Virginia
+7/26/2020,0.85,1,1.35,1.5,Roanoke,Virginia
+7/26/2020,1.4,1.53,1.87,1.85,Sacramento,California
+7/26/2020,1.09,1.2,1.61,1.99,San Diego,California
+7/26/2020,1.38,1.58,2.09,2.08,San Francisco,California
+7/26/2020,1.31,1.52,2.18,2.2,Seattle,Washington
+7/26/2020,1.21,1.32,1.87,2.21,Spokane,Washington
+7/26/2020,0.89,1.17,1.83,1.98,St Louis,Missouri
+7/26/2020,1.24,1.28,1.21,1.41,Syracuse,New York
+7/26/2020,0.88,1.26,2.28,1.21,Tampa,Florida
+7/26/2020,1.2,1.34,1.56,1.56,Washington DC,Washington DC
+7/26/2020,1.06,1.14,1.46,1.3,Rochester,New York
+7/26/2020,0.85,1.03,1.49,1.71,Dayton,Ohio
+7/26/2020,0.75,0.75,1.16,1.38,Ft Worth,Texas
+7/26/2020,1.04,1.08,1.32,1.37,Scranton,Pennsylvania
+7/26/2020,1.4,1.57,1.9,2.25,Springfield,Massachusetts
+7/26/2020,0.99,1.25,2.62,1.24,Ft Lauderdale,Florida
+7/26/2020,0.85,0.99,1.33,1.33,Mobile,Alabama
+7/26/2020,0.72,0.78,1.26,1.58,Tucson,Arizona
+7/26/2020,1.02,1.24,1.66,2.12,Greensboro,North Carolina
+7/26/2020,0.93,1.12,1.17,1.4,Norfolk,Virginia
+7/26/2020,0.72,0.78,1.26,1.58,Tucson,Arizona
+8/2/2020,1.04,1.16,1.25,1.74,Albany,New York
+8/2/2020,0.85,1.04,1.59,1.73,Atlanta,Georgia
+8/2/2020,1.13,1.21,1.82,1.71,Baltimore,Maryland
+8/2/2020,1.13,1.26,1.82,1.89,Boise,Idaho
+8/2/2020,1.36,1.33,1.91,1.96,Boston,Massachusetts
+8/2/2020,1.04,1.17,1.36,1.55,Buffalo,New York
+8/2/2020,0.89,1.21,1.64,1.76,Charlotte,North Carolina
+8/2/2020,1.07,1.24,1.64,1.88,Chicago,Illinois
+8/2/2020,0.86,1.04,1.45,1.75,Cincinnati,Ohio
+8/2/2020,0.84,0.96,1.32,1.69,Columbus,Ohio
+8/2/2020,0.72,0.83,1.19,1.48,Dallas,Texas
+8/2/2020,1.03,1.02,0.95,1.55,Denver,Colorado
+8/2/2020,0.91,0.96,1.41,1.63,Detroit,Michigan
+8/2/2020,1.16,1.3,1.6,1.63,Grand Rapids,Michigan
+8/2/2020,1.02,1.06,1.61,1.59,Harrisburg,Pennsylvania
+8/2/2020,1.26,1.36,2.03,2.03,Hartford,Connecticut
+8/2/2020,0.81,0.95,1.25,1.67,Houston,Texas
+8/2/2020,0.85,0.9,1.42,1.54,Indianapolis,Indiana
+8/2/2020,0.98,1.1,1.57,1.56,Jacksonville,Florida
+8/2/2020,0.94,1.09,1.42,1.63,Las Vegas,Nevada
+8/2/2020,1.2,1.06,1.74,1.8,Los Angeles,California
+8/2/2020,0.88,1,1.44,1.77,Louisville,Kentucky
+8/2/2020,0.99,1.14,1.78,1.64,Miami,Florida
+8/2/2020,0.8,1.01,1.41,1.68,Nashville,Tennessee
+8/2/2020,0.85,0.96,1.33,1.39,New Orleans,Louisiana
+8/2/2020,1.19,1.19,1.85,1.76,New York,New York
+8/2/2020,0.91,1.13,1.73,1.66,Orlando,Florida
+8/2/2020,1.04,1.18,1.71,1.61,Philadelphia,Pennsylvania
+8/2/2020,0.79,0.96,1.31,1.6,Phoenix,Arizona
+8/2/2020,1.14,1.1,1.5,1.57,Pittsburgh,Pennsylvania
+8/2/2020,1,1.15,1.76,1.87,Portland,Oregon
+8/2/2020,0.89,1.17,1.57,2.09,Raleigh,North Carolina
+8/2/2020,0.91,1.05,1.45,1.73,Richmond,Virginia
+8/2/2020,0.88,0.96,1.48,1.54,Roanoke,Virginia
+8/2/2020,1.35,1.3,1.83,1.83,Sacramento,California
+8/2/2020,1.22,1.19,1.98,1.97,San Diego,California
+8/2/2020,1.53,1.38,2.02,2.1,San Francisco,California
+8/2/2020,1.36,1.43,2.15,2.15,Seattle,Washington
+8/2/2020,1.18,1.14,1.91,1.87,Spokane,Washington
+8/2/2020,0.89,1.17,1.93,1.99,St Louis,Missouri
+8/2/2020,1.05,1.19,1.23,1.63,Syracuse,New York
+8/2/2020,0.89,1.17,2,1.53,Tampa,Florida
+8/2/2020,1.13,1.21,1.82,1.71,Washington DC,Washington DC
+8/2/2020,1.04,1.17,1.36,1.55,Rochester,New York
+8/2/2020,0.86,1.04,1.45,1.75,Dayton,Ohio
+8/2/2020,0.72,0.83,1.19,1.48,Ft Worth,Texas
+8/2/2020,1.02,1.06,1.61,1.59,Scranton,Pennsylvania
+8/2/2020,1.26,1.36,2.03,2.03,Springfield,Massachusetts
+8/2/2020,0.99,1.14,1.78,1.64,Ft Lauderdale,Florida
+8/2/2020,0.85,0.96,1.33,1.39,Mobile,Alabama
+8/2/2020,0.79,0.96,1.31,1.6,Tucson,Arizona
+8/2/2020,0.89,1.17,1.57,2.09,Greensboro,North Carolina
+8/2/2020,0.91,1.05,1.45,1.73,Norfolk,Virginia
+8/2/2020,0.79,0.96,1.31,1.6,Tucson,Arizona
+8/9/2020,1.04,1.14,1.69,1.74,Albany,New York
+8/9/2020,0.86,1.17,1.68,1.66,Atlanta,Georgia
+8/9/2020,1.11,1.3,1.79,1.73,Baltimore,Maryland
+8/9/2020,1.14,1.31,1.73,1.94,Boise,Idaho
+8/9/2020,1.34,1.24,1.91,1.58,Boston,Massachusetts
+8/9/2020,0.96,1.23,1.46,1.49,Buffalo,New York
+8/9/2020,1.12,1.28,1.65,1.9,Charlotte,North Carolina
+8/9/2020,1.27,1.12,1.69,1.66,Chicago,Illinois
+8/9/2020,0.92,0.9,1.61,1.65,Cincinnati,Ohio
+8/9/2020,0.88,0.88,1.44,1.45,Columbus,Ohio
+8/9/2020,0.77,0.96,1.24,1.46,Dallas,Texas
+8/9/2020,1.05,0.99,1.14,1.62,Denver,Colorado
+8/9/2020,1.01,1.16,1.45,1.58,Detroit,Michigan
+8/9/2020,1.31,1.16,1.6,1.56,Grand Rapids,Michigan
+8/9/2020,1.01,1.27,1.63,1.67,Harrisburg,Pennsylvania
+8/9/2020,1.33,1.1,2.05,1.78,Hartford,Connecticut
+8/9/2020,0.84,0.84,1.31,1.52,Houston,Texas
+8/9/2020,0.86,1.07,1.49,1.4,Indianapolis,Indiana
+8/9/2020,0.98,1.07,1.11,1.55,Jacksonville,Florida
+8/9/2020,0.94,1.13,1.4,1.79,Las Vegas,Nevada
+8/9/2020,1.15,1.11,1.6,1.72,Los Angeles,California
+8/9/2020,0.94,1.12,1.46,1.58,Louisville,Kentucky
+8/9/2020,1.03,1.08,1.68,1.55,Miami,Florida
+8/9/2020,0.81,0.98,1.44,1.46,Nashville,Tennessee
+8/9/2020,0.8,1.13,1.24,1.64,New Orleans,Louisiana
+8/9/2020,1.13,1.29,1.88,1.8,New York,New York
+8/9/2020,0.94,1.16,1.1,1.56,Orlando,Florida
+8/9/2020,1.02,1.03,1.73,1.56,Philadelphia,Pennsylvania
+8/9/2020,0.81,1.02,1.31,1.58,Phoenix,Arizona
+8/9/2020,0.91,1.13,1.55,1.71,Pittsburgh,Pennsylvania
+8/9/2020,1.1,1.18,1.7,2.02,Portland,Oregon
+8/9/2020,1.09,1.09,1.52,1.84,Raleigh,North Carolina
+8/9/2020,0.97,1.02,1.47,1.51,Richmond,Virginia
+8/9/2020,0.89,1.12,1.43,1.73,Roanoke,Virginia
+8/9/2020,1.35,1.29,1.81,1.99,Sacramento,California
+8/9/2020,1.05,1.25,1.6,2,San Diego,California
+8/9/2020,1.5,1.45,2,2.11,San Francisco,California
+8/9/2020,1.36,1.26,2.08,1.83,Seattle,Washington
+8/9/2020,1.15,1.19,1.65,2.04,Spokane,Washington
+8/9/2020,0.97,1.17,1.96,1.6,St Louis,Missouri
+8/9/2020,0.98,1.17,1.44,1.45,Syracuse,New York
+8/9/2020,0.93,1.02,1.17,1.51,Tampa,Florida
+8/9/2020,1.11,1.3,1.79,1.73,Washington DC,Washington DC
+8/9/2020,0.96,1.23,1.46,1.49,Rochester,New York
+8/9/2020,0.92,0.9,1.61,1.65,Dayton,Ohio
+8/9/2020,0.77,0.96,1.24,1.46,Ft Worth,Texas
+8/9/2020,1.01,1.27,1.63,1.67,Scranton,Pennsylvania
+8/9/2020,1.33,1.1,2.05,1.78,Springfield,Massachusetts
+8/9/2020,1.03,1.08,1.68,1.55,Ft Lauderdale,Florida
+8/9/2020,0.8,1.13,1.24,1.64,Mobile,Alabama
+8/9/2020,0.81,1.02,1.31,1.58,Tucson,Arizona
+8/9/2020,1.09,1.09,1.52,1.84,Greensboro,North Carolina
+8/9/2020,0.97,1.02,1.47,1.51,Norfolk,Virginia
+8/9/2020,0.81,1.02,1.31,1.58,Tucson,Arizona
+8/16/2020,0.92,1.02,1.79,1.51,Albany,New York
+8/16/2020,0.82,1.13,1.73,1.66,Atlanta,Georgia
+8/16/2020,1.22,1.12,1.76,1.69,Baltimore,Maryland
+8/16/2020,1.14,1.3,1.74,1.79,Boise,Idaho
+8/16/2020,1.32,1.31,1.88,1.92,Boston,Massachusetts
+8/16/2020,1.03,1.23,1.45,1.5,Buffalo,New York
+8/16/2020,1.18,1.11,1.66,1.52,Charlotte,North Carolina
+8/16/2020,1.25,1.25,1.72,1.84,Chicago,Illinois
+8/16/2020,0.74,1.19,1.45,1.71,Cincinnati,Ohio
+8/16/2020,0.71,0.98,1.43,1.6,Columbus,Ohio
+8/16/2020,0.75,0.88,1.23,1.46,Dallas,Texas
+8/16/2020,1.06,0.94,1.24,1.3,Denver,Colorado
+8/16/2020,0.76,1.05,1.43,1.6,Detroit,Michigan
+8/16/2020,1.07,1.16,1.61,1.56,Grand Rapids,Michigan
+8/16/2020,0.94,1.08,1.61,1.6,Harrisburg,Pennsylvania
+8/16/2020,1.33,1.22,1.98,1.73,Hartford,Connecticut
+8/16/2020,0.8,1.12,1.32,1.71,Houston,Texas
+8/16/2020,0.73,0.89,1.4,1.51,Indianapolis,Indiana
+8/16/2020,0.97,1.09,1.25,1.6,Jacksonville,Florida
+8/16/2020,0.91,1.07,1.43,1.59,Las Vegas,Nevada
+8/16/2020,1.16,1.19,1.72,1.79,Los Angeles,California
+8/16/2020,0.95,1.1,1.55,1.65,Louisville,Kentucky
+8/16/2020,1,1.11,1.55,1.67,Miami,Florida
+8/16/2020,0.8,1.09,1.55,1.53,Nashville,Tennessee
+8/16/2020,0.85,0.97,1.24,1.49,New Orleans,Louisiana
+8/16/2020,1.13,1.15,1.82,1.67,New York,New York
+8/16/2020,0.93,1.17,1.43,1.65,Orlando,Florida
+8/16/2020,1.02,1.15,1.66,1.59,Philadelphia,Pennsylvania
+8/16/2020,0.81,1.02,1.32,1.54,Phoenix,Arizona
+8/16/2020,1.12,1.03,1.5,1.57,Pittsburgh,Pennsylvania
+8/16/2020,1.06,1.13,1.68,1.76,Portland,Oregon
+8/16/2020,1.09,1.12,1.57,2,Raleigh,North Carolina
+8/16/2020,0.98,1.08,1.48,1.79,Richmond,Virginia
+8/16/2020,0.92,1,1.48,1.53,Roanoke,Virginia
+8/16/2020,1.01,1.2,1.82,1.76,Sacramento,California
+8/16/2020,1.15,1.32,1.97,2.02,San Diego,California
+8/16/2020,1.15,1.36,1.99,2.03,San Francisco,California
+8/16/2020,1.41,1.42,2.1,2.15,Seattle,Washington
+8/16/2020,1.18,1.06,1.7,1.82,Spokane,Washington
+8/16/2020,0.91,1.19,1.92,2.03,St Louis,Missouri
+8/16/2020,0.98,1.18,1.4,1.48,Syracuse,New York
+8/16/2020,0.91,1.14,1.45,1.67,Tampa,Florida
+8/16/2020,1.22,1.12,1.76,1.69,Washington DC,Washington DC
+8/16/2020,1.03,1.23,1.45,1.5,Rochester,New York
+8/16/2020,0.74,1.19,1.45,1.71,Dayton,Ohio
+8/16/2020,0.75,0.88,1.23,1.46,Ft Worth,Texas
+8/16/2020,0.94,1.08,1.61,1.6,Scranton,Pennsylvania
+8/16/2020,1.33,1.22,1.98,1.73,Springfield,Massachusetts
+8/16/2020,1,1.11,1.55,1.67,Ft Lauderdale,Florida
+8/16/2020,0.85,0.97,1.24,1.49,Mobile,Alabama
+8/16/2020,0.81,1.02,1.32,1.54,Tucson,Arizona
+8/16/2020,1.09,1.12,1.57,2,Greensboro,North Carolina
+8/16/2020,0.98,1.08,1.48,1.79,Norfolk,Virginia
+8/16/2020,0.81,1.02,1.32,1.54,Tucson,Arizona
+8/23/2020,1.08,1.23,1.76,1.66,Albany,New York
+8/23/2020,0.81,1,1.62,1.73,Atlanta,Georgia
+8/23/2020,1.21,1.31,1.72,1.69,Baltimore,Maryland
+8/23/2020,1.15,1.26,1.79,1.99,Boise,Idaho
+8/23/2020,1.26,1.32,1.89,1.92,Boston,Massachusetts
+8/23/2020,0.94,1.2,1.51,1.42,Buffalo,New York
+8/23/2020,1.15,1.2,1.71,1.9,Charlotte,North Carolina
+8/23/2020,1.01,1.4,1.63,1.82,Chicago,Illinois
+8/23/2020,0.76,1.08,1.47,1.85,Cincinnati,Ohio
+8/23/2020,0.74,1.06,1.42,1.67,Columbus,Ohio
+8/23/2020,0.71,0.81,1.21,1.46,Dallas,Texas
+8/23/2020,1.09,1.07,1.26,1.61,Denver,Colorado
+8/23/2020,0.78,0.95,1.43,1.61,Detroit,Michigan
+8/23/2020,1.1,1.26,1.63,1.62,Grand Rapids,Michigan
+8/23/2020,1.01,1.09,1.63,1.56,Harrisburg,Pennsylvania
+8/23/2020,1.37,1.37,2.13,2.12,Hartford,Connecticut
+8/23/2020,0.73,0.83,1.26,1.52,Houston,Texas
+8/23/2020,0.74,0.94,1.4,1.51,Indianapolis,Indiana
+8/23/2020,0.99,1.19,1.44,1.62,Jacksonville,Florida
+8/23/2020,1,1.07,1.4,1.65,Las Vegas,Nevada
+8/23/2020,0.99,1.13,1.65,1.85,Los Angeles,California
+8/23/2020,0.73,1.03,1.57,1.71,Louisville,Kentucky
+8/23/2020,0.98,1.19,1.63,1.59,Miami,Florida
+8/23/2020,0.83,1,1.63,1.7,Nashville,Tennessee
+8/23/2020,0.82,1.02,1.24,1.39,New Orleans,Louisiana
+8/23/2020,1.1,1.27,1.71,1.85,New York,New York
+8/23/2020,0.9,1.16,1.66,1.55,Orlando,Florida
+8/23/2020,0.97,1.26,1.59,1.62,Philadelphia,Pennsylvania
+8/23/2020,0.9,0.8,1.3,1.59,Phoenix,Arizona
+8/23/2020,1.14,1.17,1.51,1.56,Pittsburgh,Pennsylvania
+8/23/2020,1.12,1.15,1.74,2.05,Portland,Oregon
+8/23/2020,1.01,1.14,1.55,2.11,Raleigh,North Carolina
+8/23/2020,0.89,1.05,1.51,1.59,Richmond,Virginia
+8/23/2020,0.82,0.97,1.48,1.6,Roanoke,Virginia
+8/23/2020,1.35,1.24,1.83,1.87,Sacramento,California
+8/23/2020,0.94,1.23,1.93,2.02,San Diego,California
+8/23/2020,1.4,1.34,1.93,2.16,San Francisco,California
+8/23/2020,1.3,1.41,1.9,2.23,Seattle,Washington
+8/23/2020,1.17,1.2,1.72,2.02,Spokane,Washington
+8/23/2020,0.9,1.17,1.79,1.99,St Louis,Missouri
+8/23/2020,0.99,1.21,1.46,1.54,Syracuse,New York
+8/23/2020,0.87,1.16,1.67,1.45,Tampa,Florida
+8/23/2020,1.21,1.31,1.72,1.69,Washington DC,Washington DC
+8/23/2020,0.94,1.2,1.51,1.42,Rochester,New York
+8/23/2020,0.76,1.08,1.47,1.85,Dayton,Ohio
+8/23/2020,0.71,0.81,1.21,1.46,Ft Worth,Texas
+8/23/2020,1.01,1.09,1.63,1.56,Scranton,Pennsylvania
+8/23/2020,1.37,1.37,2.13,2.12,Springfield,Massachusetts
+8/23/2020,0.98,1.19,1.63,1.59,Ft Lauderdale,Florida
+8/23/2020,0.82,1.02,1.24,1.39,Mobile,Alabama
+8/23/2020,0.9,0.8,1.3,1.59,Tucson,Arizona
+8/23/2020,1.01,1.14,1.55,2.11,Greensboro,North Carolina
+8/23/2020,0.89,1.05,1.51,1.59,Norfolk,Virginia
+8/23/2020,0.9,0.8,1.3,1.59,Tucson,Arizona
+8/30/2020,0.99,1.34,1.63,1.67,Albany,New York
+8/30/2020,0.8,0.89,1.55,1.76,Atlanta,Georgia
+8/30/2020,1.21,1.27,1.69,1.64,Baltimore,Maryland
+8/30/2020,1.14,1.27,1.69,2.02,Boise,Idaho
+8/30/2020,1.18,1.4,1.9,1.9,Boston,Massachusetts
+8/30/2020,1.02,1.1,1.5,1.25,Buffalo,New York
+8/30/2020,1.04,1.21,1.62,1.88,Charlotte,North Carolina
+8/30/2020,1.29,1.51,1.62,1.94,Chicago,Illinois
+8/30/2020,0.92,1.05,1.6,1.87,Cincinnati,Ohio
+8/30/2020,0.91,1.04,1.42,1.66,Columbus,Ohio
+8/30/2020,0.71,0.74,1.2,1.43,Dallas,Texas
+8/30/2020,1.09,1.13,1.28,1.6,Denver,Colorado
+8/30/2020,0.75,0.94,1.39,1.52,Detroit,Michigan
+8/30/2020,1.01,1.55,1.67,1.43,Grand Rapids,Michigan
+8/30/2020,1.01,1.03,1.62,1.43,Harrisburg,Pennsylvania
+8/30/2020,1.34,1.53,2.18,2.36,Hartford,Connecticut
+8/30/2020,0.73,0.75,1.26,1.54,Houston,Texas
+8/30/2020,0.71,0.97,1.41,1.53,Indianapolis,Indiana
+8/30/2020,1.02,1.13,1.45,1.43,Jacksonville,Florida
+8/30/2020,0.93,1.08,1.34,1.67,Las Vegas,Nevada
+8/30/2020,1.11,1.15,1.71,1.91,Los Angeles,California
+8/30/2020,0.76,1.08,1.5,1.66,Louisville,Kentucky
+8/30/2020,0.95,1.22,1.56,1.57,Miami,Florida
+8/30/2020,0.83,0.96,1.55,1.64,Nashville,Tennessee
+8/30/2020,0.84,0.93,1.24,1.35,New Orleans,Louisiana
+8/30/2020,1.11,1.29,1.76,2.06,New York,New York
+8/30/2020,0.89,1.09,1.3,1.37,Orlando,Florida
+8/30/2020,1.01,1.3,1.59,1.72,Philadelphia,Pennsylvania
+8/30/2020,0.74,0.76,1.3,1.63,Phoenix,Arizona
+8/30/2020,1.15,1.1,1.52,1.46,Pittsburgh,Pennsylvania
+8/30/2020,1.04,1.2,1.63,2.11,Portland,Oregon
+8/30/2020,0.93,1.2,1.54,2.17,Raleigh,North Carolina
+8/30/2020,0.81,1.07,1.47,1.47,Richmond,Virginia
+8/30/2020,0.78,0.97,1.48,1.53,Roanoke,Virginia
+8/30/2020,1.04,1.45,1.81,1.87,Sacramento,California
+8/30/2020,1.1,1.15,1.99,1.92,San Diego,California
+8/30/2020,1.21,1.5,1.97,2.16,San Francisco,California
+8/30/2020,1.21,1.54,1.95,2.27,Seattle,Washington
+8/30/2020,1.09,1.3,1.69,2.14,Spokane,Washington
+8/30/2020,0.92,1.14,1.88,2.06,St Louis,Missouri
+8/30/2020,1.03,1.21,1.47,1.38,Syracuse,New York
+8/30/2020,0.86,1.23,1.35,1.29,Tampa,Florida
+8/30/2020,1.21,1.27,1.69,1.64,Washington DC,Washington DC
+8/30/2020,1.02,1.1,1.5,1.25,Rochester,New York
+8/30/2020,0.92,1.05,1.6,1.87,Dayton,Ohio
+8/30/2020,0.71,0.74,1.2,1.43,Ft Worth,Texas
+8/30/2020,1.01,1.03,1.62,1.43,Scranton,Pennsylvania
+8/30/2020,1.34,1.53,2.18,2.36,Springfield,Massachusetts
+8/30/2020,0.95,1.22,1.56,1.57,Ft Lauderdale,Florida
+8/30/2020,0.84,0.93,1.24,1.35,Mobile,Alabama
+8/30/2020,0.74,0.76,1.3,1.63,Tucson,Arizona
+8/30/2020,0.93,1.2,1.54,2.17,Greensboro,North Carolina
+8/30/2020,0.81,1.07,1.47,1.47,Norfolk,Virginia
+8/30/2020,0.74,0.76,1.3,1.63,Tucson,Arizona
+9/6/2020,1.3,0.95,1.66,1.69,Albany,New York
+9/6/2020,0.81,1.2,1.7,1.61,Atlanta,Georgia
+9/6/2020,1,1.25,1.69,1.74,Baltimore,Maryland
+9/6/2020,1.09,1.33,1.76,1.84,Boise,Idaho
+9/6/2020,1.3,1.15,1.93,1.32,Boston,Massachusetts
+9/6/2020,1,1.2,1.54,1.69,Buffalo,New York
+9/6/2020,1.13,1.4,1.65,1.76,Charlotte,North Carolina
+9/6/2020,1.33,1.01,1.61,1.67,Chicago,Illinois
+9/6/2020,0.97,0.89,1.63,1.58,Cincinnati,Ohio
+9/6/2020,0.89,0.74,1.46,1.29,Columbus,Ohio
+9/6/2020,0.72,1.1,1.24,1.49,Dallas,Texas
+9/6/2020,0.99,0.97,1.28,1.38,Denver,Colorado
+9/6/2020,0.86,1.42,1.38,1.37,Detroit,Michigan
+9/6/2020,1.37,1.2,1.65,1.61,Grand Rapids,Michigan
+9/6/2020,1.02,1.35,1.6,2.07,Harrisburg,Pennsylvania
+9/6/2020,1.19,0.74,2.15,1.32,Hartford,Connecticut
+9/6/2020,0.77,0.99,1.3,1.41,Houston,Texas
+9/6/2020,0.76,1.07,1.39,1.5,Indianapolis,Indiana
+9/6/2020,0.91,0.99,1.49,1.52,Jacksonville,Florida
+9/6/2020,0.93,1.06,1.35,1.76,Las Vegas,Nevada
+9/6/2020,1,1.1,1.71,1.6,Los Angeles,California
+9/6/2020,0.96,1.07,1.52,1.42,Louisville,Kentucky
+9/6/2020,0.89,1,1.72,1.55,Miami,Florida
+9/6/2020,0.86,0.96,1.59,1.38,Nashville,Tennessee
+9/6/2020,0.78,1.21,1.44,1.85,New Orleans,Louisiana
+9/6/2020,1.09,1.34,1.8,1.64,New York,New York
+9/6/2020,0.86,1.1,1.52,1.46,Orlando,Florida
+9/6/2020,1,0.79,1.59,1.49,Philadelphia,Pennsylvania
+9/6/2020,0.75,1.11,1.29,1.53,Phoenix,Arizona
+9/6/2020,0.93,1.18,1.55,1.87,Pittsburgh,Pennsylvania
+9/6/2020,1.03,1.11,1.61,1.77,Portland,Oregon
+9/6/2020,1.03,1.06,1.51,1.31,Raleigh,North Carolina
+9/6/2020,0.96,0.97,1.43,1.49,Richmond,Virginia
+9/6/2020,0.89,1.36,1.45,1.76,Roanoke,Virginia
+9/6/2020,1.35,1.21,1.86,2.14,Sacramento,California
+9/6/2020,1.05,1.44,1.98,2.02,San Diego,California
+9/6/2020,1.45,1.38,1.97,2.02,San Francisco,California
+9/6/2020,1.3,1.14,2.09,1.54,Seattle,Washington
+9/6/2020,1.14,1.14,1.69,1.74,Spokane,Washington
+9/6/2020,0.96,1.18,1.8,1.32,St Louis,Missouri
+9/6/2020,1.17,1.09,1.47,1.52,Syracuse,New York
+9/6/2020,0.83,0.74,1.63,1.72,Tampa,Florida
+9/6/2020,1,1.25,1.69,1.74,Washington DC,Washington DC
+9/6/2020,1,1.2,1.54,1.69,Rochester,New York
+9/6/2020,0.97,0.89,1.63,1.58,Dayton,Ohio
+9/6/2020,0.72,1.1,1.24,1.49,Ft Worth,Texas
+9/6/2020,1.02,1.35,1.6,2.07,Scranton,Pennsylvania
+9/6/2020,1.19,0.74,2.15,1.32,Springfield,Massachusetts
+9/6/2020,0.89,1,1.72,1.55,Ft Lauderdale,Florida
+9/6/2020,0.78,1.21,1.44,1.85,Mobile,Alabama
+9/6/2020,0.75,1.11,1.29,1.53,Tucson,Arizona
+9/6/2020,1.03,1.06,1.51,1.31,Greensboro,North Carolina
+9/6/2020,0.96,0.97,1.43,1.49,Norfolk,Virginia
+9/6/2020,0.75,1.11,1.29,1.53,Tucson,Arizona
