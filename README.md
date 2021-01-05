@@ -94,6 +94,7 @@ The steps for preprocessing the ARIMA, LSTM Univariate and LSTM Multivariate mod
 ['ARIMA Model'](./ML_models/ARIMA_Price_Prod.ipynb)
 ['LSTM Univariate'](./ML_models/LSTM_basic_regression_prices.ipynb)
 ['LSTM Multivariate with Lags'](./ML_models/LSTM_Multivariate_Prices_climate.ipynb)
+A definiton of the climate data columns is available here ['climate Data'](resources/drought-readme.txt)
 
 ## Model
 ### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
@@ -150,15 +151,15 @@ Our goal is to build and train the model that has high accuracy in predicting pr
 Final code for this model can be found here: [Random Forest Classifier](ML_models/Random_Forest_Classifier_price_and_production_data.ipynb) and [Random Forest Regressor](ML_models/Random_Forest_Regressor_price_and_production_data.ipynb)
 
 ### ARIMA and LSTM Univariate Model
-Though the ARIMA model doesn't use any features, which could provide useful information, the model does accurately predict the average prices of avocados. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect.
+Though the ARIMA model doesn't use any features, which could provide useful information, the model is fairly accurate in predicting the average prices of avocados. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect.
 
 ###LSTM Multivariate Model
-By iterating through the number lags. I found 3 to 4 lags, depending on which dataset was run, produced the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'.
+By iterating through a number of lags I found 1 lag produces the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'.
 
 ## Next Steps
 ### ARIMA and LSTM Univariate Model
 More work to understand seaonality could be done. I ran one ARIM model with it's seasonality feature. Compensating for seasonality makes the conventional model worse but does not change the score for organic. This is interesting given the different growing seasons. 
 
 ### LSTM Multivariate Model
-LSTM is very interesting. If time permitted, I would try sliding window of time and also try this as a classifier model. Additionally, I found the LSTM requirement for a 3 dimensional datashpe very difficult to use for applying SHAP. I tried using SHAP to predict feature importances. Given the large number of features after encoding and creating time lags, the SHAP funcitonality would not run. It produced errors about single dimensiolity in some features. I reduced features so that the SHAP feature perdictor would work but now, some features were not being taken into account. The same 3 dimensional difficulty also came up when I tried to add additional layers to the model. More work in these areas could improve the model. 
+LSTM is very interesting. If time permitted, I would try sliding window of time and also try this as a classifier model. Additionally, I found the LSTM requirement for a 3 dimensional datashpe very difficult to use for applying SHAP. I tried using SHAP to predict feature importances. Given the large number of features after encoding and creating time lags, the SHAP funcitonality would not run. It produced errors about single dimensiality in some features. I reduced features so that the SHAP feature perdictor would work but now, some features were not being taken into account. The same 3 dimensional difficulty also came up when I tried to add additional layers to the model. More work in these areas could improve the model. 
 
