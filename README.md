@@ -141,7 +141,7 @@ We are creating a dashboard with interactive visualizations using **Tableau**, h
 ## Summary
 ### Final ML Models and stats
 
-  !["ML Model stats"](./images/ML_Model_Stats.png "ML Model Stats")
+  !["ML Model results"](./images/ML_Model_Results.png "ML Model Results")
 
 ### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
 Our goal is to build and train the model that has high accuracy in predicting prices in various US cities and determine what features are important at predicting prices. Random Forest Ensemble ML model showed promising results in predicting avocado prices in various US cities with R2 score of 0.88 and mean squared error (mse) of 0.01 (Regressor) and accuracy score of 85% (Classifier).
