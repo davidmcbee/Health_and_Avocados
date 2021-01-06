@@ -166,6 +166,10 @@ Conventional
 Organic
 
 ## Next Steps
+
+### Random Forest Ensemble (Regressor and Classifier)
+Next step for Random Forest Ensemble (RFE) would be Time Series. Although Time Series were applied in other models for this project, it would still be interesting to see how Time Series affect RFE. We approached to RFE model by considering seasonality, breaking down the date into weeks, months and years. By applying time series, the overall trend would be captured as well. As in almost every data science project majority of the time is spend on cleaning and preparing datasets. Our dataset doesn’t have one unique date. Same date will appear for every city included in the dataset, times 2 because of the two types of avocados (organic and conventional). Suggested approach to this would be split the data by city and by type, apply time series with lags to a smaller dataset with now unique date, and then concatenate datasets. Time dimension, it is a very interesting and fundamental field in data science. More methods that capture time dimension could improve RFE model.
+
 ### ARIMA and LSTM Univariate Model
 More work to understand seaonality could be done. I ran one ARIM model with it's seasonality feature. Compensating for seasonality makes the conventional model worse but does not change the score for organic. This is interesting given the different growing seasons. 
 
