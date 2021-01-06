@@ -117,7 +117,7 @@ The LSTM model Has the ability to remove or add information to the cell state. T
 
 ### LSTM Multivariate Machine Learning Model with Lags
 #### Overview
-With a desire to understand if/how climate affects the average price of avocados, a multivariate LSTM model was used to analyze those affects. Further, the features were time lagged to allow the model to potentially use past states to better predict average avocado prices. The multivariate model was optimized at 3 Lags, 100 Neurons and 100 Epochs with the Sgimoid activation. For the combined data set the RMSE was 0.22. Further, 2017 through 2019 data was used to make predicitons for 2020. The RMSE for conventional avocados was 0.16. THe organic dataset resulted in a RMSE of 0.17. Figure x shows a graph of the actual values and compared to the predictions. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
+With a desire to understand if/how climate affects the average price of avocados, a multivariate LSTM model was used to analyze those affects. Further, the features were time lagged to allow the model to potentially use past states to better predict average avocado prices. The multivariate model was optimized at 3 Lags, 100 Neurons and 100 Epochs with the Sgimoid activation. For the combined data set the RMSE was 0.08. Further, 2017 through 2019 data was used to make predicitons for 2020. The RMSE for conventional avocados was 0.05. THe organic dataset resulted in a RMSE of 0.09. Figure x shows a graph of the actual values and compared to the predictions. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
 ![](images/lstm_y_yhat.png)
 Figure x.
 
@@ -155,6 +155,7 @@ Though the ARIMA model doesn't use any features, which could provide useful info
 
 ###LSTM Multivariate Model
 By iterating through a number of lags I found 1 lag produces the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'. The results from the combined data set, the dataset for conventional avocado types and the organic avocado type are shown here
+
 ![](images/lstm_allprices_score.png)
 Combined
 
@@ -164,8 +165,11 @@ Conventional
 ![](images/lstm_org_score.png)
 Organic
 
-
 ## Next Steps
+
+### Random Forest Ensemble (Regressor and Classifier)
+Next step for Random Forest Ensemble (RFE) would be Time Series. Although Time Series were applied in other models for this project, it would still be interesting to see how Time Series affect RFE. We approached to RFE model by considering seasonality, breaking down the date into weeks, months and years. By applying time series, the overall trend would be captured as well. As in almost every data science project majority of the time is spend on cleaning and preparing datasets. Our dataset doesn’t have one unique date. Same date will appear for every city included in the dataset, times 2 because of the two types of avocados (organic and conventional). Suggested approach to this would be split the data by city and by type, apply time series with lags to a smaller dataset with now unique date, and then concatenate datasets. Time dimension, it is a very interesting and fundamental field in data science. More methods that capture time dimension could improve RFE model.
+
 ### ARIMA and LSTM Univariate Model
 More work to understand seaonality could be done. I ran one ARIM model with it's seasonality feature. Compensating for seasonality makes the conventional model worse but does not change the score for organic. This is interesting given the different growing seasons. 
 
