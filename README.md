@@ -154,7 +154,16 @@ Final code for this model can be found here: [Random Forest Classifier](ML_model
 Though the ARIMA model doesn't use any features, which could provide useful information, the model is fairly accurate in predicting the average prices of avocados. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect.
 
 ###LSTM Multivariate Model
-By iterating through a number of lags I found 1 lag produces the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'.
+By iterating through a number of lags I found 1 lag produces the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'. The results from the combined data set, the dataset for conventional avocado types and the organic avocado type are shown here
+![](images/lstm_allprices_score.png)
+Combined
+
+![](images/lstm_conv_score.png)
+Conventional
+
+![](images/lstm_org_score.png)
+Organic
+
 
 ## Next Steps
 ### ARIMA and LSTM Univariate Model
