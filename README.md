@@ -80,7 +80,7 @@ RFE combines individual models; therefore, ensemble models are stronger learners
 #### Overview
 Both an ARIMA and a LSTM model are run as univariate models to predict average avocado prices. Learning about ARIMA for time series led to discovering the LSTM model, which is also supposed to be good at time series. running both models on the same data, we can compare the results from both models and I can learn about LSTM in preparation for applying it to a multivariate model with more then one time lag.
 
-The ARIMA RMSE score is 0.29 for the combined data set, RMSE = 0.21 for the conventional data set and RMSE = 0.21 for the organic data set.  The LSTM model results are: RMSE = 0.34 for combined and conventional and RMSE = 0.33 for organic. See figure x. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
+The ARIMA RMSE score is 0.29 for the combined data set, RMSE = 0.21 for the conventional data set and RMSE = 0.21 for the organic data set.  The LSTM model results are: RMSE = 0.34 for combined and conventional and RMSE = 0.33 for organic. See figure below. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
 ![](images/arima_lstm_org.png)
 
 The LSTM model Has the ability to remove or add information to the cell state. These are called gates. at a very high level this is shown in figure 1. Its source is _Understanding LSTM Networks, Colah's blog, 08/27/2015._ (https://colah.github.io/posts/2015-08-Understanding-LSTMs)
@@ -88,7 +88,7 @@ The LSTM model Has the ability to remove or add information to the cell state. T
 
 ### LSTM Multivariate Machine Learning Model with Lags
 #### Overview
-With a desire to understand if/how climate affects the average price of avocados, a multivariate LSTM model was used to analyze those affects. Further, the features were time lagged to allow the model to potentially use past states to better predict average avocado prices. The multivariate model was optimized at 3 Lags, 100 Neurons and 100 Epochs with the Sgimoid activation. For the combined data set the RMSE was 0.08. Further, 2017 through 2019 data was used to make predicitons for 2020. The RMSE for conventional avocados was 0.05. THe organic dataset resulted in a RMSE of 0.09. Figure x shows a graph of the actual values and compared to the predictions. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
+With a desire to understand if/how climate affects the average price of avocados, a multivariate LSTM model was used to analyze those affects. Further, the features were time lagged to allow the model to potentially use past states to better predict average avocado prices. The multivariate model was optimized at 1 Lag, 100 Neurons and 100 Epochs with the Sgimoid activation. For the combined data set the RMSE was 0.08. Further, 2017 through 2019 data was used to make predicitons for 2020. The RMSE for conventional avocados was 0.05. THe organic dataset resulted in a RMSE of 0.09. Figure x shows a graph of the actual values and compared to the predictions. The model processing steps are available here, ['modeling Steps'](resources/dm_model_steps.docx).
 ![](images/lstm_y_yhat.png)
 Figure x.
 
@@ -125,7 +125,7 @@ Final code for this model can be found here: [Random Forest Classifier](ML_model
 Though the ARIMA model doesn't use any features, which could provide useful information, the model is fairly accurate in predicting the average prices of avocados. Additionally, running the combined model doesn't change the RMSE. This indicates my assumption that since the prices are different there would be more variability in average prices for the combined model is incorrect.
 
 ### LSTM Multivariate Model
-By iterating through a number of lags I found 1 lag produces the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'. The results from the combined data set, the dataset for conventional avocado types and the organic avocado type are shown here
+By iterating through a number of lags I found 1 lag produces the best results. The sigmoid activation function produced the best results. By iterating through different features, pulling them out of the model, found the following features hurt the model results: 'phdi','zndx', 'pmdi', 'cdd', 'sp01', 'sp02', 'sp03', 'sp06', 'sp09', 'sp12', 'sp24','tmin', 'tmax'. They were pulled from the model. Conversely, The average temperature (tavg) and percipitation (pcp) positively affected the model results. The results from the combined data set, the dataset for conventional avocado types and the organic avocado type are shown here/
 
 ![](images/lstm_allprices_score.png)
 Combined
