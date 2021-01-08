@@ -1,22 +1,22 @@
-# Health and Avocados
+# The Avocado Story
 
 ## Overview
 Purpose of this project is to use everything we have learned over the period of the course and apply them in predicting the Price of Avocados in various cities in USA, based on the available production, climate, market, and price data, collected for the past 3 years (2018 - 2020). The questions we will be answering in this project are shown below.
 
- - Does the weather patterns of the current month effect the production of avocados in the future months?
- - Does the production of the avocados effect the prices? 
+ - Do weather patterns of the current month affect the production of avocados in future months?
+ - Does the production volume of the avocados affect the prices?
 
 
 ## Resources
-  - Data Source: climate.csv, market.csv, prices.csv, production.csv
-  - Software: anaconda3, python 3.7.7, jupyter notebook, JavaScript
-  - Database: PostgreSQL
-  - Librarys: pandas, numpy, sklearn, tensorflow, os, leaflet, matplotlib, seaborn, sqlalchemy, pmdarima, shap
+  - Data Source: climate.csv, all_market.csv, all_prices.csv, all_prod.csv
+  - Software: anaconda3, python 3.7.7, jupyter notebook, Tableau
+  - Database: PostgreSQL pgAdmin
+  - Libraries: pandas, numpy, sklearn, tensorflow, os, leaflet, matplotlib, seaborn, sqlalchemy, pmdarima, shap
 
 
 ## Project Outline
 
-We will be using unsupervised machine learning to uncover patterns in our datasets. With our analyses, we would like to find the factors that are effecting avocado prices and avocado production, and uncover trends of avocado prices and avocado production. Then we will start with multiple linear regression to discover the relationship of production with respect to climate, and prices with respect to production, and how we could combine them all. Next step would be to use the random forest ensemble classification to determine the increase or decrease in the avocado prices, and then generate price prediction model using a neural network model.
+We used unsupervised machine learning to uncover patterns in our datasets. With our analyses, we discovered factors that affected avocado prices and avocado production, and uncovered trends of avocado prices and avocado production. We started with a multiple linear regression model to discover the relationship of production in relation to climate, and prices in relation to production, and how we could combine them all. We then used the random forest classifier to determine if avocado prices were low, medium or high, including a random forest regressor to see how well we were able to predict prices. Finally, we generated several price predictions using models such as the ARIMA and LSTM models. More on the models will be discussed below.
 
 ## Contributors
 Contributor | Seg 1 | Seg 2 | Seg 3 | Seg 4
@@ -38,36 +38,14 @@ Subba | X | Circle, Triangle, Square | Peer Review | Circle
 ## Database
 
 ### ERD - Database schema
- - DataSets
-   - Climate
-     - Columns “StateCode” and “Division” were dropped as they were not relevant
-     - The “YearMonth” column was converted from int to datetime period[M]
-     
-   - Market
-     - Columns were renamed to all lowercase with no spaces/replaced with underscores
-     - str columns were changed to lowercase, only proper case was kept on the geography column as it contained names of cities/states/regions
-     - “year_month” column was added to the dataset as datetime period[M], and columns were reordered
-     - “date” column was changed to datetime format
-     
-   - Prices
-     - Columns were renamed to all lowercase with a more descriptive title with no spaces/replaced with underscores
-     - str columns were changed to lowercase, only proper case was kept on the geography column as it contained names of cities/states/regions
-     - “year_month” column was added to the dataset as datetime period[M], and columns were reordered
-     - “date” column was changed to datetime format
-     
-   - Production
-     - Columns were renamed to all lowercase with a more descriptive title with no spaces/replaced with underscores
-     - str columns were changed to lowercase
-     - “year_month” column was added to the dataset as datetime period[M], and columns were reordered
-     - “date” column was changed to datetime format
-
+Before loading our datasets into pgAdmin, we cleaned our raw data. The documentation of the 
 Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) shown below
   ![](./Images/Final_ERD.png) 
  
  Further schema descriptions are shown in this file:  
    ["ERD file"](./ERD/ERD.xlsx)
 
-### Database cleaning
+### Database Cleaning
 #### Cleaning
 The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were all converted to year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
 
@@ -117,12 +95,12 @@ With a desire to understand if/how climate affects the average price of avocados
 Figure x.
 
 ## Presentation
-Presentation slides can be found on the following link: [Group Project Presentation Slides](https://docs.google.com/presentation/d/1wviT0-FSyJN_IjDa6qDLE4fgrHu8PXYG84fps1eJmXE/edit?usp=sharing)
+The presentation slides can be found at the following link: [Group Project Presentation Slides](https://docs.google.com/presentation/d/1wviT0-FSyJN_IjDa6qDLE4fgrHu8PXYG84fps1eJmXE/edit?usp=sharing)
 
 ## Dashboard
-The initial storyboard and blueprint for the dashboard can be found on the following link: [Storyboard](https://docs.google.com/presentation/d/1oUDenIsmbZWGQ2lDN9eox3NoULL2VTAGTj8iRTcmfAI/edit?usp=sharing)
+The initial storyboard and blueprint for the dashboard can be found at the following link: [Storyboard](https://docs.google.com/presentation/d/1oUDenIsmbZWGQ2lDN9eox3NoULL2VTAGTj8iRTcmfAI/edit?usp=sharing)
 
-We are creating a dashboard with interactive visualizations using **Tableau**, hosted on Tableau Public. The dashboard can be found [here](https://public.tableau.com/profile/amelin.norzamini#!/vizhome/TheAvocadoStory/TheAvocadoStory).
+We created a dashboard with interactive visualizations using **Tableau**, hosted on Tableau Public. The dashboard can be found [here](https://public.tableau.com/profile/amelin.norzamini#!/vizhome/TheAvocadoStory/TheAvocadoStory).
 
 **Description of interactive elements**
 - The Introduction page allows you to pick which section of the dashboard to view just by clicking on it.
