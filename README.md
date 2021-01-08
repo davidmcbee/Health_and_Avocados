@@ -70,20 +70,20 @@ Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) sh
   ![](./Images/Final_ERD.png) 
  
  Further schema descriptions are shown in this file:  
-   ["ERD file"](./ERD/h_a_ERD.xlsx)
+   ["ERD file"](./ERD/ERD.xlsx)
 
 ### Database cleaning
 #### Cleaning
 The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were all converted to year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
 
 #### Physical Tables
-Schema description for tables Prices, Production, and Climate are shown in the ["ERD file"](./ERD/h_a_ERD.xlsx).
+Schema description for tables Prices, Production, and Climate are shown in the ["ERD file"](./ERD/ERD.xlsx).
 
 #### Source Data ERD
-ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/h_a_ERD.xlsx) is the ERD for initial storage within the database. Given the common and consistent primary key in each of the tables, for this stage all relationships will be one-to-one. The lines depicting the connections represent the ability to join each table to each other tables.
+ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/ERD.xlsx) is the ERD for initial storage within the database. Given the common and consistent primary key in each of the tables, for this stage all relationships will be one-to-one. The lines depicting the connections represent the ability to join each table to each other tables.
 
 #### Consolidation prior to Extraction
-Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/h_a_ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
+Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
 
 ## Preprocessing
 ### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
