@@ -26,10 +26,10 @@ We will be using unsupervised machine learning to uncover patterns in our datase
 ## Contributors
 Contributor | Seg 1 | Seg 2 | Seg 3 | Seg 4
 ------------|-------|-------|-------|------
-Amelin | Circle | Circle, Triangle, Square | Dashboard |
-Andreja | Triangle | Circle, Triangle, X | Draft Presentation |
-David | Square | Circle, Triangle, Square | Quality Assurance |
-Subba | X | Circle, Triangle, Square | Peer Review |
+Amelin | Circle | Circle, Triangle, Square | Dashboard | Triangle
+Andreja | Triangle | Circle, Triangle, X | Draft Presentation | Square
+David | Square | Circle, Triangle, Square | Quality Assurance | X
+Subba | X | Circle, Triangle, Square | Peer Review | Circle
 
   Circle - database
   
