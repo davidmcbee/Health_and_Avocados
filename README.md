@@ -38,11 +38,9 @@ Subba | X | Circle, Triangle, Square | Peer Review | Circle
 ## Database
 
 ### ERD - Database schema
-Before loading our datasets into pgAdmin, we cleaned our raw data. The cleaning of the raw data is explained [here](./resources/cleaning_datasets_doc).
-Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) shown below
-  ![](./Images/Final_ERD.png) 
- 
- Further schema descriptions are shown in this file:  
+Before loading our datasets into pgAdmin, we cleaned our raw data. The cleaning of the raw data is explained [here](./resources/cleaning_datasets_doc) and the cleaning codes can be found in this [folder](./cleaning_ipynb).
+
+Datasets were loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) can be found in this file:  
    ["ERD file"](./ERD/ERD.xlsx)
 
 ### Database Cleaning
