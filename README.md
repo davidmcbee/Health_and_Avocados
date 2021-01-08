@@ -1,16 +1,11 @@
 # Health and Avocados
 
 ## Overview
-Purpose of this project is to use everything we have learned over the period of the course and apply them in predicting the Price of Avocados in California based on the available production, climate, market, and price data, collected for the past 3 years (2018 - 2020). The questions we will be answering in this project are shown below.
+Purpose of this project is to use everything we have learned over the period of the course and apply them in predicting the Price of Avocados in various cities in USA, based on the available production, climate, market, and price data, collected for the past 3 years (2018 - 2020). The questions we will be answering in this project are shown below.
 
  - Does the weather patterns of the current month effect the production of avocados in the future months?
  - Does the production of the avocados effect the prices? 
 
-### Bonus
-Furthermore if time permits, we will be correlating the health/dietary benefits of avocado consumption.
-
- - Does eating avocados help in actual or percieved health benefits for an individual?
- 
 
 ## Resources
   - Data Source: climate.csv, market.csv, prices.csv, production.csv
@@ -26,10 +21,10 @@ We will be using unsupervised machine learning to uncover patterns in our datase
 ## Contributors
 Contributor | Seg 1 | Seg 2 | Seg 3 | Seg 4
 ------------|-------|-------|-------|------
-Amelin | Circle | Circle, Triangle, Square | Dashboard |
-Andreja | Triangle | Circle, Triangle, X | Draft Presentation |
-David | Square | Circle, Triangle, Square | Quality Assurance |
-Subba | X | Circle, Triangle, Square | Peer Review |
+Amelin | Circle | Circle, Triangle, Square | Dashboard | Triangle
+Andreja | Triangle | Circle, Triangle, X | Draft Presentation | Square
+David | Square | Circle, Triangle, Square | Quality Assurance | X
+Subba | X | Circle, Triangle, Square | Peer Review | Circle
 
   Circle - database
   
@@ -70,20 +65,20 @@ Datasets loaded into a PostgreSQL database. Entity Relationship Diagram (ERD) sh
   ![](./Images/Final_ERD.png) 
  
  Further schema descriptions are shown in this file:  
-   ["ERD file"](./ERD/h_a_ERD.xlsx)
+   ["ERD file"](./ERD/ERD.xlsx)
 
 ### Database cleaning
 #### Cleaning
 The data was cleaned to the point that it could be joined together as needed while saving all the source data. Primary key 'year_month' is used on each table as a connector.  Date column in each dataset file is in different format and they were all converted to year_month format. Saving the data as sourced is important from a data lineage perspective and provides flexibility to use or drop columns while cleaning the data for machine learning. Column titles were cleaned to make them consistent and proper capitalization was used.
 
 #### Physical Tables
-Schema description for tables Prices, Production, and Climate are shown in the ["ERD file"](./ERD/h_a_ERD.xlsx).
+Schema description for tables Prices, Production, and Climate are shown in the ["ERD file"](./ERD/ERD.xlsx).
 
 #### Source Data ERD
-ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/h_a_ERD.xlsx) is the ERD for initial storage within the database. Given the common and consistent primary key in each of the tables, for this stage all relationships will be one-to-one. The lines depicting the connections represent the ability to join each table to each other tables.
+ERD Diagram-Source Data worksheet in the ["ERD file"](./ERD/ERD.xlsx) is the ERD for initial storage within the database. Given the common and consistent primary key in each of the tables, for this stage all relationships will be one-to-one. The lines depicting the connections represent the ability to join each table to each other tables.
 
 #### Consolidation prior to Extraction
-Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/h_a_ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
+Again, once each table is in the database, we anticipate joining all the price tables into fewer, and possibly one, table. This is shown in the ERD Diagram-Consolidation (["ERD file"](./ERD/ERD.xlsx)). It is anticipated that further consolidation into one table will be done prior to extraction into Jupyter notebook. Further updates to the ERD are done as we progress to different stages in the project.
 
 ## Preprocessing
 ### Random Forest Ensemble (Regressor and Classifier) on prices and production dataset
@@ -167,6 +162,8 @@ Organic
 
 ## Next Steps
 
+Though we conducted a number of preprocessing and analytical steps, it would be advantageous to perform statistical tests like t-tests to validate our findings.
+
 ### Random Forest Ensemble (Regressor and Classifier)
 Next step for Random Forest Ensemble (RFE) would be Time Series. Although Time Series were applied in other models for this project, it would still be interesting to see how Time Series affect RFE. We approached to RFE model by considering seasonality, breaking down the date into weeks, months and years. By applying time series, the overall trend would be captured as well. As in almost every data science project majority of the time is spend on cleaning and preparing datasets. Our dataset doesn’t have one unique date. Same date will appear for every city included in the dataset, times 2 because of the two types of avocados (organic and conventional). Suggested approach to this would be split the data by city and by type, apply time series with lags to a smaller dataset with now unique date, and then concatenate datasets. Time dimension, it is a very interesting and fundamental field in data science. More methods that capture time dimension could improve RFE model.
 
@@ -176,3 +173,6 @@ More work to understand seaonality could be done. I ran one ARIM model with it's
 ### LSTM Multivariate Model
 LSTM is very interesting. If time permitted, I would try sliding window of time and also try this as a classifier model. Additionally, I found the LSTM requirement for a 3 dimensional datashpe very difficult to use for applying SHAP. I tried using SHAP to predict feature importances. Given the large number of features after encoding and creating time lags, the SHAP funcitonality would not run. It produced errors about single dimensiality in some features. I reduced features so that the SHAP feature perdictor would work but now, some features were not being taken into account. The same 3 dimensional difficulty also came up when I tried to add additional layers to the model. More work in these areas could improve the model. 
 
+### Bonus
+Furthermore correlating the health/dietary benefits of avocado consumption would be a good idea, in determining actual or percieved health benefits for an individual.
+ 
