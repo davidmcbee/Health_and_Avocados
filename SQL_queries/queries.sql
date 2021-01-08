@@ -299,3 +299,10 @@ SELECT * FROM market_prod;
 SELECT * FROM prices_clim;
 SELECT * FROM market_clim;
 SELECT * FROM prod_clim;
+
+
+-- Tableau datasets
+SELECT * from prices_tableau;
+SELECT * from prod_tableau;
+SELECT * from predictions_tableau;
+SELECT * from plu_tableau;
