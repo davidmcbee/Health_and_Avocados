@@ -1,16 +1,11 @@
 # Health and Avocados
 
 ## Overview
-Purpose of this project is to use everything we have learned over the period of the course and apply them in predicting the Price of Avocados in California based on the available production, climate, market, and price data, collected for the past 3 years (2018 - 2020). The questions we will be answering in this project are shown below.
+Purpose of this project is to use everything we have learned over the period of the course and apply them in predicting the Price of Avocados in various cities in USA, based on the available production, climate, market, and price data, collected for the past 3 years (2018 - 2020). The questions we will be answering in this project are shown below.
 
  - Does the weather patterns of the current month effect the production of avocados in the future months?
  - Does the production of the avocados effect the prices? 
 
-### Bonus
-Furthermore if time permits, we will be correlating the health/dietary benefits of avocado consumption.
-
- - Does eating avocados help in actual or percieved health benefits for an individual?
- 
 
 ## Resources
   - Data Source: climate.csv, market.csv, prices.csv, production.csv
@@ -167,6 +162,8 @@ Organic
 
 ## Next Steps
 
+Though we conducted a number of preprocessing and analytical steps, it would be advantageous to perform statistical tests like t-tests to validate our findings.
+
 ### Random Forest Ensemble (Regressor and Classifier)
 Next step for Random Forest Ensemble (RFE) would be Time Series. Although Time Series were applied in other models for this project, it would still be interesting to see how Time Series affect RFE. We approached to RFE model by considering seasonality, breaking down the date into weeks, months and years. By applying time series, the overall trend would be captured as well. As in almost every data science project majority of the time is spend on cleaning and preparing datasets. Our dataset doesn’t have one unique date. Same date will appear for every city included in the dataset, times 2 because of the two types of avocados (organic and conventional). Suggested approach to this would be split the data by city and by type, apply time series with lags to a smaller dataset with now unique date, and then concatenate datasets. Time dimension, it is a very interesting and fundamental field in data science. More methods that capture time dimension could improve RFE model.
 
@@ -176,3 +173,6 @@ More work to understand seaonality could be done. I ran one ARIM model with it's
 ### LSTM Multivariate Model
 LSTM is very interesting. If time permitted, I would try sliding window of time and also try this as a classifier model. Additionally, I found the LSTM requirement for a 3 dimensional datashpe very difficult to use for applying SHAP. I tried using SHAP to predict feature importances. Given the large number of features after encoding and creating time lags, the SHAP funcitonality would not run. It produced errors about single dimensiality in some features. I reduced features so that the SHAP feature perdictor would work but now, some features were not being taken into account. The same 3 dimensional difficulty also came up when I tried to add additional layers to the model. More work in these areas could improve the model. 
 
+### Bonus
+Furthermore correlating the health/dietary benefits of avocado consumption would be a good idea, in determining actual or percieved health benefits for an individual.
+ 
